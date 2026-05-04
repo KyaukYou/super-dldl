@@ -39,15 +39,19 @@ const memberPortraits = [
   generatedSectImages.contributionBadge,
 ]
 
+function createDefaultSect() {
+  return {
+    name: '天斗星辉宗',
+    level: 3,
+    exp: 1800,
+    expToNext: 3600,
+    contribution: 180,
+    announcement: '本周宗门目标：完成宗门试炼，提升宗门守护技能。',
+  }
+}
+
 const saved = localStorage.getItem('sect-state')
-const sect = reactive(saved ? JSON.parse(saved) : {
-  name: '天斗星辉宗',
-  level: 3,
-  exp: 1800,
-  expToNext: 3600,
-  contribution: 180,
-  announcement: '本周宗门目标：完成宗门试炼，提升宗门守护技能。',
-})
+const sect = reactive(saved ? { ...createDefaultSect(), ...JSON.parse(saved) } : createDefaultSect())
 
 watch(sect, () => localStorage.setItem('sect-state', JSON.stringify(sect)), { deep: true })
 
@@ -107,7 +111,7 @@ function signupSectWar() {
         <GameIcon :src="systemIconPath('sect')" :size="34" quality="orange" title="宗门" />
         <h3 class="panel-title">宗门</h3>
       </div>
-      <button class="asset-action icon-only" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.close})` }" @click.stop="uiStore.closePanel()">关闭</button>
+      <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
     <div class="tabs">
@@ -212,13 +216,6 @@ function signupSectWar() {
 .skill-card,
 .war-next {
   gap: 10px;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: var(--color-text-secondary);
-  cursor: pointer;
 }
 
 .tabs {

@@ -11,38 +11,36 @@ import {
   generatedPortraitPath,
 } from '@/assets/art-direction/generated-paths'
 import { returnFromBattleScene, startBattleScene } from '@/game/utils/battleSceneFlow'
+import { arenaBattleCountKey, buildArenaOpponentSeeds } from '@/game/utils/panelProgressionRules'
 import GameIcon from '@/ui/components/GameIcon.vue'
 
 const uiStore = useUIStore()
 const gameStore = useGameStore()
 const char = computed(() => gameStore.character)
+const arenaBattlesKey = arenaBattleCountKey()
 
 const arenaPoints = ref(Number(localStorage.getItem('arena-points') || 1000))
-const battlesToday = ref(Number(localStorage.getItem('arena-battles-today') || 0))
+const battlesToday = ref(Number(localStorage.getItem(arenaBattlesKey) || localStorage.getItem('arena-battles-today') || 0))
 const maxBattles = 10
 const battleResult = ref<string | null>(null)
 
 function persistArena() {
   localStorage.setItem('arena-points', String(arenaPoints.value))
-  localStorage.setItem('arena-battles-today', String(battlesToday.value))
+  localStorage.setItem(arenaBattlesKey, String(battlesToday.value))
+  localStorage.removeItem('arena-battles-today')
 }
 
 function generateOpponents() {
   if (!char.value) return []
   const base = char.value.level
   const combatPower = Math.max(420, char.value.stats.combatPower || 420)
-  const names = ['天斗学院 凌霜', '星罗战魂 岩山', '武魂殿巡查 洛燃']
-  return names.map((name, index) => {
+  return buildArenaOpponentSeeds(base, combatPower, 10).map((opponent, index) => {
     const spirit = SPIRITS[(index * 17 + base) % SPIRITS.length]!
-    const powerScale = 0.82 + index * 0.14
     return {
-      id: index + 1,
-      name,
-      level: Math.max(1, base + index - 1),
+      ...opponent,
       spirit,
       spiritName: displayName(spirit.id, spirit.name),
-      power: Math.floor(combatPower * powerScale),
-      textureKey: index === 0 ? 'monster_wolf' : index === 1 ? 'monster_guard' : 'monster_tiger',
+      textureKey: ['monster_wolf', 'monster_rhino', 'monster_spider', 'monster_tree'][index % 4],
     }
   })
 }
@@ -61,6 +59,13 @@ const opponentPortraits = [
   generatedPortraitPath('ai_soul_master_male_01'),
   generatedPortraitPath('ai_soul_master_female_01'),
   generatedPortraitPath('ai_soul_master_male_02'),
+  generatedPortraitPath('ai_soul_master_female_02'),
+  generatedPortraitPath('thunder_spear_male_01'),
+  generatedPortraitPath('fire_phoenix_female_01'),
+  generatedPortraitPath('ice_phoenix_female_01'),
+  generatedPortraitPath('xuanwu_defender_male_01'),
+  generatedPortraitPath('ghost_cat_agility_female_01'),
+  generatedPortraitPath('healer_support_female_01'),
 ]
 
 watch(char, () => {
@@ -124,7 +129,7 @@ function redeem(itemId: string, price: number) {
         <GameIcon :src="systemIconPath('arena')" :size="34" quality="orange" title="斗魂场" />
         <h3 class="panel-title">斗魂场</h3>
       </div>
-      <button class="asset-action icon-only" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.close})` }" @click.stop="uiStore.closePanel()">关闭</button>
+      <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
     <div class="arena-stats">
@@ -136,14 +141,14 @@ function redeem(itemId: string, price: number) {
     <h4 class="section-title">AI 匹配对手</h4>
     <div class="arena-guide">
       <GameIcon :src="generatedNpcPortraits.arenaReferee" :size="54" quality="orange" title="斗魂场裁判" />
-      <span>AI 匹配已就绪，挑战次数会在每日重置。</span>
+      <span>今日已刷新一批魂师，对手强度会围绕你的等级和战力上下浮动。</span>
     </div>
     <div class="opponent-list">
       <div v-for="opponent in opponents" :key="opponent.id" class="opponent-card">
         <GameIcon :src="opponentPortraits[(opponent.id - 1) % opponentPortraits.length]" :size="46" quality="purple" :title="opponent.name" />
         <div class="opp-info">
           <div class="opp-name">Lv.{{ opponent.level }} {{ opponent.name }}</div>
-          <div class="opp-meta">{{ opponent.spiritName }} / 战力 {{ opponent.power.toLocaleString() }}</div>
+          <div class="opp-meta">{{ opponent.title }} / {{ opponent.spiritName }} / 战力 {{ opponent.power.toLocaleString() }}</div>
         </div>
         <button class="asset-action fight-btn" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.challenge})` }" :disabled="battlesToday >= maxBattles" @click.stop="fight(opponent)">挑战</button>
       </div>
@@ -193,13 +198,6 @@ function redeem(itemId: string, price: number) {
 
 .title-wrap {
   gap: 10px;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: var(--color-text-secondary);
-  cursor: pointer;
 }
 
 .arena-stats {
@@ -275,13 +273,16 @@ function redeem(itemId: string, price: number) {
 }
 
 .fight-btn {
-  padding: 7px 16px;
-  color: #1c1608;
-  font-weight: 800;
-  border: 1px solid #dbb85e;
-  border-radius: 6px;
-  background: linear-gradient(180deg, #d7b65a, #8b6914);
-  cursor: pointer;
+  width: 92px;
+  min-width: 92px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: #fff2c5;
+  background: var(--asset-button-url, none) center / contain no-repeat;
+  box-shadow: none;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.72);
 }
 
 .fight-btn:disabled {
