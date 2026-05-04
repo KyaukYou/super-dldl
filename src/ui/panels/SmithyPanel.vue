@@ -87,21 +87,12 @@ function forge(item: typeof forgeItems[0]) {
 
 <template>
   <div v-if="char" class="smithy-panel panel-base">
-    <button
-      class="asset-close"
-      type="button"
-      :style="{ '--asset-button-url': `url(${generatedButtons.close})` }"
-      aria-label="关闭"
-      title="关闭"
-      @click.stop="uiStore.closePanel()"
-    />
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('smithy')" :size="34" quality="orange" title="铁匠铺" />
-        <h3 class="panel-title">铁匠铺</h3>
-      </div>
+      <h3 class="panel-title">铁匠铺</h3>
+      <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="smithy-summary">
       <div class="summary-item">
         <span class="summary-label">持有金币</span>
@@ -166,30 +157,46 @@ function forge(item: typeof forgeItems[0]) {
       </div>
     </template>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .smithy-panel {
   width: 740px;
-  padding: 24px 20px;
-  height: calc(100vh - 304px);
-  overflow: hidden;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
 }
 
-.title-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
 }
 
 .smithy-summary {

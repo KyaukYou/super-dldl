@@ -46,13 +46,11 @@ function deleteSave() {
 <template>
   <div class="settings-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('settings')" :size="34" quality="orange" title="设置" />
-        <h3 class="panel-title">系统设置</h3>
-      </div>
+      <h3 class="panel-title">系统设置</h3>
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="setting-group">
       <h4>音频</h4>
       <label class="setting-row">
@@ -99,14 +97,18 @@ function deleteSave() {
         <button class="danger-btn text-xs" type="button" @click.stop="deleteSave">删除存档</button>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .settings-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -117,10 +119,10 @@ function deleteSave() {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
-.title-wrap,
 .setting-row,
 .toggle-row,
 .action-row {
@@ -130,11 +132,10 @@ function deleteSave() {
 
 .panel-header {
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  gap: 10px;
 }
 
 .close-btn {

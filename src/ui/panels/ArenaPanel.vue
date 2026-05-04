@@ -127,10 +127,7 @@ function redeem(itemId: string, price: number) {
 <template>
   <div v-if="char" class="arena-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('arena')" :size="34" quality="orange" title="斗魂场" />
-        <h3 class="panel-title">斗魂场</h3>
-      </div>
+      <h3 class="panel-title">斗魂场</h3>
       <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
@@ -182,8 +179,11 @@ function redeem(itemId: string, price: number) {
 <style scoped>
 .arena-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -194,10 +194,10 @@ function redeem(itemId: string, price: number) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
-.title-wrap,
 .opponent-card,
 .shop-item {
   display: flex;
@@ -206,11 +206,10 @@ function redeem(itemId: string, price: number) {
 
 .panel-header {
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  gap: 10px;
 }
 
 .arena-stats {

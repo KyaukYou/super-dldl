@@ -207,21 +207,12 @@ function spiritStoneEffectText(itemId: string) {
 
 <template>
   <div v-if="char" class="bag-panel panel-base">
-    <button
-      class="asset-close"
-      type="button"
-      :style="{ '--asset-button-url': `url(${generatedButtons.close})` }"
-      aria-label="关闭"
-      title="关闭"
-      @click.stop="uiStore.closePanel()"
-    />
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('bag')" :size="42" quality="orange" title="背包" fallback-text="包" />
-        <h3 class="panel-title">背包</h3>
-      </div>
+      <h3 class="panel-title">背包</h3>
+      <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="bag-tabs">
       <button
         v-for="tab in bagTabs"
@@ -348,15 +339,18 @@ function spiritStoneEffectText(itemId: string) {
         <button class="btn-dark text-xs" type="button" @click.stop="sortItems">整理</button>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .bag-panel {
-  position: relative;
   width: 760px;
-  height: calc(100vh - 360px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -367,42 +361,39 @@ function spiritStoneEffectText(itemId: string) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
-.asset-close {
-  position: sticky;
-  top: 0;
-  float: right;
-  z-index: 5;
-  width: 56px;
-  height: 56px;
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
+}
+
+.close-btn {
+  background: none;
   border: none;
-  background: var(--asset-button-url) center / contain no-repeat;
-  background-color: transparent;
+  color: var(--color-text-secondary);
   cursor: pointer;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.36));
 }
 
-.panel-header,
 .bag-tabs,
 .bag-footer {
   display: flex;
   align-items: center;
 }
 
-.panel-header,
 .bag-footer {
   justify-content: space-between;
 }
 
-.panel-header {
+.panel-header,
+.bag-tabs,
+.bag-footer {
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .bag-tabs {

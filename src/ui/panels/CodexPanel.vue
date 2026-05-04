@@ -48,13 +48,11 @@ function monsterIcon(type: string) {
 <template>
   <div class="codex-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('codex')" :size="34" quality="orange" title="图鉴" />
-        <h3 class="panel-title">图鉴</h3>
-      </div>
+      <h3 class="panel-title">图鉴</h3>
       <button class="close-btn" @click="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="codex-tabs">
       <button class="tab" :class="{ active: activeTab === 'spirit' }" @click="activeTab = 'spirit'">武魂</button>
       <button class="tab" :class="{ active: activeTab === 'skill' }" @click="activeTab = 'skill'">魂技</button>
@@ -136,8 +134,11 @@ function monsterIcon(type: string) {
 <style scoped>
 .codex-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -148,19 +149,17 @@ function monsterIcon(type: string) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .close-btn {

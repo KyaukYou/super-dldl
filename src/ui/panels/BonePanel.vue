@@ -82,13 +82,11 @@ function formatStats(stats: Record<string, number>) {
 <template>
   <div v-if="char" class="bone-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('bone')" :size="34" quality="orange" title="魂骨" fallback-text="骨" />
-        <h3 class="panel-title">魂骨</h3>
-      </div>
+      <h3 class="panel-title">魂骨</h3>
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="bone-tabs">
       <button
         v-for="tab in boneTabs"
@@ -172,14 +170,18 @@ function formatStats(stats: Record<string, number>) {
         <div class="forge-result">?</div>
       </div>
     </template>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .bone-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -190,10 +192,10 @@ function formatStats(stats: Record<string, number>) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
-.title-wrap,
 .bone-tabs,
 .detail-head {
   display: flex;
@@ -202,10 +204,12 @@ function formatStats(stats: Record<string, number>) {
 
 .panel-header {
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
 }
 
-.title-wrap,
 .detail-head {
   gap: 10px;
 }

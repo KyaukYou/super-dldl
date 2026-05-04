@@ -90,13 +90,11 @@ function startBattle() {
 <template>
   <div v-if="char" class="worldmap-panel panel-base">
     <div class="panel-header">
-      <div>
-        <h3 class="panel-title">世界地图</h3>
-        <p class="panel-sub">选择区域和魂兽，进入真实战斗。</p>
-      </div>
+      <h3 class="panel-title">世界地图</h3>
       <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="worldmap-layout">
       <div class="map-stage">
         <img class="map-image" :src="backgroundPaths.worldDouluoMap" alt="斗罗大陆世界地图" />
@@ -154,16 +152,30 @@ function startBattle() {
         </section>
       </aside>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .worldmap-panel {
   width: min(1320px, calc(100vw - 108px));
-  height: calc(100vh - 304px);
+  position: absolute;
+  top: 36px;
+  bottom: 0;
   min-height: 560px;
-  padding: 16px;
+  padding: 16px 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 4px;
+  padding: 0 16px;
 }
 
 .panel-header {
@@ -171,6 +183,9 @@ function startBattle() {
   justify-content: space-between;
   align-items: flex-start;
   height: 54px;
+  padding: 0 16px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 10px;
 }
 

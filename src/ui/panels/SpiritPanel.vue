@@ -36,6 +36,7 @@ function ringUnlockLevel(slot: number) {
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="spirit-card">
       <GameIcon :src="spiritIconPath(spirit!.id)" quality="orange" :size="86" :title="spirit!.name" :fallback-text="spirit!.name.slice(0, 1)" />
       <div class="spirit-info-text">
@@ -107,14 +108,18 @@ function ringUnlockLevel(slot: number) {
         </div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .spirit-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -125,12 +130,16 @@ function ringUnlockLevel(slot: number) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
 }
 

@@ -69,13 +69,11 @@ function rankMeta(entry: RankEntry) {
 <template>
   <div class="rank-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('rank')" :size="34" quality="orange" title="排行" />
-        <h3 class="panel-title">排行榜</h3>
-      </div>
+      <h3 class="panel-title">排行榜</h3>
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="summary">
       <GameIcon :src="currentTab.icon" :size="40" quality="blue" :title="currentTab.label" />
       <div>
@@ -90,7 +88,6 @@ function rankMeta(entry: RankEntry) {
       </button>
     </div>
 
-    <div class="panel-scroll-body">
     <div class="rank-list">
       <div v-for="entry in entries" :key="entry.name" class="rank-card" :class="{ me: entry.isPlayer }">
         <div class="rank-number" :style="{ color: rankColor(entry.rank) }">{{ entry.rank }}</div>
@@ -102,19 +99,32 @@ function rankMeta(entry: RankEntry) {
         <div class="rank-badge">{{ entry.rank <= 3 ? `TOP ${entry.rank}` : `#${entry.rank}` }}</div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .rank-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
-.title-wrap,
 .summary,
 .rank-card {
   display: flex;
@@ -123,10 +133,12 @@ function rankMeta(entry: RankEntry) {
 
 .panel-header {
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
 }
 
-.title-wrap,
 .summary,
 .rank-card {
   gap: 10px;

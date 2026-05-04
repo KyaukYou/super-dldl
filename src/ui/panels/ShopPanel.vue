@@ -43,8 +43,7 @@ function canBuy(price: number) {
   <div v-if="char" class="shop-panel panel-base">
     <div class="panel-header">
       <h3 class="panel-title">商店</h3>
-      <span class="gold">金币 {{ char.gold }}</span>
-      <button class="asset-action icon-only" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.close})` }" @click="uiStore.closePanel()">关闭</button>
+      <button class="close-btn" type="button" @click="uiStore.closePanel()">关闭</button>
     </div>
 
     <div class="shopkeeper-card">
@@ -69,8 +68,11 @@ function canBuy(price: number) {
 <style scoped>
 .shop-panel {
   width: 740px;
-  padding: 24px 20px;
-  height: calc(100vh - 304px);
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -81,22 +83,24 @@ function canBuy(price: number) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
 }
 
-.panel-title {
-  flex: 1;
-}
-
-.gold {
-  color: #ffd700;
-  font-weight: bold;
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
 }
 
 .shopkeeper-card {

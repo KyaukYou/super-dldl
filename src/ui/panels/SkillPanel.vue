@@ -48,6 +48,7 @@ function getRing(ringSlot: number) {
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="section">
       <h4 class="section-title">已装配魂技</h4>
       <div class="ring-slots">
@@ -111,14 +112,18 @@ function getRing(ringSlot: number) {
         <div v-if="availableSkills.length === 0" class="empty-hint">该系魂技已经全部装配</div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .skill-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -129,12 +134,16 @@ function getRing(ringSlot: number) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 14px;
 }
 

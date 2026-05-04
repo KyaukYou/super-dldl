@@ -43,10 +43,7 @@ function publishQuestion() {
 <template>
   <div class="academy-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('academy')" :size="34" quality="orange" title="斗罗学院" />
-        <h3 class="panel-title">斗罗学院</h3>
-      </div>
+      <h3 class="panel-title">斗罗学院</h3>
       <button class="close-btn" @click="uiStore.closePanel()">关闭</button>
     </div>
 
@@ -92,8 +89,11 @@ function publishQuestion() {
 <style scoped>
 .academy-panel {
   width: 740px;
-  padding: 24px 20px;
-  height: calc(100vh - 304px);
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -104,19 +104,17 @@ function publishQuestion() {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .close-btn {

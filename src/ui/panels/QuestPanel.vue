@@ -119,13 +119,11 @@ function claim(q: QuestState) {
 <template>
   <div class="quest-panel panel-base">
     <div class="panel-header">
-      <div class="title-wrap">
-        <GameIcon :src="systemIconPath('quest')" :size="34" quality="orange" title="任务" />
-        <h3 class="panel-title">任务大厅</h3>
-      </div>
+      <h3 class="panel-title">任务大厅</h3>
       <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="quest-tabs">
       <button v-for="tab in questTabs" :key="tab.key" class="tab" :class="{ active: activeTab === tab.key }" type="button" @click.stop="activeTab = tab.key">
         {{ tab.label }}
@@ -155,14 +153,18 @@ function claim(q: QuestState) {
         </div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .quest-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  padding: 24px 0;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -173,10 +175,10 @@ function claim(q: QuestState) {
   min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
-.title-wrap,
 .quest-title-row,
 .progress-row {
   display: flex;
@@ -185,11 +187,10 @@ function claim(q: QuestState) {
 
 .panel-header {
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
   margin-bottom: 12px;
-}
-
-.title-wrap {
-  gap: 10px;
 }
 
 .quest-tabs {

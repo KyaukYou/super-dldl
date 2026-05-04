@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { ref, shallowRef, type Component } from 'vue'
+import { onMounted, onUnmounted, ref, shallowRef, type Component } from 'vue'
 import { audioManager } from '@/game/audio/audioManager'
 
 export type PanelName =
@@ -101,6 +101,20 @@ export const useUIStore = defineStore('ui', () => {
   function setLogChannel(channel: UiLogChannel | 'all') {
     activeLogChannel.value = channel
   }
+
+  function onKeyDown(e: KeyboardEvent) {
+    if (e.key === 'Escape' && currentPanel.value && currentPanel.value !== 'city') {
+      closePanel()
+    }
+  }
+
+  onMounted(() => {
+    window.addEventListener('keydown', onKeyDown)
+  })
+
+  onUnmounted(() => {
+    window.removeEventListener('keydown', onKeyDown)
+  })
 
   async function loadPanelComponent(panel: Exclude<PanelName, null>): Promise<Component> {
     const map: Record<string, () => Promise<{ default: Component }>> = {
