@@ -1,0 +1,360 @@
+{
+  "category": "spirit",
+  "id": "spirit_strength_atlas_v1",
+  "title": "力量系武魂图集",
+  "count": 35,
+  "columns": 7,
+  "rows": 5,
+  "items": [
+    {
+      "id": "haotian_hammer",
+      "name": "昊天锤",
+      "relativePath": "src/assets/icons/spirit/spirit_haotian_hammer.png",
+      "filename": "spirit_haotian_hammer.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bluetyrant_dragon",
+      "name": "蓝电霸王龙",
+      "relativePath": "src/assets/icons/spirit/spirit_bluetyrant_dragon.png",
+      "filename": "spirit_bluetyrant_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "qisha_sword",
+      "name": "七杀剑",
+      "relativePath": "src/assets/icons/spirit/spirit_qisha_sword.png",
+      "filename": "spirit_qisha_sword.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "white_tiger",
+      "name": "邪眸白虎",
+      "relativePath": "src/assets/icons/spirit/spirit_white_tiger.png",
+      "filename": "spirit_white_tiger.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "golden_dragon",
+      "name": "黄金圣龙",
+      "relativePath": "src/assets/icons/spirit/spirit_golden_dragon.png",
+      "filename": "spirit_golden_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "titan_ape",
+      "name": "泰坦巨猿",
+      "relativePath": "src/assets/icons/spirit/spirit_titan_ape.png",
+      "filename": "spirit_titan_ape.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "darkgold_bear",
+      "name": "暗金恐爪熊",
+      "relativePath": "src/assets/icons/spirit/spirit_darkgold_bear.png",
+      "filename": "spirit_darkgold_bear.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "blood_axe",
+      "name": "血魂斧",
+      "relativePath": "src/assets/icons/spirit/spirit_blood_axe.png",
+      "filename": "spirit_blood_axe.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "moon_blade",
+      "name": "月刃",
+      "relativePath": "src/assets/icons/spirit/spirit_moon_blade.png",
+      "filename": "spirit_moon_blade.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "armored_rhino",
+      "name": "板甲犀牛",
+      "relativePath": "src/assets/icons/spirit/spirit_armored_rhino.png",
+      "filename": "spirit_armored_rhino.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "redgold_lion",
+      "name": "赤金狮",
+      "relativePath": "src/assets/icons/spirit/spirit_redgold_lion.png",
+      "filename": "spirit_redgold_lion.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "blood_tiger",
+      "name": "血虎",
+      "relativePath": "src/assets/icons/spirit/spirit_blood_tiger.png",
+      "filename": "spirit_blood_tiger.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "diamond_mammoth",
+      "name": "钻石猛犸",
+      "relativePath": "src/assets/icons/spirit/spirit_diamond_mammoth.png",
+      "filename": "spirit_diamond_mammoth.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "big_ape",
+      "name": "巨猿",
+      "relativePath": "src/assets/icons/spirit/spirit_big_ape.png",
+      "filename": "spirit_big_ape.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "earth_king",
+      "name": "大地之王",
+      "relativePath": "src/assets/icons/spirit/spirit_earth_king.png",
+      "filename": "spirit_earth_king.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "iron_bull",
+      "name": "铁角牛",
+      "relativePath": "src/assets/icons/spirit/spirit_iron_bull.png",
+      "filename": "spirit_iron_bull.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "golden_croc",
+      "name": "黄金鳄",
+      "relativePath": "src/assets/icons/spirit/spirit_golden_croc.png",
+      "filename": "spirit_golden_croc.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "hungry_bear",
+      "name": "饥饿狂熊",
+      "relativePath": "src/assets/icons/spirit/spirit_hungry_bear.png",
+      "filename": "spirit_hungry_bear.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "flame_lion",
+      "name": "火焰狮",
+      "relativePath": "src/assets/icons/spirit/spirit_flame_lion.png",
+      "filename": "spirit_flame_lion.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "war_tiger",
+      "name": "战虎",
+      "relativePath": "src/assets/icons/spirit/spirit_war_tiger.png",
+      "filename": "spirit_war_tiger.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "demon_tiger",
+      "name": "暗魔邪神虎",
+      "relativePath": "src/assets/icons/spirit/spirit_demon_tiger.png",
+      "filename": "spirit_demon_tiger.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "copper_bull",
+      "name": "铜牛",
+      "relativePath": "src/assets/icons/spirit/spirit_copper_bull.png",
+      "filename": "spirit_copper_bull.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tremor_axe",
+      "name": "震天斧",
+      "relativePath": "src/assets/icons/spirit/spirit_tremor_axe.png",
+      "filename": "spirit_tremor_axe.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "white_earth_dragon",
+      "name": "白家地龙",
+      "relativePath": "src/assets/icons/spirit/spirit_white_earth_dragon.png",
+      "filename": "spirit_white_earth_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "cyclops",
+      "name": "独眼巨人",
+      "relativePath": "src/assets/icons/spirit/spirit_cyclops.png",
+      "filename": "spirit_cyclops.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tyrant_dragon",
+      "name": "霸王龙",
+      "relativePath": "src/assets/icons/spirit/spirit_tyrant_dragon.png",
+      "filename": "spirit_tyrant_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "black_dragon",
+      "name": "金眼黑龙王",
+      "relativePath": "src/assets/icons/spirit/spirit_black_dragon.png",
+      "filename": "spirit_black_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "frenzy_rhino",
+      "name": "狂犀",
+      "relativePath": "src/assets/icons/spirit/spirit_frenzy_rhino.png",
+      "filename": "spirit_frenzy_rhino.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fearsome_bull",
+      "name": "饕餮神牛",
+      "relativePath": "src/assets/icons/spirit/spirit_fearsome_bull.png",
+      "filename": "spirit_fearsome_bull.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "scaled_beast",
+      "name": "麟甲兽",
+      "relativePath": "src/assets/icons/spirit/spirit_scaled_beast.png",
+      "filename": "spirit_scaled_beast.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "gale_rhino",
+      "name": "火云犀甲牛",
+      "relativePath": "src/assets/icons/spirit/spirit_gale_rhino.png",
+      "filename": "spirit_gale_rhino.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_tiger",
+      "name": "鬼虎",
+      "relativePath": "src/assets/icons/spirit/spirit_ghost_tiger.png",
+      "filename": "spirit_ghost_tiger.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "explosive_dragon",
+      "name": "独角爆龙",
+      "relativePath": "src/assets/icons/spirit/spirit_explosive_dragon.png",
+      "filename": "spirit_explosive_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "big_rhino",
+      "name": "板甲巨犀",
+      "relativePath": "src/assets/icons/spirit/spirit_big_rhino.png",
+      "filename": "spirit_big_rhino.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "golden_armor_dragon",
+      "name": "黄金龙",
+      "relativePath": "src/assets/icons/spirit/spirit_golden_armor_dragon.png",
+      "filename": "spirit_golden_armor_dragon.png",
+      "series": "strength",
+      "type": null,
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "category": "skill",
+  "id": "skill_strength_atlas_v1",
+  "title": "力量系魂技图集",
+  "count": 45,
+  "columns": 9,
+  "rows": 5,
+  "items": [
+    {
+      "id": "miracle_totem",
+      "name": "神迹图腾",
+      "relativePath": "src/assets/icons/skill/skill_miracle_totem.png",
+      "filename": "skill_miracle_totem.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "power_surge",
+      "name": "力量涌动",
+      "relativePath": "src/assets/icons/skill/skill_power_surge.png",
+      "filename": "skill_power_surge.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "war_cry",
+      "name": "战吼",
+      "relativePath": "src/assets/icons/skill/skill_war_cry.png",
+      "filename": "skill_war_cry.png",
+      "series": "strength",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "titan_hammer",
+      "name": "泰坦之锤",
+      "relativePath": "src/assets/icons/skill/skill_titan_hammer.png",
+      "filename": "skill_titan_hammer.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_claw",
+      "name": "雷霆龙爪",
+      "relativePath": "src/assets/icons/skill/skill_thunder_claw.png",
+      "filename": "skill_thunder_claw.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "blood_fight",
+      "name": "浴血奋战",
+      "relativePath": "src/assets/icons/skill/skill_blood_fight.png",
+      "filename": "skill_blood_fight.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "crushing_blow",
+      "name": "碎裂重击",
+      "relativePath": "src/assets/icons/skill/skill_crushing_blow.png",
+      "filename": "skill_crushing_blow.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "iron_will",
+      "name": "钢铁意志",
+      "relativePath": "src/assets/icons/skill/skill_iron_will.png",
+      "filename": "skill_iron_will.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tiger_protect",
+      "name": "白虎护身障",
+      "relativePath": "src/assets/icons/skill/skill_tiger_protect.png",
+      "filename": "skill_tiger_protect.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_fury",
+      "name": "雷霆万钧",
+      "relativePath": "src/assets/icons/skill/skill_thunder_fury.png",
+      "filename": "skill_thunder_fury.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fire_eye",
+      "name": "火眼金睛",
+      "relativePath": "src/assets/icons/skill/skill_fire_eye.png",
+      "filename": "skill_fire_eye.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "berserk",
+      "name": "狂暴",
+      "relativePath": "src/assets/icons/skill/skill_berserk.png",
+      "filename": "skill_berserk.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_smash",
+      "name": "雷霆猛击",
+      "relativePath": "src/assets/icons/skill/skill_thunder_smash.png",
+      "filename": "skill_thunder_smash.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tiger_vajra",
+      "name": "白虎金刚变",
+      "relativePath": "src/assets/icons/skill/skill_tiger_vajra.png",
+      "filename": "skill_tiger_vajra.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_rage",
+      "name": "雷霆之怒",
+      "relativePath": "src/assets/icons/skill/skill_thunder_rage.png",
+      "filename": "skill_thunder_rage.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "death_pact",
+      "name": "死神契约",
+      "relativePath": "src/assets/icons/skill/skill_death_pact.png",
+      "filename": "skill_death_pact.png",
+      "series": "strength",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soul_crush",
+      "name": "碎魂击",
+      "relativePath": "src/assets/icons/skill/skill_soul_crush.png",
+      "filename": "skill_soul_crush.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fortress",
+      "name": "不动要塞",
+      "relativePath": "src/assets/icons/skill/skill_fortress.png",
+      "filename": "skill_fortress.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tiger_meteor",
+      "name": "白虎流星雨",
+      "relativePath": "src/assets/icons/skill/skill_tiger_meteor.png",
+      "filename": "skill_tiger_meteor.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dark_evil_thunder",
+      "name": "暗魔邪雷怒",
+      "relativePath": "src/assets/icons/skill/skill_dark_evil_thunder.png",
+      "filename": "skill_dark_evil_thunder.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dragon_armor",
+      "name": "龙甲拳",
+      "relativePath": "src/assets/icons/skill/skill_dragon_armor.png",
+      "filename": "skill_dragon_armor.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "earthquake",
+      "name": "大地震击",
+      "relativePath": "src/assets/icons/skill/skill_earthquake.png",
+      "filename": "skill_earthquake.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "life_steal",
+      "name": "嗜血",
+      "relativePath": "src/assets/icons/skill/skill_life_steal.png",
+      "filename": "skill_life_steal.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_hell",
+      "name": "雷霆地狱",
+      "relativePath": "src/assets/icons/skill/skill_thunder_hell.png",
+      "filename": "skill_thunder_hell.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tiger_demon",
+      "name": "白虎魔神变",
+      "relativePath": "src/assets/icons/skill/skill_tiger_demon.png",
+      "filename": "skill_tiger_demon.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "power_essence",
+      "name": "力量要领",
+      "relativePath": "src/assets/icons/skill/skill_power_essence.png",
+      "filename": "skill_power_essence.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "annihilate",
+      "name": "歼灭",
+      "relativePath": "src/assets/icons/skill/skill_annihilate.png",
+      "filename": "skill_annihilate.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "war_god",
+      "name": "战神降临",
+      "relativePath": "src/assets/icons/skill/skill_war_god.png",
+      "filename": "skill_war_god.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_breath",
+      "name": "蓝电龙吐息",
+      "relativePath": "src/assets/icons/skill/skill_thunder_breath.png",
+      "filename": "skill_thunder_breath.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tiger_massacre",
+      "name": "白虎破灭杀",
+      "relativePath": "src/assets/icons/skill/skill_tiger_massacre.png",
+      "filename": "skill_tiger_massacre.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "rage_blood",
+      "name": "怪力血液",
+      "relativePath": "src/assets/icons/skill/skill_rage_blood.png",
+      "filename": "skill_rage_blood.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "titan_fist",
+      "name": "泰坦之拳",
+      "relativePath": "src/assets/icons/skill/skill_titan_fist.png",
+      "filename": "skill_titan_fist.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "unyielding",
+      "name": "不屈意志",
+      "relativePath": "src/assets/icons/skill/skill_unyielding.png",
+      "filename": "skill_unyielding.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dragon_true_body",
+      "name": "霸王龙真身",
+      "relativePath": "src/assets/icons/skill/skill_dragon_true_body.png",
+      "filename": "skill_dragon_true_body.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "axe_true_body",
+      "name": "昊天真身",
+      "relativePath": "src/assets/icons/skill/skill_axe_true_body.png",
+      "filename": "skill_axe_true_body.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "laser",
+      "name": "激光",
+      "relativePath": "src/assets/icons/skill/skill_laser.png",
+      "filename": "skill_laser.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "doom_slash",
+      "name": "末日斩",
+      "relativePath": "src/assets/icons/skill/skill_doom_slash.png",
+      "filename": "skill_doom_slash.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dragon_roar",
+      "name": "龙啸",
+      "relativePath": "src/assets/icons/skill/skill_dragon_roar.png",
+      "filename": "skill_dragon_roar.png",
+      "series": "strength",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_god",
+      "name": "雷神附体",
+      "relativePath": "src/assets/icons/skill/skill_thunder_god.png",
+      "filename": "skill_thunder_god.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sword_true_body",
+      "name": "七杀真身",
+      "relativePath": "src/assets/icons/skill/skill_sword_true_body.png",
+      "filename": "skill_sword_true_body.png",
+      "series": "strength",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "heavenly_blow",
+      "name": "白虎开天击",
+      "relativePath": "src/assets/icons/skill/skill_heavenly_blow.png",
+      "filename": "skill_heavenly_blow.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dragon_descend",
+      "name": "真龙降临",
+      "relativePath": "src/assets/icons/skill/skill_dragon_descend.png",
+      "filename": "skill_dragon_descend.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "god_demon_slash",
+      "name": "神魔两斩",
+      "relativePath": "src/assets/icons/skill/skill_god_demon_slash.png",
+      "filename": "skill_god_demon_slash.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "hammer_kill_realm",
+      "name": "杀戮结界",
+      "relativePath": "src/assets/icons/skill/skill_hammer_kill_realm.png",
+      "filename": "skill_hammer_kill_realm.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_judge",
+      "name": "雷霆审判",
+      "relativePath": "src/assets/icons/skill/skill_thunder_judge.png",
+      "filename": "skill_thunder_judge.png",
+      "series": "strength",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

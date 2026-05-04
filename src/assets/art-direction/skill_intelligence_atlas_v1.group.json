@@ -1,0 +1,460 @@
+{
+  "category": "skill",
+  "id": "skill_intelligence_atlas_v1",
+  "title": "智力系魂技图集",
+  "count": 45,
+  "columns": 9,
+  "rows": 5,
+  "items": [
+    {
+      "id": "massacre",
+      "name": "残杀",
+      "relativePath": "src/assets/icons/skill/skill_massacre.png",
+      "filename": "skill_massacre.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "spirit_burn",
+      "name": "魂力燃烧",
+      "relativePath": "src/assets/icons/skill/skill_spirit_burn.png",
+      "filename": "skill_spirit_burn.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mind_barrier",
+      "name": "心灵屏障",
+      "relativePath": "src/assets/icons/skill/skill_mind_barrier.png",
+      "filename": "skill_mind_barrier.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "tangle",
+      "name": "缠绕",
+      "relativePath": "src/assets/icons/skill/skill_tangle.png",
+      "filename": "skill_tangle.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "heal_sausage",
+      "name": "恢复大香肠",
+      "relativePath": "src/assets/icons/skill/skill_heal_sausage.png",
+      "filename": "skill_heal_sausage.png",
+      "series": "intelligence",
+      "type": "heal",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "exhaust_domain_i",
+      "name": "竭力领域",
+      "relativePath": "src/assets/icons/skill/skill_exhaust_domain_i.png",
+      "filename": "skill_exhaust_domain_i.png",
+      "series": "intelligence",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soul_drain",
+      "name": "吸魂术",
+      "relativePath": "src/assets/icons/skill/skill_soul_drain.png",
+      "filename": "skill_soul_drain.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ice_chain",
+      "name": "冰链束缚",
+      "relativePath": "src/assets/icons/skill/skill_ice_chain.png",
+      "filename": "skill_ice_chain.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "parasite",
+      "name": "寄生",
+      "relativePath": "src/assets/icons/skill/skill_parasite.png",
+      "filename": "skill_parasite.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "purify_sausage",
+      "name": "解毒小腊肠",
+      "relativePath": "src/assets/icons/skill/skill_purify_sausage.png",
+      "filename": "skill_purify_sausage.png",
+      "series": "intelligence",
+      "type": "heal",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soul_shield",
+      "name": "魂力之盾",
+      "relativePath": "src/assets/icons/skill/skill_soul_shield.png",
+      "filename": "skill_soul_shield.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fire_storm",
+      "name": "烈焰风暴",
+      "relativePath": "src/assets/icons/skill/skill_fire_storm.png",
+      "filename": "skill_fire_storm.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "hypnosis",
+      "name": "催眠术",
+      "relativePath": "src/assets/icons/skill/skill_hypnosis.png",
+      "filename": "skill_hypnosis.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "spider_web",
+      "name": "蛛网束缚",
+      "relativePath": "src/assets/icons/skill/skill_spider_web.png",
+      "filename": "skill_spider_web.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fly_mushroom",
+      "name": "急速飞行蘑菇肠",
+      "relativePath": "src/assets/icons/skill/skill_fly_mushroom.png",
+      "filename": "skill_fly_mushroom.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "projection",
+      "name": "影射",
+      "relativePath": "src/assets/icons/skill/skill_projection.png",
+      "filename": "skill_projection.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dark_contract",
+      "name": "暗之契约",
+      "relativePath": "src/assets/icons/skill/skill_dark_contract.png",
+      "filename": "skill_dark_contract.png",
+      "series": "intelligence",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "healing_rain",
+      "name": "治愈之雨",
+      "relativePath": "src/assets/icons/skill/skill_healing_rain.png",
+      "filename": "skill_healing_rain.png",
+      "series": "intelligence",
+      "type": "heal",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "silver_cage",
+      "name": "蓝银囚笼",
+      "relativePath": "src/assets/icons/skill/skill_silver_cage.png",
+      "filename": "skill_silver_cage.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "excite_sausage",
+      "name": "亢奋粉红肠",
+      "relativePath": "src/assets/icons/skill/skill_excite_sausage.png",
+      "filename": "skill_excite_sausage.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "invisible_mask_i",
+      "name": "掩面无形",
+      "relativePath": "src/assets/icons/skill/skill_invisible_mask_i.png",
+      "filename": "skill_invisible_mask_i.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_bolt",
+      "name": "雷霆万钧",
+      "relativePath": "src/assets/icons/skill/skill_thunder_bolt.png",
+      "filename": "skill_thunder_bolt.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "purify",
+      "name": "净化",
+      "relativePath": "src/assets/icons/skill/skill_purify.png",
+      "filename": "skill_purify.png",
+      "series": "intelligence",
+      "type": "heal",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "domineer_gun",
+      "name": "蓝银霸王枪",
+      "relativePath": "src/assets/icons/skill/skill_domineer_gun.png",
+      "filename": "skill_domineer_gun.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "copy_mirror_sausage",
+      "name": "复制镜像肠",
+      "relativePath": "src/assets/icons/skill/skill_copy_mirror_sausage.png",
+      "filename": "skill_copy_mirror_sausage.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "wisdom_irrigation",
+      "name": "智慧浇灌",
+      "relativePath": "src/assets/icons/skill/skill_wisdom_irrigation.png",
+      "filename": "skill_wisdom_irrigation.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soul_devour",
+      "name": "噬魂",
+      "relativePath": "src/assets/icons/skill/skill_soul_devour.png",
+      "filename": "skill_soul_devour.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "resurrection",
+      "name": "复苏",
+      "relativePath": "src/assets/icons/skill/skill_resurrection.png",
+      "filename": "skill_resurrection.png",
+      "series": "intelligence",
+      "type": "heal",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nihil",
+      "name": "虚无",
+      "relativePath": "src/assets/icons/skill/skill_nihil.png",
+      "filename": "skill_nihil.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "golden_fly",
+      "name": "坚挺金苍蝇",
+      "relativePath": "src/assets/icons/skill/skill_golden_fly.png",
+      "filename": "skill_golden_fly.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "song_confusion",
+      "name": "歌声迷离",
+      "relativePath": "src/assets/icons/skill/skill_song_confusion.png",
+      "filename": "skill_song_confusion.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "spirit_storm",
+      "name": "魂力风暴",
+      "relativePath": "src/assets/icons/skill/skill_spirit_storm.png",
+      "filename": "skill_spirit_storm.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "divine_shield",
+      "name": "神圣护盾",
+      "relativePath": "src/assets/icons/skill/skill_divine_shield.png",
+      "filename": "skill_divine_shield.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bluesilver_true",
+      "name": "蓝银真身",
+      "relativePath": "src/assets/icons/skill/skill_bluesilver_true.png",
+      "filename": "skill_bluesilver_true.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nine_treasure_true",
+      "name": "九宝真身",
+      "relativePath": "src/assets/icons/skill/skill_nine_treasure_true.png",
+      "filename": "skill_nine_treasure_true.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thousand_blades",
+      "name": "万剑流",
+      "relativePath": "src/assets/icons/skill/skill_thousand_blades.png",
+      "filename": "skill_thousand_blades.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "apocalypse",
+      "name": "天罚",
+      "relativePath": "src/assets/icons/skill/skill_apocalypse.png",
+      "filename": "skill_apocalypse.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "time_stop",
+      "name": "时间停滞",
+      "relativePath": "src/assets/icons/skill/skill_time_stop.png",
+      "filename": "skill_time_stop.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mirror_destroy",
+      "name": "蓝银邪魔镜之灭",
+      "relativePath": "src/assets/icons/skill/skill_mirror_destroy.png",
+      "filename": "skill_mirror_destroy.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nine_sacred_light",
+      "name": "九宝神光护体",
+      "relativePath": "src/assets/icons/skill/skill_nine_sacred_light.png",
+      "filename": "skill_nine_sacred_light.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "azure_dragon_soul",
+      "name": "蓝银天青龙之魂",
+      "relativePath": "src/assets/icons/skill/skill_azure_dragon_soul.png",
+      "filename": "skill_azure_dragon_soul.png",
+      "series": "intelligence",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nine_revive_light",
+      "name": "九宝无敌神光",
+      "relativePath": "src/assets/icons/skill/skill_nine_revive_light.png",
+      "filename": "skill_nine_revive_light.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "absolute_zero",
+      "name": "绝对零度",
+      "relativePath": "src/assets/icons/skill/skill_absolute_zero.png",
+      "filename": "skill_absolute_zero.png",
+      "series": "intelligence",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "death_domain",
+      "name": "死亡领域",
+      "relativePath": "src/assets/icons/skill/skill_death_domain.png",
+      "filename": "skill_death_domain.png",
+      "series": "intelligence",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "diamond_sausage",
+      "name": "扭转乾坤钻石肠",
+      "relativePath": "src/assets/icons/skill/skill_diamond_sausage.png",
+      "filename": "skill_diamond_sausage.png",
+      "series": "intelligence",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

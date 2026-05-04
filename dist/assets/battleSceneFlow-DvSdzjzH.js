@@ -1,0 +1,1 @@
+function n(e,t){window.requestAnimationFrame(()=>{e.scene.stop("BattleScene"),e.scene.stop("GameScene"),window.requestAnimationFrame(()=>{e.scene.start("BattleScene",t)})})}function s(e,t){window.requestAnimationFrame(()=>{e.scene.stop("BattleScene"),window.requestAnimationFrame(()=>{e.scene.start("GameScene"),t()})})}export{s as r,n as s};

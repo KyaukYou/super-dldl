@@ -1,0 +1,3562 @@
+[
+  {
+    "category": "spirit",
+    "id": "spirit_strength_atlas_v1",
+    "title": "力量系武魂图集",
+    "count": 35,
+    "columns": 7,
+    "rows": 5,
+    "items": [
+      {
+        "id": "haotian_hammer",
+        "name": "昊天锤",
+        "relativePath": "src/assets/icons/spirit/spirit_haotian_hammer.png",
+        "filename": "spirit_haotian_hammer.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bluetyrant_dragon",
+        "name": "蓝电霸王龙",
+        "relativePath": "src/assets/icons/spirit/spirit_bluetyrant_dragon.png",
+        "filename": "spirit_bluetyrant_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "qisha_sword",
+        "name": "七杀剑",
+        "relativePath": "src/assets/icons/spirit/spirit_qisha_sword.png",
+        "filename": "spirit_qisha_sword.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "white_tiger",
+        "name": "邪眸白虎",
+        "relativePath": "src/assets/icons/spirit/spirit_white_tiger.png",
+        "filename": "spirit_white_tiger.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "golden_dragon",
+        "name": "黄金圣龙",
+        "relativePath": "src/assets/icons/spirit/spirit_golden_dragon.png",
+        "filename": "spirit_golden_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "titan_ape",
+        "name": "泰坦巨猿",
+        "relativePath": "src/assets/icons/spirit/spirit_titan_ape.png",
+        "filename": "spirit_titan_ape.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "darkgold_bear",
+        "name": "暗金恐爪熊",
+        "relativePath": "src/assets/icons/spirit/spirit_darkgold_bear.png",
+        "filename": "spirit_darkgold_bear.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "blood_axe",
+        "name": "血魂斧",
+        "relativePath": "src/assets/icons/spirit/spirit_blood_axe.png",
+        "filename": "spirit_blood_axe.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "moon_blade",
+        "name": "月刃",
+        "relativePath": "src/assets/icons/spirit/spirit_moon_blade.png",
+        "filename": "spirit_moon_blade.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "armored_rhino",
+        "name": "板甲犀牛",
+        "relativePath": "src/assets/icons/spirit/spirit_armored_rhino.png",
+        "filename": "spirit_armored_rhino.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "redgold_lion",
+        "name": "赤金狮",
+        "relativePath": "src/assets/icons/spirit/spirit_redgold_lion.png",
+        "filename": "spirit_redgold_lion.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "blood_tiger",
+        "name": "血虎",
+        "relativePath": "src/assets/icons/spirit/spirit_blood_tiger.png",
+        "filename": "spirit_blood_tiger.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "diamond_mammoth",
+        "name": "钻石猛犸",
+        "relativePath": "src/assets/icons/spirit/spirit_diamond_mammoth.png",
+        "filename": "spirit_diamond_mammoth.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "big_ape",
+        "name": "巨猿",
+        "relativePath": "src/assets/icons/spirit/spirit_big_ape.png",
+        "filename": "spirit_big_ape.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "earth_king",
+        "name": "大地之王",
+        "relativePath": "src/assets/icons/spirit/spirit_earth_king.png",
+        "filename": "spirit_earth_king.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "iron_bull",
+        "name": "铁角牛",
+        "relativePath": "src/assets/icons/spirit/spirit_iron_bull.png",
+        "filename": "spirit_iron_bull.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "golden_croc",
+        "name": "黄金鳄",
+        "relativePath": "src/assets/icons/spirit/spirit_golden_croc.png",
+        "filename": "spirit_golden_croc.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "hungry_bear",
+        "name": "饥饿狂熊",
+        "relativePath": "src/assets/icons/spirit/spirit_hungry_bear.png",
+        "filename": "spirit_hungry_bear.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "flame_lion",
+        "name": "火焰狮",
+        "relativePath": "src/assets/icons/spirit/spirit_flame_lion.png",
+        "filename": "spirit_flame_lion.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "war_tiger",
+        "name": "战虎",
+        "relativePath": "src/assets/icons/spirit/spirit_war_tiger.png",
+        "filename": "spirit_war_tiger.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "demon_tiger",
+        "name": "暗魔邪神虎",
+        "relativePath": "src/assets/icons/spirit/spirit_demon_tiger.png",
+        "filename": "spirit_demon_tiger.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "copper_bull",
+        "name": "铜牛",
+        "relativePath": "src/assets/icons/spirit/spirit_copper_bull.png",
+        "filename": "spirit_copper_bull.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tremor_axe",
+        "name": "震天斧",
+        "relativePath": "src/assets/icons/spirit/spirit_tremor_axe.png",
+        "filename": "spirit_tremor_axe.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "white_earth_dragon",
+        "name": "白家地龙",
+        "relativePath": "src/assets/icons/spirit/spirit_white_earth_dragon.png",
+        "filename": "spirit_white_earth_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "cyclops",
+        "name": "独眼巨人",
+        "relativePath": "src/assets/icons/spirit/spirit_cyclops.png",
+        "filename": "spirit_cyclops.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tyrant_dragon",
+        "name": "霸王龙",
+        "relativePath": "src/assets/icons/spirit/spirit_tyrant_dragon.png",
+        "filename": "spirit_tyrant_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "black_dragon",
+        "name": "金眼黑龙王",
+        "relativePath": "src/assets/icons/spirit/spirit_black_dragon.png",
+        "filename": "spirit_black_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "frenzy_rhino",
+        "name": "狂犀",
+        "relativePath": "src/assets/icons/spirit/spirit_frenzy_rhino.png",
+        "filename": "spirit_frenzy_rhino.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fearsome_bull",
+        "name": "饕餮神牛",
+        "relativePath": "src/assets/icons/spirit/spirit_fearsome_bull.png",
+        "filename": "spirit_fearsome_bull.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "scaled_beast",
+        "name": "麟甲兽",
+        "relativePath": "src/assets/icons/spirit/spirit_scaled_beast.png",
+        "filename": "spirit_scaled_beast.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "gale_rhino",
+        "name": "火云犀甲牛",
+        "relativePath": "src/assets/icons/spirit/spirit_gale_rhino.png",
+        "filename": "spirit_gale_rhino.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_tiger",
+        "name": "鬼虎",
+        "relativePath": "src/assets/icons/spirit/spirit_ghost_tiger.png",
+        "filename": "spirit_ghost_tiger.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "explosive_dragon",
+        "name": "独角爆龙",
+        "relativePath": "src/assets/icons/spirit/spirit_explosive_dragon.png",
+        "filename": "spirit_explosive_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "big_rhino",
+        "name": "板甲巨犀",
+        "relativePath": "src/assets/icons/spirit/spirit_big_rhino.png",
+        "filename": "spirit_big_rhino.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "golden_armor_dragon",
+        "name": "黄金龙",
+        "relativePath": "src/assets/icons/spirit/spirit_golden_armor_dragon.png",
+        "filename": "spirit_golden_armor_dragon.png",
+        "series": "strength",
+        "type": null,
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "spirit",
+    "id": "spirit_agility_atlas_v1",
+    "title": "敏捷系武魂图集",
+    "count": 35,
+    "columns": 7,
+    "rows": 5,
+    "items": [
+      {
+        "id": "soft_bone_rabbit",
+        "name": "柔骨兔",
+        "relativePath": "src/assets/icons/spirit/spirit_soft_bone_rabbit.png",
+        "filename": "spirit_soft_bone_rabbit.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "hell_cat",
+        "name": "幽冥灵猫",
+        "relativePath": "src/assets/icons/spirit/spirit_hell_cat.png",
+        "filename": "spirit_hell_cat.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "six_wing_angel",
+        "name": "六翼天使",
+        "relativePath": "src/assets/icons/spirit/spirit_six_wing_angel.png",
+        "filename": "spirit_six_wing_angel.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fire_phoenix",
+        "name": "火凤凰",
+        "relativePath": "src/assets/icons/spirit/spirit_fire_phoenix.png",
+        "filename": "spirit_fire_phoenix.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_cat",
+        "name": "鬼灵猫",
+        "relativePath": "src/assets/icons/spirit/spirit_ghost_cat.png",
+        "filename": "spirit_ghost_cat.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "wind_leopard",
+        "name": "风豹",
+        "relativePath": "src/assets/icons/spirit/spirit_wind_leopard.png",
+        "filename": "spirit_wind_leopard.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "lightning_falcon",
+        "name": "电光隼",
+        "relativePath": "src/assets/icons/spirit/spirit_lightning_falcon.png",
+        "filename": "spirit_lightning_falcon.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "starfish",
+        "name": "海星",
+        "relativePath": "src/assets/icons/spirit/spirit_starfish.png",
+        "filename": "spirit_starfish.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "lone_wolf",
+        "name": "独狼",
+        "relativePath": "src/assets/icons/spirit/spirit_lone_wolf.png",
+        "filename": "spirit_lone_wolf.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "swift_swallow",
+        "name": "尖尾雨燕",
+        "relativePath": "src/assets/icons/spirit/spirit_swift_swallow.png",
+        "filename": "spirit_swift_swallow.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "lightning_rabbit",
+        "name": "闪电兔",
+        "relativePath": "src/assets/icons/spirit/spirit_lightning_rabbit.png",
+        "filename": "spirit_lightning_rabbit.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "storm_wolf",
+        "name": "疾风魔狼",
+        "relativePath": "src/assets/icons/spirit/spirit_storm_wolf.png",
+        "filename": "spirit_storm_wolf.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_panther",
+        "name": "鬼影豹皇",
+        "relativePath": "src/assets/icons/spirit/spirit_ghost_panther.png",
+        "filename": "spirit_ghost_panther.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "monkey",
+        "name": "灵猴",
+        "relativePath": "src/assets/icons/spirit/spirit_monkey.png",
+        "filename": "spirit_monkey.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "flash_bird",
+        "name": "闪鸟",
+        "relativePath": "src/assets/icons/spirit/spirit_flash_bird.png",
+        "filename": "spirit_flash_bird.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "purple_falcon",
+        "name": "紫玉隼",
+        "relativePath": "src/assets/icons/spirit/spirit_purple_falcon.png",
+        "filename": "spirit_purple_falcon.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "pink_lady",
+        "name": "粉红娘娘",
+        "relativePath": "src/assets/icons/spirit/spirit_pink_lady.png",
+        "filename": "spirit_pink_lady.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "wind_bell",
+        "name": "风铃鸟",
+        "relativePath": "src/assets/icons/spirit/spirit_wind_bell.png",
+        "filename": "spirit_wind_bell.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "shadow",
+        "name": "暗影",
+        "relativePath": "src/assets/icons/spirit/spirit_shadow.png",
+        "filename": "spirit_shadow.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bat_king",
+        "name": "吸血蝙蝠王",
+        "relativePath": "src/assets/icons/spirit/spirit_bat_king.png",
+        "filename": "spirit_bat_king.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "swift_wolf",
+        "name": "迅狼",
+        "relativePath": "src/assets/icons/spirit/spirit_swift_wolf.png",
+        "filename": "spirit_swift_wolf.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "silver_wolf",
+        "name": "银月狼王",
+        "relativePath": "src/assets/icons/spirit/spirit_silver_wolf.png",
+        "filename": "spirit_silver_wolf.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "three_eye_fox",
+        "name": "三眼魔狐",
+        "relativePath": "src/assets/icons/spirit/spirit_three_eye_fox.png",
+        "filename": "spirit_three_eye_fox.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "lightning_marten",
+        "name": "闪电貂",
+        "relativePath": "src/assets/icons/spirit/spirit_lightning_marten.png",
+        "filename": "spirit_lightning_marten.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_wolf",
+        "name": "幽冥狼",
+        "relativePath": "src/assets/icons/spirit/spirit_ghost_wolf.png",
+        "filename": "spirit_ghost_wolf.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_eagle",
+        "name": "雷鹰",
+        "relativePath": "src/assets/icons/spirit/spirit_thunder_eagle.png",
+        "filename": "spirit_thunder_eagle.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "purple_lion",
+        "name": "紫影狮",
+        "relativePath": "src/assets/icons/spirit/spirit_purple_lion.png",
+        "filename": "spirit_purple_lion.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "jade_monkey",
+        "name": "碧海灵猿",
+        "relativePath": "src/assets/icons/spirit/spirit_jade_monkey.png",
+        "filename": "spirit_jade_monkey.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "colorful_cat",
+        "name": "七彩猫",
+        "relativePath": "src/assets/icons/spirit/spirit_colorful_cat.png",
+        "filename": "spirit_colorful_cat.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bee_hummingbird",
+        "name": "剑喙蜂鸟",
+        "relativePath": "src/assets/icons/spirit/spirit_bee_hummingbird.png",
+        "filename": "spirit_bee_hummingbird.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phantom",
+        "name": "魅影",
+        "relativePath": "src/assets/icons/spirit/spirit_phantom.png",
+        "filename": "spirit_phantom.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soul_swallow",
+        "name": "追魂燕",
+        "relativePath": "src/assets/icons/spirit/spirit_soul_swallow.png",
+        "filename": "spirit_soul_swallow.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sacred_angel",
+        "name": "神圣天使",
+        "relativePath": "src/assets/icons/spirit/spirit_sacred_angel.png",
+        "filename": "spirit_sacred_angel.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "light_phoenix",
+        "name": "光明凤凰",
+        "relativePath": "src/assets/icons/spirit/spirit_light_phoenix.png",
+        "filename": "spirit_light_phoenix.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dark_soul_tiger",
+        "name": "六翼魔虎",
+        "relativePath": "src/assets/icons/spirit/spirit_dark_soul_tiger.png",
+        "filename": "spirit_dark_soul_tiger.png",
+        "series": "agility",
+        "type": null,
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "spirit",
+    "id": "spirit_intelligence_atlas_v1",
+    "title": "智力系武魂图集",
+    "count": 35,
+    "columns": 7,
+    "rows": 5,
+    "items": [
+      {
+        "id": "bluesilver_emperor",
+        "name": "蓝银皇",
+        "relativePath": "src/assets/icons/spirit/spirit_bluesilver_emperor.png",
+        "filename": "spirit_bluesilver_emperor.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bluesilver_grass",
+        "name": "蓝银草",
+        "relativePath": "src/assets/icons/spirit/spirit_bluesilver_grass.png",
+        "filename": "spirit_bluesilver_grass.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nine_heart_hibiscus",
+        "name": "九心海棠",
+        "relativePath": "src/assets/icons/spirit/spirit_nine_heart_hibiscus.png",
+        "filename": "spirit_nine_heart_hibiscus.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nine_treasure_glaze",
+        "name": "九宝琉璃塔",
+        "relativePath": "src/assets/icons/spirit/spirit_nine_treasure_glaze.png",
+        "filename": "spirit_nine_treasure_glaze.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "seven_treasure_glaze",
+        "name": "七宝琉璃塔",
+        "relativePath": "src/assets/icons/spirit/spirit_seven_treasure_glaze.png",
+        "filename": "spirit_seven_treasure_glaze.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "snake_staff",
+        "name": "蛇杖",
+        "relativePath": "src/assets/icons/spirit/spirit_snake_staff.png",
+        "filename": "spirit_snake_staff.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mystic_turtle",
+        "name": "玄龟",
+        "relativePath": "src/assets/icons/spirit/spirit_mystic_turtle.png",
+        "filename": "spirit_mystic_turtle.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sugar_bean",
+        "name": "糖豆",
+        "relativePath": "src/assets/icons/spirit/spirit_sugar_bean.png",
+        "filename": "spirit_sugar_bean.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sunflower",
+        "name": "太阳花",
+        "relativePath": "src/assets/icons/spirit/spirit_sunflower.png",
+        "filename": "spirit_sunflower.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bread",
+        "name": "面包",
+        "relativePath": "src/assets/icons/spirit/spirit_bread.png",
+        "filename": "spirit_bread.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mars_star",
+        "name": "火星",
+        "relativePath": "src/assets/icons/spirit/spirit_mars_star.png",
+        "filename": "spirit_mars_star.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dream_shatter",
+        "name": "残梦",
+        "relativePath": "src/assets/icons/spirit/spirit_dream_shatter.png",
+        "filename": "spirit_dream_shatter.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "orange_gem",
+        "name": "橙宝石",
+        "relativePath": "src/assets/icons/spirit/spirit_orange_gem.png",
+        "filename": "spirit_orange_gem.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ocean_gem",
+        "name": "海蓝宝石",
+        "relativePath": "src/assets/icons/spirit/spirit_ocean_gem.png",
+        "filename": "spirit_ocean_gem.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "flame_thorn",
+        "name": "赤炎荆棘",
+        "relativePath": "src/assets/icons/spirit/spirit_flame_thorn.png",
+        "filename": "spirit_flame_thorn.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "carrot",
+        "name": "萝卜",
+        "relativePath": "src/assets/icons/spirit/spirit_carrot.png",
+        "filename": "spirit_carrot.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sky_green_vine",
+        "name": "天青藤",
+        "relativePath": "src/assets/icons/spirit/spirit_sky_green_vine.png",
+        "filename": "spirit_sky_green_vine.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "yellow_gem",
+        "name": "黄宝石",
+        "relativePath": "src/assets/icons/spirit/spirit_yellow_gem.png",
+        "filename": "spirit_yellow_gem.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "twin_rings",
+        "name": "一对圆环",
+        "relativePath": "src/assets/icons/spirit/spirit_twin_rings.png",
+        "filename": "spirit_twin_rings.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "silver_needle",
+        "name": "银针",
+        "relativePath": "src/assets/icons/spirit/spirit_silver_needle.png",
+        "filename": "spirit_silver_needle.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "luo_sanpao",
+        "name": "罗三炮",
+        "relativePath": "src/assets/icons/spirit/spirit_luo_sanpao.png",
+        "filename": "spirit_luo_sanpao.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sausage",
+        "name": "香肠",
+        "relativePath": "src/assets/icons/spirit/spirit_sausage.png",
+        "filename": "spirit_sausage.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "biluo_snake",
+        "name": "碧磷蛇皇",
+        "relativePath": "src/assets/icons/spirit/spirit_biluo_snake.png",
+        "filename": "spirit_biluo_snake.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "death_spider",
+        "name": "死亡蛛皇",
+        "relativePath": "src/assets/icons/spirit/spirit_death_spider.png",
+        "filename": "spirit_death_spider.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "medusa",
+        "name": "美杜莎",
+        "relativePath": "src/assets/icons/spirit/spirit_medusa.png",
+        "filename": "spirit_medusa.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sky_python",
+        "name": "天青牛蟒",
+        "relativePath": "src/assets/icons/spirit/spirit_sky_python.png",
+        "filename": "spirit_sky_python.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_vine",
+        "name": "鬼藤",
+        "relativePath": "src/assets/icons/spirit/spirit_ghost_vine.png",
+        "filename": "spirit_ghost_vine.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "wondrous_chrysanthemum",
+        "name": "奇茸通天菊",
+        "relativePath": "src/assets/icons/spirit/spirit_wondrous_chrysanthemum.png",
+        "filename": "spirit_wondrous_chrysanthemum.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "biluo_nine_flower",
+        "name": "碧磷九绝花",
+        "relativePath": "src/assets/icons/spirit/spirit_biluo_nine_flower.png",
+        "filename": "spirit_biluo_nine_flower.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "snow_lotus",
+        "name": "雪莲",
+        "relativePath": "src/assets/icons/spirit/spirit_snow_lotus.png",
+        "filename": "spirit_snow_lotus.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "octagon_ice",
+        "name": "八角玄冰草",
+        "relativePath": "src/assets/icons/spirit/spirit_octagon_ice.png",
+        "filename": "spirit_octagon_ice.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ruyi_plate",
+        "name": "如意盘",
+        "relativePath": "src/assets/icons/spirit/spirit_ruyi_plate.png",
+        "filename": "spirit_ruyi_plate.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sea_god",
+        "name": "海神",
+        "relativePath": "src/assets/icons/spirit/spirit_sea_god.png",
+        "filename": "spirit_sea_god.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_god",
+        "name": "天使神",
+        "relativePath": "src/assets/icons/spirit/spirit_angel_god.png",
+        "filename": "spirit_angel_god.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "god_of_cook",
+        "name": "食神",
+        "relativePath": "src/assets/icons/spirit/spirit_god_of_cook.png",
+        "filename": "spirit_god_of_cook.png",
+        "series": "intelligence",
+        "type": null,
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "skill",
+    "id": "skill_strength_atlas_v1",
+    "title": "力量系魂技图集",
+    "count": 45,
+    "columns": 9,
+    "rows": 5,
+    "items": [
+      {
+        "id": "miracle_totem",
+        "name": "神迹图腾",
+        "relativePath": "src/assets/icons/skill/skill_miracle_totem.png",
+        "filename": "skill_miracle_totem.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "power_surge",
+        "name": "力量涌动",
+        "relativePath": "src/assets/icons/skill/skill_power_surge.png",
+        "filename": "skill_power_surge.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "war_cry",
+        "name": "战吼",
+        "relativePath": "src/assets/icons/skill/skill_war_cry.png",
+        "filename": "skill_war_cry.png",
+        "series": "strength",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "titan_hammer",
+        "name": "泰坦之锤",
+        "relativePath": "src/assets/icons/skill/skill_titan_hammer.png",
+        "filename": "skill_titan_hammer.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_claw",
+        "name": "雷霆龙爪",
+        "relativePath": "src/assets/icons/skill/skill_thunder_claw.png",
+        "filename": "skill_thunder_claw.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "blood_fight",
+        "name": "浴血奋战",
+        "relativePath": "src/assets/icons/skill/skill_blood_fight.png",
+        "filename": "skill_blood_fight.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "crushing_blow",
+        "name": "碎裂重击",
+        "relativePath": "src/assets/icons/skill/skill_crushing_blow.png",
+        "filename": "skill_crushing_blow.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "iron_will",
+        "name": "钢铁意志",
+        "relativePath": "src/assets/icons/skill/skill_iron_will.png",
+        "filename": "skill_iron_will.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tiger_protect",
+        "name": "白虎护身障",
+        "relativePath": "src/assets/icons/skill/skill_tiger_protect.png",
+        "filename": "skill_tiger_protect.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_fury",
+        "name": "雷霆万钧",
+        "relativePath": "src/assets/icons/skill/skill_thunder_fury.png",
+        "filename": "skill_thunder_fury.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fire_eye",
+        "name": "火眼金睛",
+        "relativePath": "src/assets/icons/skill/skill_fire_eye.png",
+        "filename": "skill_fire_eye.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "berserk",
+        "name": "狂暴",
+        "relativePath": "src/assets/icons/skill/skill_berserk.png",
+        "filename": "skill_berserk.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_smash",
+        "name": "雷霆猛击",
+        "relativePath": "src/assets/icons/skill/skill_thunder_smash.png",
+        "filename": "skill_thunder_smash.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tiger_vajra",
+        "name": "白虎金刚变",
+        "relativePath": "src/assets/icons/skill/skill_tiger_vajra.png",
+        "filename": "skill_tiger_vajra.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_rage",
+        "name": "雷霆之怒",
+        "relativePath": "src/assets/icons/skill/skill_thunder_rage.png",
+        "filename": "skill_thunder_rage.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "death_pact",
+        "name": "死神契约",
+        "relativePath": "src/assets/icons/skill/skill_death_pact.png",
+        "filename": "skill_death_pact.png",
+        "series": "strength",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soul_crush",
+        "name": "碎魂击",
+        "relativePath": "src/assets/icons/skill/skill_soul_crush.png",
+        "filename": "skill_soul_crush.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fortress",
+        "name": "不动要塞",
+        "relativePath": "src/assets/icons/skill/skill_fortress.png",
+        "filename": "skill_fortress.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tiger_meteor",
+        "name": "白虎流星雨",
+        "relativePath": "src/assets/icons/skill/skill_tiger_meteor.png",
+        "filename": "skill_tiger_meteor.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dark_evil_thunder",
+        "name": "暗魔邪雷怒",
+        "relativePath": "src/assets/icons/skill/skill_dark_evil_thunder.png",
+        "filename": "skill_dark_evil_thunder.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dragon_armor",
+        "name": "龙甲拳",
+        "relativePath": "src/assets/icons/skill/skill_dragon_armor.png",
+        "filename": "skill_dragon_armor.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "earthquake",
+        "name": "大地震击",
+        "relativePath": "src/assets/icons/skill/skill_earthquake.png",
+        "filename": "skill_earthquake.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "life_steal",
+        "name": "嗜血",
+        "relativePath": "src/assets/icons/skill/skill_life_steal.png",
+        "filename": "skill_life_steal.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_hell",
+        "name": "雷霆地狱",
+        "relativePath": "src/assets/icons/skill/skill_thunder_hell.png",
+        "filename": "skill_thunder_hell.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tiger_demon",
+        "name": "白虎魔神变",
+        "relativePath": "src/assets/icons/skill/skill_tiger_demon.png",
+        "filename": "skill_tiger_demon.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "power_essence",
+        "name": "力量要领",
+        "relativePath": "src/assets/icons/skill/skill_power_essence.png",
+        "filename": "skill_power_essence.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "annihilate",
+        "name": "歼灭",
+        "relativePath": "src/assets/icons/skill/skill_annihilate.png",
+        "filename": "skill_annihilate.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "war_god",
+        "name": "战神降临",
+        "relativePath": "src/assets/icons/skill/skill_war_god.png",
+        "filename": "skill_war_god.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_breath",
+        "name": "蓝电龙吐息",
+        "relativePath": "src/assets/icons/skill/skill_thunder_breath.png",
+        "filename": "skill_thunder_breath.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tiger_massacre",
+        "name": "白虎破灭杀",
+        "relativePath": "src/assets/icons/skill/skill_tiger_massacre.png",
+        "filename": "skill_tiger_massacre.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "rage_blood",
+        "name": "怪力血液",
+        "relativePath": "src/assets/icons/skill/skill_rage_blood.png",
+        "filename": "skill_rage_blood.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "titan_fist",
+        "name": "泰坦之拳",
+        "relativePath": "src/assets/icons/skill/skill_titan_fist.png",
+        "filename": "skill_titan_fist.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "unyielding",
+        "name": "不屈意志",
+        "relativePath": "src/assets/icons/skill/skill_unyielding.png",
+        "filename": "skill_unyielding.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dragon_true_body",
+        "name": "霸王龙真身",
+        "relativePath": "src/assets/icons/skill/skill_dragon_true_body.png",
+        "filename": "skill_dragon_true_body.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "axe_true_body",
+        "name": "昊天真身",
+        "relativePath": "src/assets/icons/skill/skill_axe_true_body.png",
+        "filename": "skill_axe_true_body.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "laser",
+        "name": "激光",
+        "relativePath": "src/assets/icons/skill/skill_laser.png",
+        "filename": "skill_laser.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "doom_slash",
+        "name": "末日斩",
+        "relativePath": "src/assets/icons/skill/skill_doom_slash.png",
+        "filename": "skill_doom_slash.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dragon_roar",
+        "name": "龙啸",
+        "relativePath": "src/assets/icons/skill/skill_dragon_roar.png",
+        "filename": "skill_dragon_roar.png",
+        "series": "strength",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_god",
+        "name": "雷神附体",
+        "relativePath": "src/assets/icons/skill/skill_thunder_god.png",
+        "filename": "skill_thunder_god.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sword_true_body",
+        "name": "七杀真身",
+        "relativePath": "src/assets/icons/skill/skill_sword_true_body.png",
+        "filename": "skill_sword_true_body.png",
+        "series": "strength",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "heavenly_blow",
+        "name": "白虎开天击",
+        "relativePath": "src/assets/icons/skill/skill_heavenly_blow.png",
+        "filename": "skill_heavenly_blow.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dragon_descend",
+        "name": "真龙降临",
+        "relativePath": "src/assets/icons/skill/skill_dragon_descend.png",
+        "filename": "skill_dragon_descend.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "god_demon_slash",
+        "name": "神魔两斩",
+        "relativePath": "src/assets/icons/skill/skill_god_demon_slash.png",
+        "filename": "skill_god_demon_slash.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "hammer_kill_realm",
+        "name": "杀戮结界",
+        "relativePath": "src/assets/icons/skill/skill_hammer_kill_realm.png",
+        "filename": "skill_hammer_kill_realm.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_judge",
+        "name": "雷霆审判",
+        "relativePath": "src/assets/icons/skill/skill_thunder_judge.png",
+        "filename": "skill_thunder_judge.png",
+        "series": "strength",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "skill",
+    "id": "skill_agility_atlas_v1",
+    "title": "敏捷系魂技图集",
+    "count": 45,
+    "columns": 9,
+    "rows": 5,
+    "items": [
+      {
+        "id": "exhaust_domain",
+        "name": "竭力领域",
+        "relativePath": "src/assets/icons/skill/skill_exhaust_domain.png",
+        "filename": "skill_exhaust_domain.png",
+        "series": "agility",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "swift_shadow",
+        "name": "疾影",
+        "relativePath": "src/assets/icons/skill/skill_swift_shadow.png",
+        "filename": "skill_swift_shadow.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "poison_sting",
+        "name": "毒刺",
+        "relativePath": "src/assets/icons/skill/skill_poison_sting.png",
+        "filename": "skill_poison_sting.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "waist_bow",
+        "name": "腰弓",
+        "relativePath": "src/assets/icons/skill/skill_waist_bow.png",
+        "filename": "skill_waist_bow.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_assault",
+        "name": "天使突击",
+        "relativePath": "src/assets/icons/skill/skill_angel_assault.png",
+        "filename": "skill_angel_assault.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "death_strike",
+        "name": "死神之袭",
+        "relativePath": "src/assets/icons/skill/skill_death_strike.png",
+        "filename": "skill_death_strike.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "shadow_step",
+        "name": "影步",
+        "relativePath": "src/assets/icons/skill/skill_shadow_step.png",
+        "filename": "skill_shadow_step.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "blade_dance",
+        "name": "刀刃之舞",
+        "relativePath": "src/assets/icons/skill/skill_blade_dance.png",
+        "filename": "skill_blade_dance.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "charm",
+        "name": "魅惑",
+        "relativePath": "src/assets/icons/skill/skill_charm.png",
+        "filename": "skill_charm.png",
+        "series": "agility",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "void_wings",
+        "name": "虚无之翼",
+        "relativePath": "src/assets/icons/skill/skill_void_wings.png",
+        "filename": "skill_void_wings.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "flying_swallow",
+        "name": "凌波飞燕",
+        "relativePath": "src/assets/icons/skill/skill_flying_swallow.png",
+        "filename": "skill_flying_swallow.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "assassinate",
+        "name": "暗杀",
+        "relativePath": "src/assets/icons/skill/skill_assassinate.png",
+        "filename": "skill_assassinate.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "wind_walk",
+        "name": "风行",
+        "relativePath": "src/assets/icons/skill/skill_wind_walk.png",
+        "filename": "skill_wind_walk.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "teleport",
+        "name": "瞬移",
+        "relativePath": "src/assets/icons/skill/skill_teleport.png",
+        "filename": "skill_teleport.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_fire",
+        "name": "凤翼天翔",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_fire.png",
+        "filename": "skill_phoenix_fire.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "stealth",
+        "name": "隐身术",
+        "relativePath": "src/assets/icons/skill/skill_stealth.png",
+        "filename": "skill_stealth.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phantom_blade",
+        "name": "幻影刃",
+        "relativePath": "src/assets/icons/skill/skill_phantom_blade.png",
+        "filename": "skill_phantom_blade.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "venom_rain",
+        "name": "毒雨",
+        "relativePath": "src/assets/icons/skill/skill_venom_rain.png",
+        "filename": "skill_venom_rain.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "golden_body",
+        "name": "无敌金身",
+        "relativePath": "src/assets/icons/skill/skill_golden_body.png",
+        "filename": "skill_golden_body.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_sky_attack",
+        "name": "凤凰啸天击",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_sky_attack.png",
+        "filename": "skill_phoenix_sky_attack.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "invisible_mask",
+        "name": "掩面无形",
+        "relativePath": "src/assets/icons/skill/skill_invisible_mask.png",
+        "filename": "skill_invisible_mask.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thousand_cuts",
+        "name": "千刃斩",
+        "relativePath": "src/assets/icons/skill/skill_thousand_cuts.png",
+        "filename": "skill_thousand_cuts.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mirror_image",
+        "name": "镜影分身",
+        "relativePath": "src/assets/icons/skill/skill_mirror_image.png",
+        "filename": "skill_mirror_image.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soft_bone_lock",
+        "name": "柔骨锁",
+        "relativePath": "src/assets/icons/skill/skill_soft_bone_lock.png",
+        "filename": "skill_soft_bone_lock.png",
+        "series": "agility",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_meteor",
+        "name": "凤凰流星雨",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_meteor.png",
+        "filename": "skill_phoenix_meteor.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "storm_slash",
+        "name": "风暴鬼斩",
+        "relativePath": "src/assets/icons/skill/skill_storm_slash.png",
+        "filename": "skill_storm_slash.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "shadow_kill",
+        "name": "暗影杀",
+        "relativePath": "src/assets/icons/skill/skill_shadow_kill.png",
+        "filename": "skill_shadow_kill.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "flash_dance",
+        "name": "闪舞",
+        "relativePath": "src/assets/icons/skill/skill_flash_dance.png",
+        "filename": "skill_flash_dance.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "eight_stage_slam",
+        "name": "爆杀八段摔",
+        "relativePath": "src/assets/icons/skill/skill_eight_stage_slam.png",
+        "filename": "skill_eight_stage_slam.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_roar",
+        "name": "天使咆哮",
+        "relativePath": "src/assets/icons/skill/skill_angel_roar.png",
+        "filename": "skill_angel_roar.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "cat_true_body",
+        "name": "灵猫真身",
+        "relativePath": "src/assets/icons/skill/skill_cat_true_body.png",
+        "filename": "skill_cat_true_body.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_7head",
+        "name": "七首火凤凰",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_7head.png",
+        "filename": "skill_phoenix_7head.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "rabbit_true_body",
+        "name": "柔骨兔真身",
+        "relativePath": "src/assets/icons/skill/skill_rabbit_true_body.png",
+        "filename": "skill_rabbit_true_body.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_true_body",
+        "name": "天使真身",
+        "relativePath": "src/assets/icons/skill/skill_angel_true_body.png",
+        "filename": "skill_angel_true_body.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost100_claw",
+        "name": "幽冥百爪",
+        "relativePath": "src/assets/icons/skill/skill_ghost100_claw.png",
+        "filename": "skill_ghost100_claw.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_fusion",
+        "name": "幽冥影相连",
+        "relativePath": "src/assets/icons/skill/skill_ghost_fusion.png",
+        "filename": "skill_ghost_fusion.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_chain",
+        "name": "凤凰弑心链",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_chain.png",
+        "filename": "skill_phoenix_chain.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_virtual",
+        "name": "天使虚像",
+        "relativePath": "src/assets/icons/skill/skill_angel_virtual.png",
+        "filename": "skill_angel_virtual.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "moonlight_dance",
+        "name": "月光",
+        "relativePath": "src/assets/icons/skill/skill_moonlight_dance.png",
+        "filename": "skill_moonlight_dance.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phantom_possess",
+        "name": "幽冥附体",
+        "relativePath": "src/assets/icons/skill/skill_phantom_possess.png",
+        "filename": "skill_phantom_possess.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_hellfire",
+        "name": "凤凰地狱火",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_hellfire.png",
+        "filename": "skill_phoenix_hellfire.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "angel_sun",
+        "name": "太阳之力",
+        "relativePath": "src/assets/icons/skill/skill_angel_sun.png",
+        "filename": "skill_angel_sun.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "rabbit_domain",
+        "name": "柔媚领域",
+        "relativePath": "src/assets/icons/skill/skill_rabbit_domain.png",
+        "filename": "skill_rabbit_domain.png",
+        "series": "agility",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ghost_claw",
+        "name": "幽冥神爪",
+        "relativePath": "src/assets/icons/skill/skill_ghost_claw.png",
+        "filename": "skill_ghost_claw.png",
+        "series": "agility",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "phoenix_nirvana",
+        "name": "凤凰涅槃",
+        "relativePath": "src/assets/icons/skill/skill_phoenix_nirvana.png",
+        "filename": "skill_phoenix_nirvana.png",
+        "series": "agility",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "skill",
+    "id": "skill_intelligence_atlas_v1",
+    "title": "智力系魂技图集",
+    "count": 45,
+    "columns": 9,
+    "rows": 5,
+    "items": [
+      {
+        "id": "massacre",
+        "name": "残杀",
+        "relativePath": "src/assets/icons/skill/skill_massacre.png",
+        "filename": "skill_massacre.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "spirit_burn",
+        "name": "魂力燃烧",
+        "relativePath": "src/assets/icons/skill/skill_spirit_burn.png",
+        "filename": "skill_spirit_burn.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mind_barrier",
+        "name": "心灵屏障",
+        "relativePath": "src/assets/icons/skill/skill_mind_barrier.png",
+        "filename": "skill_mind_barrier.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "tangle",
+        "name": "缠绕",
+        "relativePath": "src/assets/icons/skill/skill_tangle.png",
+        "filename": "skill_tangle.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "heal_sausage",
+        "name": "恢复大香肠",
+        "relativePath": "src/assets/icons/skill/skill_heal_sausage.png",
+        "filename": "skill_heal_sausage.png",
+        "series": "intelligence",
+        "type": "heal",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "exhaust_domain_i",
+        "name": "竭力领域",
+        "relativePath": "src/assets/icons/skill/skill_exhaust_domain_i.png",
+        "filename": "skill_exhaust_domain_i.png",
+        "series": "intelligence",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soul_drain",
+        "name": "吸魂术",
+        "relativePath": "src/assets/icons/skill/skill_soul_drain.png",
+        "filename": "skill_soul_drain.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "ice_chain",
+        "name": "冰链束缚",
+        "relativePath": "src/assets/icons/skill/skill_ice_chain.png",
+        "filename": "skill_ice_chain.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "parasite",
+        "name": "寄生",
+        "relativePath": "src/assets/icons/skill/skill_parasite.png",
+        "filename": "skill_parasite.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "purify_sausage",
+        "name": "解毒小腊肠",
+        "relativePath": "src/assets/icons/skill/skill_purify_sausage.png",
+        "filename": "skill_purify_sausage.png",
+        "series": "intelligence",
+        "type": "heal",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soul_shield",
+        "name": "魂力之盾",
+        "relativePath": "src/assets/icons/skill/skill_soul_shield.png",
+        "filename": "skill_soul_shield.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fire_storm",
+        "name": "烈焰风暴",
+        "relativePath": "src/assets/icons/skill/skill_fire_storm.png",
+        "filename": "skill_fire_storm.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "hypnosis",
+        "name": "催眠术",
+        "relativePath": "src/assets/icons/skill/skill_hypnosis.png",
+        "filename": "skill_hypnosis.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "spider_web",
+        "name": "蛛网束缚",
+        "relativePath": "src/assets/icons/skill/skill_spider_web.png",
+        "filename": "skill_spider_web.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "fly_mushroom",
+        "name": "急速飞行蘑菇肠",
+        "relativePath": "src/assets/icons/skill/skill_fly_mushroom.png",
+        "filename": "skill_fly_mushroom.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "projection",
+        "name": "影射",
+        "relativePath": "src/assets/icons/skill/skill_projection.png",
+        "filename": "skill_projection.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "dark_contract",
+        "name": "暗之契约",
+        "relativePath": "src/assets/icons/skill/skill_dark_contract.png",
+        "filename": "skill_dark_contract.png",
+        "series": "intelligence",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "healing_rain",
+        "name": "治愈之雨",
+        "relativePath": "src/assets/icons/skill/skill_healing_rain.png",
+        "filename": "skill_healing_rain.png",
+        "series": "intelligence",
+        "type": "heal",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "silver_cage",
+        "name": "蓝银囚笼",
+        "relativePath": "src/assets/icons/skill/skill_silver_cage.png",
+        "filename": "skill_silver_cage.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "excite_sausage",
+        "name": "亢奋粉红肠",
+        "relativePath": "src/assets/icons/skill/skill_excite_sausage.png",
+        "filename": "skill_excite_sausage.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "invisible_mask_i",
+        "name": "掩面无形",
+        "relativePath": "src/assets/icons/skill/skill_invisible_mask_i.png",
+        "filename": "skill_invisible_mask_i.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thunder_bolt",
+        "name": "雷霆万钧",
+        "relativePath": "src/assets/icons/skill/skill_thunder_bolt.png",
+        "filename": "skill_thunder_bolt.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "purify",
+        "name": "净化",
+        "relativePath": "src/assets/icons/skill/skill_purify.png",
+        "filename": "skill_purify.png",
+        "series": "intelligence",
+        "type": "heal",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "domineer_gun",
+        "name": "蓝银霸王枪",
+        "relativePath": "src/assets/icons/skill/skill_domineer_gun.png",
+        "filename": "skill_domineer_gun.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "copy_mirror_sausage",
+        "name": "复制镜像肠",
+        "relativePath": "src/assets/icons/skill/skill_copy_mirror_sausage.png",
+        "filename": "skill_copy_mirror_sausage.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "wisdom_irrigation",
+        "name": "智慧浇灌",
+        "relativePath": "src/assets/icons/skill/skill_wisdom_irrigation.png",
+        "filename": "skill_wisdom_irrigation.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "soul_devour",
+        "name": "噬魂",
+        "relativePath": "src/assets/icons/skill/skill_soul_devour.png",
+        "filename": "skill_soul_devour.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "resurrection",
+        "name": "复苏",
+        "relativePath": "src/assets/icons/skill/skill_resurrection.png",
+        "filename": "skill_resurrection.png",
+        "series": "intelligence",
+        "type": "heal",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nihil",
+        "name": "虚无",
+        "relativePath": "src/assets/icons/skill/skill_nihil.png",
+        "filename": "skill_nihil.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "golden_fly",
+        "name": "坚挺金苍蝇",
+        "relativePath": "src/assets/icons/skill/skill_golden_fly.png",
+        "filename": "skill_golden_fly.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "song_confusion",
+        "name": "歌声迷离",
+        "relativePath": "src/assets/icons/skill/skill_song_confusion.png",
+        "filename": "skill_song_confusion.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "spirit_storm",
+        "name": "魂力风暴",
+        "relativePath": "src/assets/icons/skill/skill_spirit_storm.png",
+        "filename": "skill_spirit_storm.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "divine_shield",
+        "name": "神圣护盾",
+        "relativePath": "src/assets/icons/skill/skill_divine_shield.png",
+        "filename": "skill_divine_shield.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bluesilver_true",
+        "name": "蓝银真身",
+        "relativePath": "src/assets/icons/skill/skill_bluesilver_true.png",
+        "filename": "skill_bluesilver_true.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nine_treasure_true",
+        "name": "九宝真身",
+        "relativePath": "src/assets/icons/skill/skill_nine_treasure_true.png",
+        "filename": "skill_nine_treasure_true.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "thousand_blades",
+        "name": "万剑流",
+        "relativePath": "src/assets/icons/skill/skill_thousand_blades.png",
+        "filename": "skill_thousand_blades.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "apocalypse",
+        "name": "天罚",
+        "relativePath": "src/assets/icons/skill/skill_apocalypse.png",
+        "filename": "skill_apocalypse.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "time_stop",
+        "name": "时间停滞",
+        "relativePath": "src/assets/icons/skill/skill_time_stop.png",
+        "filename": "skill_time_stop.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mirror_destroy",
+        "name": "蓝银邪魔镜之灭",
+        "relativePath": "src/assets/icons/skill/skill_mirror_destroy.png",
+        "filename": "skill_mirror_destroy.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nine_sacred_light",
+        "name": "九宝神光护体",
+        "relativePath": "src/assets/icons/skill/skill_nine_sacred_light.png",
+        "filename": "skill_nine_sacred_light.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "azure_dragon_soul",
+        "name": "蓝银天青龙之魂",
+        "relativePath": "src/assets/icons/skill/skill_azure_dragon_soul.png",
+        "filename": "skill_azure_dragon_soul.png",
+        "series": "intelligence",
+        "type": "damage",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "nine_revive_light",
+        "name": "九宝无敌神光",
+        "relativePath": "src/assets/icons/skill/skill_nine_revive_light.png",
+        "filename": "skill_nine_revive_light.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "absolute_zero",
+        "name": "绝对零度",
+        "relativePath": "src/assets/icons/skill/skill_absolute_zero.png",
+        "filename": "skill_absolute_zero.png",
+        "series": "intelligence",
+        "type": "control",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "death_domain",
+        "name": "死亡领域",
+        "relativePath": "src/assets/icons/skill/skill_death_domain.png",
+        "filename": "skill_death_domain.png",
+        "series": "intelligence",
+        "type": "debuff",
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "diamond_sausage",
+        "name": "扭转乾坤钻石肠",
+        "relativePath": "src/assets/icons/skill/skill_diamond_sausage.png",
+        "filename": "skill_diamond_sausage.png",
+        "series": "intelligence",
+        "type": "buff",
+        "slot": null,
+        "quality": null
+      }
+    ]
+  },
+  {
+    "category": "bone",
+    "id": "bone_atlas_v1",
+    "title": "魂骨图集",
+    "count": 54,
+    "columns": 9,
+    "rows": 6,
+    "items": [
+      {
+        "id": "b_head_wisdom",
+        "name": "精神凝聚之智慧头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_wisdom.png",
+        "filename": "bone_b_head_wisdom.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "orange"
+      },
+      {
+        "id": "b_head_phantom",
+        "name": "幻境智慧头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_phantom.png",
+        "filename": "bone_b_head_phantom.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "purple"
+      },
+      {
+        "id": "b_head_charm",
+        "name": "精神凝聚之魅惑头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_charm.png",
+        "filename": "bone_b_head_charm.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "orange"
+      },
+      {
+        "id": "b_head_mirror",
+        "name": "镜像智慧头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_mirror.png",
+        "filename": "bone_b_head_mirror.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "purple"
+      },
+      {
+        "id": "b_head_noble",
+        "name": "贵族头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_noble.png",
+        "filename": "bone_b_head_noble.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "green"
+      },
+      {
+        "id": "b_head_death",
+        "name": "死亡头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_death.png",
+        "filename": "bone_b_head_death.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "blue"
+      },
+      {
+        "id": "b_head_iron_will",
+        "name": "铁意头骨",
+        "relativePath": "src/assets/icons/bone/bone_b_head_iron_will.png",
+        "filename": "bone_b_head_iron_will.png",
+        "series": null,
+        "type": null,
+        "slot": "head",
+        "quality": "blue"
+      },
+      {
+        "id": "b_torso_whale",
+        "name": "深海魔鲸王躯干骨",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_whale.png",
+        "filename": "bone_b_torso_whale.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "red"
+      },
+      {
+        "id": "b_torso_saint",
+        "name": "圣者躯干骨",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_saint.png",
+        "filename": "bone_b_torso_saint.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "purple"
+      },
+      {
+        "id": "b_torso_iron_tree",
+        "name": "铁树躯干骨",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_iron_tree.png",
+        "filename": "bone_b_torso_iron_tree.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "green"
+      },
+      {
+        "id": "b_torso_lock",
+        "name": "锁子躯干骨",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_lock.png",
+        "filename": "bone_b_torso_lock.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "blue"
+      },
+      {
+        "id": "b_torso_xuanming",
+        "name": "玄冥躯干骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_xuanming.png",
+        "filename": "bone_b_torso_xuanming.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "blue"
+      },
+      {
+        "id": "b_torso_restore",
+        "name": "恢复躯干骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_restore.png",
+        "filename": "bone_b_torso_restore.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "purple"
+      },
+      {
+        "id": "b_torso_demon_whale",
+        "name": "深海魔鲸躯干骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_torso_demon_whale.png",
+        "filename": "bone_b_torso_demon_whale.png",
+        "series": null,
+        "type": null,
+        "slot": "torso",
+        "quality": "orange"
+      },
+      {
+        "id": "b_leftarm_titan",
+        "name": "泰坦巨猿左臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_titan.png",
+        "filename": "bone_b_leftarm_titan.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "red"
+      },
+      {
+        "id": "b_leftarm_rabbit",
+        "name": "柔骨兔左臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_rabbit.png",
+        "filename": "bone_b_leftarm_rabbit.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "red"
+      },
+      {
+        "id": "b_leftarm_guardian",
+        "name": "守护臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_guardian.png",
+        "filename": "bone_b_leftarm_guardian.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "blue"
+      },
+      {
+        "id": "b_leftarm_holy",
+        "name": "圣殿臂骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_holy.png",
+        "filename": "bone_b_leftarm_holy.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "green"
+      },
+      {
+        "id": "b_leftarm_tenacious",
+        "name": "坚韧臂骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_tenacious.png",
+        "filename": "bone_b_leftarm_tenacious.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "blue"
+      },
+      {
+        "id": "b_leftarm_titan_arm",
+        "name": "泰坦巨猿臂骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftarm_titan_arm.png",
+        "filename": "bone_b_leftarm_titan_arm.png",
+        "series": null,
+        "type": null,
+        "slot": "leftArm",
+        "quality": "purple"
+      },
+      {
+        "id": "b_rightarm_sky_python",
+        "name": "天青牛蟒右臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_sky_python.png",
+        "filename": "bone_b_rightarm_sky_python.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "red"
+      },
+      {
+        "id": "b_rightarm_flame",
+        "name": "爆裂焚烧之火焰臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_flame.png",
+        "filename": "bone_b_rightarm_flame.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "orange"
+      },
+      {
+        "id": "b_rightarm_reply",
+        "name": "回复臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_reply.png",
+        "filename": "bone_b_rightarm_reply.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "green"
+      },
+      {
+        "id": "b_rightarm_black_king",
+        "name": "黑皇臂骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_black_king.png",
+        "filename": "bone_b_rightarm_black_king.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "blue"
+      },
+      {
+        "id": "b_rightarm_energy",
+        "name": "能源臂骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_energy.png",
+        "filename": "bone_b_rightarm_energy.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "green"
+      },
+      {
+        "id": "b_rightarm_demon",
+        "name": "恶魔臂骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightarm_demon.png",
+        "filename": "bone_b_rightarm_demon.png",
+        "series": null,
+        "type": null,
+        "slot": "rightArm",
+        "quality": "purple"
+      },
+      {
+        "id": "b_leftleg_whale",
+        "name": "邪魔虎鲸王左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_whale.png",
+        "filename": "bone_b_leftleg_whale.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "red"
+      },
+      {
+        "id": "b_leftleg_swift",
+        "name": "急速前行之追风左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_swift.png",
+        "filename": "bone_b_leftleg_swift.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_leftleg_swallow",
+        "name": "飞燕腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_swallow.png",
+        "filename": "bone_b_leftleg_swallow.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "blue"
+      },
+      {
+        "id": "b_leftleg_secret",
+        "name": "秘法腿骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_secret.png",
+        "filename": "bone_b_leftleg_secret.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "blue"
+      },
+      {
+        "id": "b_leftleg_empty",
+        "name": "空明腿骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_empty.png",
+        "filename": "bone_b_leftleg_empty.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "purple"
+      },
+      {
+        "id": "b_leftleg_spider_king",
+        "name": "噬魂蛛皇腿骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_leftleg_spider_king.png",
+        "filename": "bone_b_leftleg_spider_king.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "purple"
+      },
+      {
+        "id": "b_rightleg_bluesilver",
+        "name": "蓝银皇右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_bluesilver.png",
+        "filename": "bone_b_rightleg_bluesilver.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "red"
+      },
+      {
+        "id": "b_rightleg_blood",
+        "name": "嗜血狂化之飓风右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_blood.png",
+        "filename": "bone_b_rightleg_blood.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_rightleg_agile",
+        "name": "敏捷腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_agile.png",
+        "filename": "bone_b_rightleg_agile.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "blue"
+      },
+      {
+        "id": "b_rightleg_speed",
+        "name": "速度腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_speed.png",
+        "filename": "bone_b_rightleg_speed.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "green"
+      },
+      {
+        "id": "b_rightleg_elf",
+        "name": "精灵腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_elf.png",
+        "filename": "bone_b_rightleg_elf.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "purple"
+      },
+      {
+        "id": "b_rightleg_charm",
+        "name": "魅惑头骨(腿骨卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_rightleg_charm.png",
+        "filename": "bone_b_rightleg_charm.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_ext_eight_spider",
+        "name": "八蛛矛外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_eight_spider.png",
+        "filename": "bone_b_ext_eight_spider.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "red"
+      },
+      {
+        "id": "b_ext_darkgold_claw",
+        "name": "暗金恐爪外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_darkgold_claw.png",
+        "filename": "bone_b_ext_darkgold_claw.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "red"
+      },
+      {
+        "id": "b_ext_purple_wing",
+        "name": "六翅紫光翼外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_purple_wing.png",
+        "filename": "bone_b_ext_purple_wing.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "orange"
+      },
+      {
+        "id": "b_ext_magic_stick",
+        "name": "魔棒外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_magic_stick.png",
+        "filename": "bone_b_ext_magic_stick.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "blue"
+      },
+      {
+        "id": "b_ext_revive",
+        "name": "复苏外附骨(卷轴)",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_revive.png",
+        "filename": "bone_b_ext_revive.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "purple"
+      },
+      {
+        "id": "b_ext_soul_power",
+        "name": "魂力外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_soul_power.png",
+        "filename": "bone_b_ext_soul_power.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "purple"
+      },
+      {
+        "id": "b_ext_life",
+        "name": "生命外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_life.png",
+        "filename": "bone_b_ext_life.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "orange"
+      },
+      {
+        "id": "b_ext_spirit_realm",
+        "name": "灵境外附骨",
+        "relativePath": "src/assets/icons/bone/bone_b_ext_spirit_realm.png",
+        "filename": "bone_b_ext_spirit_realm.png",
+        "series": null,
+        "type": null,
+        "slot": "external",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_sea_leftleg",
+        "name": "海神左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_sea_leftleg.png",
+        "filename": "bone_b_set_sea_leftleg.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_sea_rightleg",
+        "name": "海神右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_sea_rightleg.png",
+        "filename": "bone_b_set_sea_rightleg.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_devil_leftleg",
+        "name": "罗刹左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_devil_leftleg.png",
+        "filename": "bone_b_set_devil_leftleg.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_devil_rightleg",
+        "name": "罗刹右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_devil_rightleg.png",
+        "filename": "bone_b_set_devil_rightleg.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_angel_leftleg",
+        "name": "天使左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_angel_leftleg.png",
+        "filename": "bone_b_set_angel_leftleg.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_angel_rightleg",
+        "name": "天使右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_angel_rightleg.png",
+        "filename": "bone_b_set_angel_rightleg.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_food_leftleg",
+        "name": "食神左腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_food_leftleg.png",
+        "filename": "bone_b_set_food_leftleg.png",
+        "series": null,
+        "type": null,
+        "slot": "leftLeg",
+        "quality": "orange"
+      },
+      {
+        "id": "b_set_food_rightleg",
+        "name": "食神右腿骨",
+        "relativePath": "src/assets/icons/bone/bone_b_set_food_rightleg.png",
+        "filename": "bone_b_set_food_rightleg.png",
+        "series": null,
+        "type": null,
+        "slot": "rightLeg",
+        "quality": "orange"
+      }
+    ]
+  },
+  {
+    "category": "misc",
+    "id": "misc_icons_atlas_v1",
+    "title": "物品系统边框图集",
+    "count": 54,
+    "columns": 9,
+    "rows": 6,
+    "items": [
+      {
+        "id": "hp_potion_s",
+        "name": "初级回血药",
+        "relativePath": "src/assets/icons/item/item_hp_potion_s.png",
+        "filename": "item_hp_potion_s.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "white"
+      },
+      {
+        "id": "hp_potion_m",
+        "name": "中级回血药",
+        "relativePath": "src/assets/icons/item/item_hp_potion_m.png",
+        "filename": "item_hp_potion_m.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "hp_potion_l",
+        "name": "高级回血药",
+        "relativePath": "src/assets/icons/item/item_hp_potion_l.png",
+        "filename": "item_hp_potion_l.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "mp_potion_s",
+        "name": "初级回蓝药",
+        "relativePath": "src/assets/icons/item/item_mp_potion_s.png",
+        "filename": "item_mp_potion_s.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "white"
+      },
+      {
+        "id": "mp_potion_m",
+        "name": "中级回蓝药",
+        "relativePath": "src/assets/icons/item/item_mp_potion_m.png",
+        "filename": "item_mp_potion_m.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "mp_potion_l",
+        "name": "高级回蓝药",
+        "relativePath": "src/assets/icons/item/item_mp_potion_l.png",
+        "filename": "item_mp_potion_l.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "scroll_s1",
+        "name": "低级附魂石(1环)",
+        "relativePath": "src/assets/icons/item/item_scroll_s1.png",
+        "filename": "item_scroll_s1.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "white"
+      },
+      {
+        "id": "scroll_m1",
+        "name": "中级附魂石(1环)",
+        "relativePath": "src/assets/icons/item/item_scroll_m1.png",
+        "filename": "item_scroll_m1.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "forget_stone",
+        "name": "忘魂石",
+        "relativePath": "src/assets/icons/item/item_forget_stone.png",
+        "filename": "item_forget_stone.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "moon_stone",
+        "name": "月光石",
+        "relativePath": "src/assets/icons/item/item_moon_stone.png",
+        "filename": "item_moon_stone.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "qingling_stone",
+        "name": "青灵石",
+        "relativePath": "src/assets/icons/item/item_qingling_stone.png",
+        "filename": "item_qingling_stone.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "white"
+      },
+      {
+        "id": "deep_sea_silver",
+        "name": "深海银母",
+        "relativePath": "src/assets/icons/item/item_deep_sea_silver.png",
+        "filename": "item_deep_sea_silver.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "fierce_gunpowder",
+        "name": "猛烈火药",
+        "relativePath": "src/assets/icons/item/item_fierce_gunpowder.png",
+        "filename": "item_fierce_gunpowder.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "bodhi_leaf",
+        "name": "菩提叶",
+        "relativePath": "src/assets/icons/item/item_bodhi_leaf.png",
+        "filename": "item_bodhi_leaf.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "ancient_scroll",
+        "name": "上古密卷",
+        "relativePath": "src/assets/icons/item/item_ancient_scroll.png",
+        "filename": "item_ancient_scroll.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "domain_shard",
+        "name": "碎裂的领域石",
+        "relativePath": "src/assets/icons/item/item_domain_shard.png",
+        "filename": "item_domain_shard.png",
+        "series": null,
+        "type": "material",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "spirit_pill",
+        "name": "灵力丹",
+        "relativePath": "src/assets/icons/item/item_spirit_pill.png",
+        "filename": "item_spirit_pill.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "ring_random",
+        "name": "随机魂环",
+        "relativePath": "src/assets/icons/item/item_ring_random.png",
+        "filename": "item_ring_random.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "bone_fragment",
+        "name": "魂骨碎片",
+        "relativePath": "src/assets/icons/item/item_bone_fragment.png",
+        "filename": "item_bone_fragment.png",
+        "series": null,
+        "type": "bone",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "god_fragment",
+        "name": "神位碎片",
+        "relativePath": "src/assets/icons/item/item_god_fragment.png",
+        "filename": "item_god_fragment.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "red"
+      },
+      {
+        "id": "exp_potion_s",
+        "name": "初级经验药水",
+        "relativePath": "src/assets/icons/item/item_exp_potion_s.png",
+        "filename": "item_exp_potion_s.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "exp_potion_m",
+        "name": "中级经验药水",
+        "relativePath": "src/assets/icons/item/item_exp_potion_m.png",
+        "filename": "item_exp_potion_m.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "exp_potion_l",
+        "name": "高级经验药水",
+        "relativePath": "src/assets/icons/item/item_exp_potion_l.png",
+        "filename": "item_exp_potion_l.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "allheal_potion",
+        "name": "全面恢复药水",
+        "relativePath": "src/assets/icons/item/item_allheal_potion.png",
+        "filename": "item_allheal_potion.png",
+        "series": null,
+        "type": "potion",
+        "slot": null,
+        "quality": "orange"
+      },
+      {
+        "id": "atk_scroll",
+        "name": "攻击卷轴",
+        "relativePath": "src/assets/icons/item/item_atk_scroll.png",
+        "filename": "item_atk_scroll.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "def_scroll",
+        "name": "防御卷轴",
+        "relativePath": "src/assets/icons/item/item_def_scroll.png",
+        "filename": "item_def_scroll.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "lucky_charm",
+        "name": "幸运符",
+        "relativePath": "src/assets/icons/item/item_lucky_charm.png",
+        "filename": "item_lucky_charm.png",
+        "series": null,
+        "type": "special",
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "character",
+        "name": "角色",
+        "relativePath": "src/assets/icons/system/ui_character.png",
+        "filename": "ui_character.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bag",
+        "name": "背包",
+        "relativePath": "src/assets/icons/system/ui_bag.png",
+        "filename": "ui_bag.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "spirit",
+        "name": "武魂",
+        "relativePath": "src/assets/icons/system/ui_spirit.png",
+        "filename": "ui_spirit.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "skill",
+        "name": "魂技",
+        "relativePath": "src/assets/icons/system/ui_skill.png",
+        "filename": "ui_skill.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "bone",
+        "name": "魂骨",
+        "relativePath": "src/assets/icons/system/ui_bone.png",
+        "filename": "ui_bone.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "codex",
+        "name": "图鉴",
+        "relativePath": "src/assets/icons/system/ui_codex.png",
+        "filename": "ui_codex.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "quest",
+        "name": "任务",
+        "relativePath": "src/assets/icons/system/ui_quest.png",
+        "filename": "ui_quest.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "rank",
+        "name": "排行",
+        "relativePath": "src/assets/icons/system/ui_rank.png",
+        "filename": "ui_rank.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "arena",
+        "name": "竞技场",
+        "relativePath": "src/assets/icons/system/ui_arena.png",
+        "filename": "ui_arena.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "sect",
+        "name": "宗门",
+        "relativePath": "src/assets/icons/system/ui_sect.png",
+        "filename": "ui_sect.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "world_map",
+        "name": "世界地图",
+        "relativePath": "src/assets/icons/system/ui_world_map.png",
+        "filename": "ui_world_map.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "shop",
+        "name": "商店",
+        "relativePath": "src/assets/icons/system/ui_shop.png",
+        "filename": "ui_shop.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "smithy",
+        "name": "铁匠铺",
+        "relativePath": "src/assets/icons/system/ui_smithy.png",
+        "filename": "ui_smithy.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "academy",
+        "name": "学院",
+        "relativePath": "src/assets/icons/system/ui_academy.png",
+        "filename": "ui_academy.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "settings",
+        "name": "设置",
+        "relativePath": "src/assets/icons/system/ui_settings.png",
+        "filename": "ui_settings.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "chat",
+        "name": "聊天",
+        "relativePath": "src/assets/icons/system/ui_chat.png",
+        "filename": "ui_chat.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "auto_fight",
+        "name": "自动战斗",
+        "relativePath": "src/assets/icons/system/ui_auto_fight.png",
+        "filename": "ui_auto_fight.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "mail",
+        "name": "邮件",
+        "relativePath": "src/assets/icons/system/ui_mail.png",
+        "filename": "ui_mail.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "map_pin",
+        "name": "地图点位",
+        "relativePath": "src/assets/icons/system/ui_map_pin.png",
+        "filename": "ui_map_pin.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "boss",
+        "name": "Boss",
+        "relativePath": "src/assets/icons/system/ui_boss.png",
+        "filename": "ui_boss.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "lock",
+        "name": "锁定",
+        "relativePath": "src/assets/icons/system/ui_lock.png",
+        "filename": "ui_lock.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": null
+      },
+      {
+        "id": "quality_white",
+        "name": "white 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_white.png",
+        "filename": "frame_quality_white.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "white"
+      },
+      {
+        "id": "quality_green",
+        "name": "green 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_green.png",
+        "filename": "frame_quality_green.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "green"
+      },
+      {
+        "id": "quality_blue",
+        "name": "blue 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_blue.png",
+        "filename": "frame_quality_blue.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "blue"
+      },
+      {
+        "id": "quality_purple",
+        "name": "purple 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_purple.png",
+        "filename": "frame_quality_purple.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "purple"
+      },
+      {
+        "id": "quality_orange",
+        "name": "orange 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_orange.png",
+        "filename": "frame_quality_orange.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "orange"
+      },
+      {
+        "id": "quality_red",
+        "name": "red 品质边框",
+        "relativePath": "src/assets/icons/frames/frame_quality_red.png",
+        "filename": "frame_quality_red.png",
+        "series": null,
+        "type": null,
+        "slot": null,
+        "quality": "red"
+      }
+    ]
+  }
+]

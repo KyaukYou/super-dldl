@@ -1,0 +1,360 @@
+{
+  "category": "spirit",
+  "id": "spirit_intelligence_atlas_v1",
+  "title": "智力系武魂图集",
+  "count": 35,
+  "columns": 7,
+  "rows": 5,
+  "items": [
+    {
+      "id": "bluesilver_emperor",
+      "name": "蓝银皇",
+      "relativePath": "src/assets/icons/spirit/spirit_bluesilver_emperor.png",
+      "filename": "spirit_bluesilver_emperor.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bluesilver_grass",
+      "name": "蓝银草",
+      "relativePath": "src/assets/icons/spirit/spirit_bluesilver_grass.png",
+      "filename": "spirit_bluesilver_grass.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nine_heart_hibiscus",
+      "name": "九心海棠",
+      "relativePath": "src/assets/icons/spirit/spirit_nine_heart_hibiscus.png",
+      "filename": "spirit_nine_heart_hibiscus.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "nine_treasure_glaze",
+      "name": "九宝琉璃塔",
+      "relativePath": "src/assets/icons/spirit/spirit_nine_treasure_glaze.png",
+      "filename": "spirit_nine_treasure_glaze.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "seven_treasure_glaze",
+      "name": "七宝琉璃塔",
+      "relativePath": "src/assets/icons/spirit/spirit_seven_treasure_glaze.png",
+      "filename": "spirit_seven_treasure_glaze.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "snake_staff",
+      "name": "蛇杖",
+      "relativePath": "src/assets/icons/spirit/spirit_snake_staff.png",
+      "filename": "spirit_snake_staff.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mystic_turtle",
+      "name": "玄龟",
+      "relativePath": "src/assets/icons/spirit/spirit_mystic_turtle.png",
+      "filename": "spirit_mystic_turtle.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sugar_bean",
+      "name": "糖豆",
+      "relativePath": "src/assets/icons/spirit/spirit_sugar_bean.png",
+      "filename": "spirit_sugar_bean.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sunflower",
+      "name": "太阳花",
+      "relativePath": "src/assets/icons/spirit/spirit_sunflower.png",
+      "filename": "spirit_sunflower.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bread",
+      "name": "面包",
+      "relativePath": "src/assets/icons/spirit/spirit_bread.png",
+      "filename": "spirit_bread.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mars_star",
+      "name": "火星",
+      "relativePath": "src/assets/icons/spirit/spirit_mars_star.png",
+      "filename": "spirit_mars_star.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dream_shatter",
+      "name": "残梦",
+      "relativePath": "src/assets/icons/spirit/spirit_dream_shatter.png",
+      "filename": "spirit_dream_shatter.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "orange_gem",
+      "name": "橙宝石",
+      "relativePath": "src/assets/icons/spirit/spirit_orange_gem.png",
+      "filename": "spirit_orange_gem.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ocean_gem",
+      "name": "海蓝宝石",
+      "relativePath": "src/assets/icons/spirit/spirit_ocean_gem.png",
+      "filename": "spirit_ocean_gem.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "flame_thorn",
+      "name": "赤炎荆棘",
+      "relativePath": "src/assets/icons/spirit/spirit_flame_thorn.png",
+      "filename": "spirit_flame_thorn.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "carrot",
+      "name": "萝卜",
+      "relativePath": "src/assets/icons/spirit/spirit_carrot.png",
+      "filename": "spirit_carrot.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sky_green_vine",
+      "name": "天青藤",
+      "relativePath": "src/assets/icons/spirit/spirit_sky_green_vine.png",
+      "filename": "spirit_sky_green_vine.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "yellow_gem",
+      "name": "黄宝石",
+      "relativePath": "src/assets/icons/spirit/spirit_yellow_gem.png",
+      "filename": "spirit_yellow_gem.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "twin_rings",
+      "name": "一对圆环",
+      "relativePath": "src/assets/icons/spirit/spirit_twin_rings.png",
+      "filename": "spirit_twin_rings.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "silver_needle",
+      "name": "银针",
+      "relativePath": "src/assets/icons/spirit/spirit_silver_needle.png",
+      "filename": "spirit_silver_needle.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "luo_sanpao",
+      "name": "罗三炮",
+      "relativePath": "src/assets/icons/spirit/spirit_luo_sanpao.png",
+      "filename": "spirit_luo_sanpao.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sausage",
+      "name": "香肠",
+      "relativePath": "src/assets/icons/spirit/spirit_sausage.png",
+      "filename": "spirit_sausage.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "biluo_snake",
+      "name": "碧磷蛇皇",
+      "relativePath": "src/assets/icons/spirit/spirit_biluo_snake.png",
+      "filename": "spirit_biluo_snake.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "death_spider",
+      "name": "死亡蛛皇",
+      "relativePath": "src/assets/icons/spirit/spirit_death_spider.png",
+      "filename": "spirit_death_spider.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "medusa",
+      "name": "美杜莎",
+      "relativePath": "src/assets/icons/spirit/spirit_medusa.png",
+      "filename": "spirit_medusa.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sky_python",
+      "name": "天青牛蟒",
+      "relativePath": "src/assets/icons/spirit/spirit_sky_python.png",
+      "filename": "spirit_sky_python.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_vine",
+      "name": "鬼藤",
+      "relativePath": "src/assets/icons/spirit/spirit_ghost_vine.png",
+      "filename": "spirit_ghost_vine.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "wondrous_chrysanthemum",
+      "name": "奇茸通天菊",
+      "relativePath": "src/assets/icons/spirit/spirit_wondrous_chrysanthemum.png",
+      "filename": "spirit_wondrous_chrysanthemum.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "biluo_nine_flower",
+      "name": "碧磷九绝花",
+      "relativePath": "src/assets/icons/spirit/spirit_biluo_nine_flower.png",
+      "filename": "spirit_biluo_nine_flower.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "snow_lotus",
+      "name": "雪莲",
+      "relativePath": "src/assets/icons/spirit/spirit_snow_lotus.png",
+      "filename": "spirit_snow_lotus.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "octagon_ice",
+      "name": "八角玄冰草",
+      "relativePath": "src/assets/icons/spirit/spirit_octagon_ice.png",
+      "filename": "spirit_octagon_ice.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ruyi_plate",
+      "name": "如意盘",
+      "relativePath": "src/assets/icons/spirit/spirit_ruyi_plate.png",
+      "filename": "spirit_ruyi_plate.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sea_god",
+      "name": "海神",
+      "relativePath": "src/assets/icons/spirit/spirit_sea_god.png",
+      "filename": "spirit_sea_god.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_god",
+      "name": "天使神",
+      "relativePath": "src/assets/icons/spirit/spirit_angel_god.png",
+      "filename": "spirit_angel_god.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "god_of_cook",
+      "name": "食神",
+      "relativePath": "src/assets/icons/spirit/spirit_god_of_cook.png",
+      "filename": "spirit_god_of_cook.png",
+      "series": "intelligence",
+      "type": null,
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

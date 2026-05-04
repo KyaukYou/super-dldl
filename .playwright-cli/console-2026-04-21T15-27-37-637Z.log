@@ -1,0 +1,16 @@
+[   26857ms] [LOG] [GameContainer] container rect: 1220 x 531 @ http://localhost:3001/src/ui/GameContainer.vue?t=1776785190704:37
+[   26857ms] [LOG] [Config] creating game: 1220 x 600 @ http://localhost:3001/src/game/config.ts?t=1776785190704:6
+[   26897ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://localhost:3001/node_modules/.vite/deps/phaser.js?v=3bf3575a:8455
+[   27162ms] [LOG] [GameContainer] canvas size: 1220 x 600 @ http://localhost:3001/src/ui/GameContainer.vue?t=1776785190704:47
+[   27164ms] [LOG] [GameScene] canvas: 1220 x 600 @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:44
+[   27164ms] [LOG] [GameScene] scene is alive: false @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:45
+[   27164ms] [LOG] [GameScene] map world bounds: -608 0 to 608 608 @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:54
+[   27167ms] [LOG] [GameScene] map created, tiles rendered @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:105
+[  143747ms] [LOG] [GameContainer] container rect: 1220 x 531 @ http://localhost:3001/src/ui/GameContainer.vue?t=1776785401281:37
+[  143747ms] [LOG] [Config] creating game: 1220 x 600 @ http://localhost:3001/src/game/config.ts?t=1776785190704:6
+[  143769ms] [LOG] %c %c %c %c %c Phaser v3.90.0 (WebGL | Web Audio) %c https://phaser.io/v390 background: #ff0000 background: #ffff00 background: #00ff00 background: #00ffff color: #ffffff; background: #000000 background: transparent @ http://localhost:3001/node_modules/.vite/deps/phaser.js?v=3bf3575a:8455
+[  143850ms] [LOG] [GameContainer] canvas size: 1220 x 600 @ http://localhost:3001/src/ui/GameContainer.vue?t=1776785401281:48
+[  143851ms] [LOG] [GameScene] canvas: 1220 x 600 @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:44
+[  143851ms] [LOG] [GameScene] scene is alive: false @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:45
+[  143851ms] [LOG] [GameScene] map world bounds: -608 0 to 608 608 @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:54
+[  143853ms] [LOG] [GameScene] map created, tiles rendered @ http://localhost:3001/src/game/scenes/GameScene.ts?t=1776785190704:105

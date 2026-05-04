@@ -1,0 +1,550 @@
+{
+  "category": "misc",
+  "id": "misc_icons_atlas_v1",
+  "title": "物品系统边框图集",
+  "count": 54,
+  "columns": 10,
+  "rows": 6,
+  "items": [
+    {
+      "id": "hp_potion_s",
+      "name": "初级回血药",
+      "relativePath": "src/assets/icons/item/item_hp_potion_s.png",
+      "filename": "item_hp_potion_s.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "white"
+    },
+    {
+      "id": "hp_potion_m",
+      "name": "中级回血药",
+      "relativePath": "src/assets/icons/item/item_hp_potion_m.png",
+      "filename": "item_hp_potion_m.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "hp_potion_l",
+      "name": "高级回血药",
+      "relativePath": "src/assets/icons/item/item_hp_potion_l.png",
+      "filename": "item_hp_potion_l.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "mp_potion_s",
+      "name": "初级回蓝药",
+      "relativePath": "src/assets/icons/item/item_mp_potion_s.png",
+      "filename": "item_mp_potion_s.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "white"
+    },
+    {
+      "id": "mp_potion_m",
+      "name": "中级回蓝药",
+      "relativePath": "src/assets/icons/item/item_mp_potion_m.png",
+      "filename": "item_mp_potion_m.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "mp_potion_l",
+      "name": "高级回蓝药",
+      "relativePath": "src/assets/icons/item/item_mp_potion_l.png",
+      "filename": "item_mp_potion_l.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "scroll_s1",
+      "name": "低级附魂石(1环)",
+      "relativePath": "src/assets/icons/item/item_scroll_s1.png",
+      "filename": "item_scroll_s1.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "white"
+    },
+    {
+      "id": "scroll_m1",
+      "name": "中级附魂石(1环)",
+      "relativePath": "src/assets/icons/item/item_scroll_m1.png",
+      "filename": "item_scroll_m1.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "forget_stone",
+      "name": "忘魂石",
+      "relativePath": "src/assets/icons/item/item_forget_stone.png",
+      "filename": "item_forget_stone.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "moon_stone",
+      "name": "月光石",
+      "relativePath": "src/assets/icons/item/item_moon_stone.png",
+      "filename": "item_moon_stone.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "qingling_stone",
+      "name": "青灵石",
+      "relativePath": "src/assets/icons/item/item_qingling_stone.png",
+      "filename": "item_qingling_stone.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "white"
+    },
+    {
+      "id": "deep_sea_silver",
+      "name": "深海银母",
+      "relativePath": "src/assets/icons/item/item_deep_sea_silver.png",
+      "filename": "item_deep_sea_silver.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "fierce_gunpowder",
+      "name": "猛烈火药",
+      "relativePath": "src/assets/icons/item/item_fierce_gunpowder.png",
+      "filename": "item_fierce_gunpowder.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "bodhi_leaf",
+      "name": "菩提叶",
+      "relativePath": "src/assets/icons/item/item_bodhi_leaf.png",
+      "filename": "item_bodhi_leaf.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "ancient_scroll",
+      "name": "上古密卷",
+      "relativePath": "src/assets/icons/item/item_ancient_scroll.png",
+      "filename": "item_ancient_scroll.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "domain_shard",
+      "name": "碎裂的领域石",
+      "relativePath": "src/assets/icons/item/item_domain_shard.png",
+      "filename": "item_domain_shard.png",
+      "series": null,
+      "type": "material",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "spirit_pill",
+      "name": "灵力丹",
+      "relativePath": "src/assets/icons/item/item_spirit_pill.png",
+      "filename": "item_spirit_pill.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "ring_random",
+      "name": "随机魂环",
+      "relativePath": "src/assets/icons/item/item_ring_random.png",
+      "filename": "item_ring_random.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "bone_fragment",
+      "name": "魂骨碎片",
+      "relativePath": "src/assets/icons/item/item_bone_fragment.png",
+      "filename": "item_bone_fragment.png",
+      "series": null,
+      "type": "bone",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "god_fragment",
+      "name": "神位碎片",
+      "relativePath": "src/assets/icons/item/item_god_fragment.png",
+      "filename": "item_god_fragment.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "red"
+    },
+    {
+      "id": "exp_potion_s",
+      "name": "初级经验药水",
+      "relativePath": "src/assets/icons/item/item_exp_potion_s.png",
+      "filename": "item_exp_potion_s.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "exp_potion_m",
+      "name": "中级经验药水",
+      "relativePath": "src/assets/icons/item/item_exp_potion_m.png",
+      "filename": "item_exp_potion_m.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "exp_potion_l",
+      "name": "高级经验药水",
+      "relativePath": "src/assets/icons/item/item_exp_potion_l.png",
+      "filename": "item_exp_potion_l.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "allheal_potion",
+      "name": "全面恢复药水",
+      "relativePath": "src/assets/icons/item/item_allheal_potion.png",
+      "filename": "item_allheal_potion.png",
+      "series": null,
+      "type": "potion",
+      "slot": null,
+      "quality": "orange"
+    },
+    {
+      "id": "atk_scroll",
+      "name": "攻击卷轴",
+      "relativePath": "src/assets/icons/item/item_atk_scroll.png",
+      "filename": "item_atk_scroll.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "def_scroll",
+      "name": "防御卷轴",
+      "relativePath": "src/assets/icons/item/item_def_scroll.png",
+      "filename": "item_def_scroll.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "lucky_charm",
+      "name": "幸运符",
+      "relativePath": "src/assets/icons/item/item_lucky_charm.png",
+      "filename": "item_lucky_charm.png",
+      "series": null,
+      "type": "special",
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "character",
+      "name": "角色",
+      "relativePath": "src/assets/icons/system/ui_character.png",
+      "filename": "ui_character.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bag",
+      "name": "背包",
+      "relativePath": "src/assets/icons/system/ui_bag.png",
+      "filename": "ui_bag.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "spirit",
+      "name": "武魂",
+      "relativePath": "src/assets/icons/system/ui_spirit.png",
+      "filename": "ui_spirit.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "skill",
+      "name": "魂技",
+      "relativePath": "src/assets/icons/system/ui_skill.png",
+      "filename": "ui_skill.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bone",
+      "name": "魂骨",
+      "relativePath": "src/assets/icons/system/ui_bone.png",
+      "filename": "ui_bone.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "codex",
+      "name": "图鉴",
+      "relativePath": "src/assets/icons/system/ui_codex.png",
+      "filename": "ui_codex.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "quest",
+      "name": "任务",
+      "relativePath": "src/assets/icons/system/ui_quest.png",
+      "filename": "ui_quest.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "rank",
+      "name": "排行",
+      "relativePath": "src/assets/icons/system/ui_rank.png",
+      "filename": "ui_rank.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "arena",
+      "name": "竞技场",
+      "relativePath": "src/assets/icons/system/ui_arena.png",
+      "filename": "ui_arena.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sect",
+      "name": "宗门",
+      "relativePath": "src/assets/icons/system/ui_sect.png",
+      "filename": "ui_sect.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "world_map",
+      "name": "世界地图",
+      "relativePath": "src/assets/icons/system/ui_world_map.png",
+      "filename": "ui_world_map.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "shop",
+      "name": "商店",
+      "relativePath": "src/assets/icons/system/ui_shop.png",
+      "filename": "ui_shop.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "smithy",
+      "name": "铁匠铺",
+      "relativePath": "src/assets/icons/system/ui_smithy.png",
+      "filename": "ui_smithy.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "academy",
+      "name": "学院",
+      "relativePath": "src/assets/icons/system/ui_academy.png",
+      "filename": "ui_academy.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "settings",
+      "name": "设置",
+      "relativePath": "src/assets/icons/system/ui_settings.png",
+      "filename": "ui_settings.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "chat",
+      "name": "聊天",
+      "relativePath": "src/assets/icons/system/ui_chat.png",
+      "filename": "ui_chat.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "auto_fight",
+      "name": "自动战斗",
+      "relativePath": "src/assets/icons/system/ui_auto_fight.png",
+      "filename": "ui_auto_fight.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mail",
+      "name": "邮件",
+      "relativePath": "src/assets/icons/system/ui_mail.png",
+      "filename": "ui_mail.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "map_pin",
+      "name": "地图点位",
+      "relativePath": "src/assets/icons/system/ui_map_pin.png",
+      "filename": "ui_map_pin.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "boss",
+      "name": "Boss",
+      "relativePath": "src/assets/icons/system/ui_boss.png",
+      "filename": "ui_boss.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "lock",
+      "name": "锁定",
+      "relativePath": "src/assets/icons/system/ui_lock.png",
+      "filename": "ui_lock.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "quality_white",
+      "name": "white 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_white.png",
+      "filename": "frame_quality_white.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "white"
+    },
+    {
+      "id": "quality_green",
+      "name": "green 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_green.png",
+      "filename": "frame_quality_green.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "green"
+    },
+    {
+      "id": "quality_blue",
+      "name": "blue 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_blue.png",
+      "filename": "frame_quality_blue.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "blue"
+    },
+    {
+      "id": "quality_purple",
+      "name": "purple 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_purple.png",
+      "filename": "frame_quality_purple.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "purple"
+    },
+    {
+      "id": "quality_orange",
+      "name": "orange 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_orange.png",
+      "filename": "frame_quality_orange.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "orange"
+    },
+    {
+      "id": "quality_red",
+      "name": "red 品质边框",
+      "relativePath": "src/assets/icons/frames/frame_quality_red.png",
+      "filename": "frame_quality_red.png",
+      "series": null,
+      "type": null,
+      "slot": null,
+      "quality": "red"
+    }
+  ]
+}

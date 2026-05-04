@@ -1,0 +1,360 @@
+{
+  "category": "spirit",
+  "id": "spirit_agility_atlas_v1",
+  "title": "敏捷系武魂图集",
+  "count": 35,
+  "columns": 7,
+  "rows": 5,
+  "items": [
+    {
+      "id": "soft_bone_rabbit",
+      "name": "柔骨兔",
+      "relativePath": "src/assets/icons/spirit/spirit_soft_bone_rabbit.png",
+      "filename": "spirit_soft_bone_rabbit.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "hell_cat",
+      "name": "幽冥灵猫",
+      "relativePath": "src/assets/icons/spirit/spirit_hell_cat.png",
+      "filename": "spirit_hell_cat.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "six_wing_angel",
+      "name": "六翼天使",
+      "relativePath": "src/assets/icons/spirit/spirit_six_wing_angel.png",
+      "filename": "spirit_six_wing_angel.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "fire_phoenix",
+      "name": "火凤凰",
+      "relativePath": "src/assets/icons/spirit/spirit_fire_phoenix.png",
+      "filename": "spirit_fire_phoenix.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_cat",
+      "name": "鬼灵猫",
+      "relativePath": "src/assets/icons/spirit/spirit_ghost_cat.png",
+      "filename": "spirit_ghost_cat.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "wind_leopard",
+      "name": "风豹",
+      "relativePath": "src/assets/icons/spirit/spirit_wind_leopard.png",
+      "filename": "spirit_wind_leopard.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "lightning_falcon",
+      "name": "电光隼",
+      "relativePath": "src/assets/icons/spirit/spirit_lightning_falcon.png",
+      "filename": "spirit_lightning_falcon.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "starfish",
+      "name": "海星",
+      "relativePath": "src/assets/icons/spirit/spirit_starfish.png",
+      "filename": "spirit_starfish.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "lone_wolf",
+      "name": "独狼",
+      "relativePath": "src/assets/icons/spirit/spirit_lone_wolf.png",
+      "filename": "spirit_lone_wolf.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "swift_swallow",
+      "name": "尖尾雨燕",
+      "relativePath": "src/assets/icons/spirit/spirit_swift_swallow.png",
+      "filename": "spirit_swift_swallow.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "lightning_rabbit",
+      "name": "闪电兔",
+      "relativePath": "src/assets/icons/spirit/spirit_lightning_rabbit.png",
+      "filename": "spirit_lightning_rabbit.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "storm_wolf",
+      "name": "疾风魔狼",
+      "relativePath": "src/assets/icons/spirit/spirit_storm_wolf.png",
+      "filename": "spirit_storm_wolf.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_panther",
+      "name": "鬼影豹皇",
+      "relativePath": "src/assets/icons/spirit/spirit_ghost_panther.png",
+      "filename": "spirit_ghost_panther.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "monkey",
+      "name": "灵猴",
+      "relativePath": "src/assets/icons/spirit/spirit_monkey.png",
+      "filename": "spirit_monkey.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "flash_bird",
+      "name": "闪鸟",
+      "relativePath": "src/assets/icons/spirit/spirit_flash_bird.png",
+      "filename": "spirit_flash_bird.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "purple_falcon",
+      "name": "紫玉隼",
+      "relativePath": "src/assets/icons/spirit/spirit_purple_falcon.png",
+      "filename": "spirit_purple_falcon.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "pink_lady",
+      "name": "粉红娘娘",
+      "relativePath": "src/assets/icons/spirit/spirit_pink_lady.png",
+      "filename": "spirit_pink_lady.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "wind_bell",
+      "name": "风铃鸟",
+      "relativePath": "src/assets/icons/spirit/spirit_wind_bell.png",
+      "filename": "spirit_wind_bell.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "shadow",
+      "name": "暗影",
+      "relativePath": "src/assets/icons/spirit/spirit_shadow.png",
+      "filename": "spirit_shadow.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bat_king",
+      "name": "吸血蝙蝠王",
+      "relativePath": "src/assets/icons/spirit/spirit_bat_king.png",
+      "filename": "spirit_bat_king.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "swift_wolf",
+      "name": "迅狼",
+      "relativePath": "src/assets/icons/spirit/spirit_swift_wolf.png",
+      "filename": "spirit_swift_wolf.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "silver_wolf",
+      "name": "银月狼王",
+      "relativePath": "src/assets/icons/spirit/spirit_silver_wolf.png",
+      "filename": "spirit_silver_wolf.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "three_eye_fox",
+      "name": "三眼魔狐",
+      "relativePath": "src/assets/icons/spirit/spirit_three_eye_fox.png",
+      "filename": "spirit_three_eye_fox.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "lightning_marten",
+      "name": "闪电貂",
+      "relativePath": "src/assets/icons/spirit/spirit_lightning_marten.png",
+      "filename": "spirit_lightning_marten.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_wolf",
+      "name": "幽冥狼",
+      "relativePath": "src/assets/icons/spirit/spirit_ghost_wolf.png",
+      "filename": "spirit_ghost_wolf.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thunder_eagle",
+      "name": "雷鹰",
+      "relativePath": "src/assets/icons/spirit/spirit_thunder_eagle.png",
+      "filename": "spirit_thunder_eagle.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "purple_lion",
+      "name": "紫影狮",
+      "relativePath": "src/assets/icons/spirit/spirit_purple_lion.png",
+      "filename": "spirit_purple_lion.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "jade_monkey",
+      "name": "碧海灵猿",
+      "relativePath": "src/assets/icons/spirit/spirit_jade_monkey.png",
+      "filename": "spirit_jade_monkey.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "colorful_cat",
+      "name": "七彩猫",
+      "relativePath": "src/assets/icons/spirit/spirit_colorful_cat.png",
+      "filename": "spirit_colorful_cat.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "bee_hummingbird",
+      "name": "剑喙蜂鸟",
+      "relativePath": "src/assets/icons/spirit/spirit_bee_hummingbird.png",
+      "filename": "spirit_bee_hummingbird.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phantom",
+      "name": "魅影",
+      "relativePath": "src/assets/icons/spirit/spirit_phantom.png",
+      "filename": "spirit_phantom.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soul_swallow",
+      "name": "追魂燕",
+      "relativePath": "src/assets/icons/spirit/spirit_soul_swallow.png",
+      "filename": "spirit_soul_swallow.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "sacred_angel",
+      "name": "神圣天使",
+      "relativePath": "src/assets/icons/spirit/spirit_sacred_angel.png",
+      "filename": "spirit_sacred_angel.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "light_phoenix",
+      "name": "光明凤凰",
+      "relativePath": "src/assets/icons/spirit/spirit_light_phoenix.png",
+      "filename": "spirit_light_phoenix.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "dark_soul_tiger",
+      "name": "六翼魔虎",
+      "relativePath": "src/assets/icons/spirit/spirit_dark_soul_tiger.png",
+      "filename": "spirit_dark_soul_tiger.png",
+      "series": "agility",
+      "type": null,
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "category": "bone",
+  "id": "bone_atlas_v1",
+  "title": "魂骨图集",
+  "count": 54,
+  "columns": 9,
+  "rows": 6,
+  "items": [
+    {
+      "id": "b_head_wisdom",
+      "name": "精神凝聚之智慧头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_wisdom.png",
+      "filename": "bone_b_head_wisdom.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "orange"
+    },
+    {
+      "id": "b_head_phantom",
+      "name": "幻境智慧头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_phantom.png",
+      "filename": "bone_b_head_phantom.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "purple"
+    },
+    {
+      "id": "b_head_charm",
+      "name": "精神凝聚之魅惑头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_charm.png",
+      "filename": "bone_b_head_charm.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "orange"
+    },
+    {
+      "id": "b_head_mirror",
+      "name": "镜像智慧头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_mirror.png",
+      "filename": "bone_b_head_mirror.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "purple"
+    },
+    {
+      "id": "b_head_noble",
+      "name": "贵族头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_noble.png",
+      "filename": "bone_b_head_noble.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "green"
+    },
+    {
+      "id": "b_head_death",
+      "name": "死亡头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_death.png",
+      "filename": "bone_b_head_death.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "blue"
+    },
+    {
+      "id": "b_head_iron_will",
+      "name": "铁意头骨",
+      "relativePath": "src/assets/icons/bone/bone_b_head_iron_will.png",
+      "filename": "bone_b_head_iron_will.png",
+      "series": null,
+      "type": null,
+      "slot": "head",
+      "quality": "blue"
+    },
+    {
+      "id": "b_torso_whale",
+      "name": "深海魔鲸王躯干骨",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_whale.png",
+      "filename": "bone_b_torso_whale.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "red"
+    },
+    {
+      "id": "b_torso_saint",
+      "name": "圣者躯干骨",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_saint.png",
+      "filename": "bone_b_torso_saint.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "purple"
+    },
+    {
+      "id": "b_torso_iron_tree",
+      "name": "铁树躯干骨",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_iron_tree.png",
+      "filename": "bone_b_torso_iron_tree.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "green"
+    },
+    {
+      "id": "b_torso_lock",
+      "name": "锁子躯干骨",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_lock.png",
+      "filename": "bone_b_torso_lock.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "blue"
+    },
+    {
+      "id": "b_torso_xuanming",
+      "name": "玄冥躯干骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_xuanming.png",
+      "filename": "bone_b_torso_xuanming.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "blue"
+    },
+    {
+      "id": "b_torso_restore",
+      "name": "恢复躯干骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_restore.png",
+      "filename": "bone_b_torso_restore.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "purple"
+    },
+    {
+      "id": "b_torso_demon_whale",
+      "name": "深海魔鲸躯干骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_torso_demon_whale.png",
+      "filename": "bone_b_torso_demon_whale.png",
+      "series": null,
+      "type": null,
+      "slot": "torso",
+      "quality": "orange"
+    },
+    {
+      "id": "b_leftarm_titan",
+      "name": "泰坦巨猿左臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_titan.png",
+      "filename": "bone_b_leftarm_titan.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "red"
+    },
+    {
+      "id": "b_leftarm_rabbit",
+      "name": "柔骨兔左臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_rabbit.png",
+      "filename": "bone_b_leftarm_rabbit.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "red"
+    },
+    {
+      "id": "b_leftarm_guardian",
+      "name": "守护臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_guardian.png",
+      "filename": "bone_b_leftarm_guardian.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "blue"
+    },
+    {
+      "id": "b_leftarm_holy",
+      "name": "圣殿臂骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_holy.png",
+      "filename": "bone_b_leftarm_holy.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "green"
+    },
+    {
+      "id": "b_leftarm_tenacious",
+      "name": "坚韧臂骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_tenacious.png",
+      "filename": "bone_b_leftarm_tenacious.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "blue"
+    },
+    {
+      "id": "b_leftarm_titan_arm",
+      "name": "泰坦巨猿臂骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftarm_titan_arm.png",
+      "filename": "bone_b_leftarm_titan_arm.png",
+      "series": null,
+      "type": null,
+      "slot": "leftArm",
+      "quality": "purple"
+    },
+    {
+      "id": "b_rightarm_sky_python",
+      "name": "天青牛蟒右臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_sky_python.png",
+      "filename": "bone_b_rightarm_sky_python.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "red"
+    },
+    {
+      "id": "b_rightarm_flame",
+      "name": "爆裂焚烧之火焰臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_flame.png",
+      "filename": "bone_b_rightarm_flame.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "orange"
+    },
+    {
+      "id": "b_rightarm_reply",
+      "name": "回复臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_reply.png",
+      "filename": "bone_b_rightarm_reply.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "green"
+    },
+    {
+      "id": "b_rightarm_black_king",
+      "name": "黑皇臂骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_black_king.png",
+      "filename": "bone_b_rightarm_black_king.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "blue"
+    },
+    {
+      "id": "b_rightarm_energy",
+      "name": "能源臂骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_energy.png",
+      "filename": "bone_b_rightarm_energy.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "green"
+    },
+    {
+      "id": "b_rightarm_demon",
+      "name": "恶魔臂骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightarm_demon.png",
+      "filename": "bone_b_rightarm_demon.png",
+      "series": null,
+      "type": null,
+      "slot": "rightArm",
+      "quality": "purple"
+    },
+    {
+      "id": "b_leftleg_whale",
+      "name": "邪魔虎鲸王左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_whale.png",
+      "filename": "bone_b_leftleg_whale.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "red"
+    },
+    {
+      "id": "b_leftleg_swift",
+      "name": "急速前行之追风左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_swift.png",
+      "filename": "bone_b_leftleg_swift.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_leftleg_swallow",
+      "name": "飞燕腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_swallow.png",
+      "filename": "bone_b_leftleg_swallow.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "blue"
+    },
+    {
+      "id": "b_leftleg_secret",
+      "name": "秘法腿骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_secret.png",
+      "filename": "bone_b_leftleg_secret.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "blue"
+    },
+    {
+      "id": "b_leftleg_empty",
+      "name": "空明腿骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_empty.png",
+      "filename": "bone_b_leftleg_empty.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "purple"
+    },
+    {
+      "id": "b_leftleg_spider_king",
+      "name": "噬魂蛛皇腿骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_leftleg_spider_king.png",
+      "filename": "bone_b_leftleg_spider_king.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "purple"
+    },
+    {
+      "id": "b_rightleg_bluesilver",
+      "name": "蓝银皇右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_bluesilver.png",
+      "filename": "bone_b_rightleg_bluesilver.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "red"
+    },
+    {
+      "id": "b_rightleg_blood",
+      "name": "嗜血狂化之飓风右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_blood.png",
+      "filename": "bone_b_rightleg_blood.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_rightleg_agile",
+      "name": "敏捷腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_agile.png",
+      "filename": "bone_b_rightleg_agile.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "blue"
+    },
+    {
+      "id": "b_rightleg_speed",
+      "name": "速度腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_speed.png",
+      "filename": "bone_b_rightleg_speed.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "green"
+    },
+    {
+      "id": "b_rightleg_elf",
+      "name": "精灵腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_elf.png",
+      "filename": "bone_b_rightleg_elf.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "purple"
+    },
+    {
+      "id": "b_rightleg_charm",
+      "name": "魅惑头骨(腿骨卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_rightleg_charm.png",
+      "filename": "bone_b_rightleg_charm.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_ext_eight_spider",
+      "name": "八蛛矛外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_eight_spider.png",
+      "filename": "bone_b_ext_eight_spider.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "red"
+    },
+    {
+      "id": "b_ext_darkgold_claw",
+      "name": "暗金恐爪外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_darkgold_claw.png",
+      "filename": "bone_b_ext_darkgold_claw.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "red"
+    },
+    {
+      "id": "b_ext_purple_wing",
+      "name": "六翅紫光翼外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_purple_wing.png",
+      "filename": "bone_b_ext_purple_wing.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "orange"
+    },
+    {
+      "id": "b_ext_magic_stick",
+      "name": "魔棒外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_magic_stick.png",
+      "filename": "bone_b_ext_magic_stick.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "blue"
+    },
+    {
+      "id": "b_ext_revive",
+      "name": "复苏外附骨(卷轴)",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_revive.png",
+      "filename": "bone_b_ext_revive.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "purple"
+    },
+    {
+      "id": "b_ext_soul_power",
+      "name": "魂力外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_soul_power.png",
+      "filename": "bone_b_ext_soul_power.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "purple"
+    },
+    {
+      "id": "b_ext_life",
+      "name": "生命外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_life.png",
+      "filename": "bone_b_ext_life.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "orange"
+    },
+    {
+      "id": "b_ext_spirit_realm",
+      "name": "灵境外附骨",
+      "relativePath": "src/assets/icons/bone/bone_b_ext_spirit_realm.png",
+      "filename": "bone_b_ext_spirit_realm.png",
+      "series": null,
+      "type": null,
+      "slot": "external",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_sea_leftleg",
+      "name": "海神左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_sea_leftleg.png",
+      "filename": "bone_b_set_sea_leftleg.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_sea_rightleg",
+      "name": "海神右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_sea_rightleg.png",
+      "filename": "bone_b_set_sea_rightleg.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_devil_leftleg",
+      "name": "罗刹左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_devil_leftleg.png",
+      "filename": "bone_b_set_devil_leftleg.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_devil_rightleg",
+      "name": "罗刹右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_devil_rightleg.png",
+      "filename": "bone_b_set_devil_rightleg.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_angel_leftleg",
+      "name": "天使左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_angel_leftleg.png",
+      "filename": "bone_b_set_angel_leftleg.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_angel_rightleg",
+      "name": "天使右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_angel_rightleg.png",
+      "filename": "bone_b_set_angel_rightleg.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_food_leftleg",
+      "name": "食神左腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_food_leftleg.png",
+      "filename": "bone_b_set_food_leftleg.png",
+      "series": null,
+      "type": null,
+      "slot": "leftLeg",
+      "quality": "orange"
+    },
+    {
+      "id": "b_set_food_rightleg",
+      "name": "食神右腿骨",
+      "relativePath": "src/assets/icons/bone/bone_b_set_food_rightleg.png",
+      "filename": "bone_b_set_food_rightleg.png",
+      "series": null,
+      "type": null,
+      "slot": "rightLeg",
+      "quality": "orange"
+    }
+  ]
+}

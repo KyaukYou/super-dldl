@@ -1,0 +1,85 @@
+- generic [ref=e3]:
+  - generic [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e65]: 🧙
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Shaymo
+          - generic [ref=e69]: Lv.1 魂士
+        - generic [ref=e73]: 380/380
+        - generic [ref=e77]: 140/140
+        - generic [ref=e80]: 0%
+    - generic [ref=e81]:
+      - generic [ref=e82]: 🗺️ 天斗帝国
+      - generic [ref=e83]: 💰 100
+      - button "地图" [ref=e84] [cursor=pointer]
+  - generic [ref=e4]:
+    - generic "角色" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: 👤
+      - generic [ref=e7]: 角色
+    - generic "背包" [ref=e8] [cursor=pointer]:
+      - generic [ref=e9]: 🎒
+      - generic [ref=e10]: 背包
+    - generic "武魂" [ref=e11] [cursor=pointer]:
+      - generic [ref=e12]: 🔮
+      - generic [ref=e13]: 武魂
+    - generic "魂技" [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: ⚡
+      - generic [ref=e16]: 魂技
+    - generic "魂骨" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: 🦴
+      - generic [ref=e19]: 魂骨
+    - generic "图鉴" [ref=e20] [cursor=pointer]:
+      - generic [ref=e21]: 📖
+      - generic [ref=e22]: 图鉴
+    - generic "竞技" [ref=e23] [cursor=pointer]:
+      - generic [ref=e24]: ⚔️
+      - generic [ref=e25]: 竞技
+    - generic "宗门" [ref=e26] [cursor=pointer]:
+      - generic [ref=e27]: 🏰
+      - generic [ref=e28]: 宗门
+    - generic "好友" [ref=e29] [cursor=pointer]:
+      - generic [ref=e30]: 👥
+      - generic [ref=e31]: 好友
+    - generic "任务" [ref=e32] [cursor=pointer]:
+      - generic [ref=e33]: 📋
+      - generic [ref=e34]: 任务
+    - generic "排行" [ref=e35] [cursor=pointer]:
+      - generic [ref=e36]: 🏆
+      - generic [ref=e37]: 排行
+    - generic "设置" [ref=e38] [cursor=pointer]:
+      - generic [ref=e39]: ⚙️
+      - generic [ref=e40]: 设置
+  - generic [ref=e87]:
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90] [cursor=pointer]: 世界
+        - generic [ref=e91] [cursor=pointer]: 阵营
+        - generic [ref=e92] [cursor=pointer]: 宗门
+        - generic [ref=e93] [cursor=pointer]: 队伍
+        - generic [ref=e94] [cursor=pointer]: 系统
+      - generic [ref=e95]:
+        - generic [ref=e96]: "[系统] 欢迎来到超越大陆！点击怪物即可攻击"
+        - generic [ref=e97]: "[世界] 祝各位魂师冒险愉快！"
+      - textbox "按 Enter 发送消息..." [ref=e99]
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e103]: "1"
+        - generic [ref=e105]: "2"
+        - generic [ref=e107]: "3"
+        - generic [ref=e109]: "4"
+        - generic [ref=e111]: "5"
+        - generic [ref=e113]: "6"
+        - generic [ref=e115]: "7"
+        - generic [ref=e117]: "8"
+        - generic [ref=e119]: "9"
+      - generic [ref=e120]:
+        - generic "回血药" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]: 🧪
+          - generic [ref=e123]: "10"
+        - generic "回蓝药" [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: 💧
+          - generic [ref=e126]: "10"
+      - generic [ref=e129]:
+        - button "手动" [ref=e130] [cursor=pointer]
+        - button "挂机" [ref=e131] [cursor=pointer]

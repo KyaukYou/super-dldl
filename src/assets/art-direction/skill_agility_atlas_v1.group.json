@@ -1,0 +1,460 @@
+{
+  "category": "skill",
+  "id": "skill_agility_atlas_v1",
+  "title": "敏捷系魂技图集",
+  "count": 45,
+  "columns": 9,
+  "rows": 5,
+  "items": [
+    {
+      "id": "exhaust_domain",
+      "name": "竭力领域",
+      "relativePath": "src/assets/icons/skill/skill_exhaust_domain.png",
+      "filename": "skill_exhaust_domain.png",
+      "series": "agility",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "swift_shadow",
+      "name": "疾影",
+      "relativePath": "src/assets/icons/skill/skill_swift_shadow.png",
+      "filename": "skill_swift_shadow.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "poison_sting",
+      "name": "毒刺",
+      "relativePath": "src/assets/icons/skill/skill_poison_sting.png",
+      "filename": "skill_poison_sting.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "waist_bow",
+      "name": "腰弓",
+      "relativePath": "src/assets/icons/skill/skill_waist_bow.png",
+      "filename": "skill_waist_bow.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_assault",
+      "name": "天使突击",
+      "relativePath": "src/assets/icons/skill/skill_angel_assault.png",
+      "filename": "skill_angel_assault.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "death_strike",
+      "name": "死神之袭",
+      "relativePath": "src/assets/icons/skill/skill_death_strike.png",
+      "filename": "skill_death_strike.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "shadow_step",
+      "name": "影步",
+      "relativePath": "src/assets/icons/skill/skill_shadow_step.png",
+      "filename": "skill_shadow_step.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "blade_dance",
+      "name": "刀刃之舞",
+      "relativePath": "src/assets/icons/skill/skill_blade_dance.png",
+      "filename": "skill_blade_dance.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "charm",
+      "name": "魅惑",
+      "relativePath": "src/assets/icons/skill/skill_charm.png",
+      "filename": "skill_charm.png",
+      "series": "agility",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "void_wings",
+      "name": "虚无之翼",
+      "relativePath": "src/assets/icons/skill/skill_void_wings.png",
+      "filename": "skill_void_wings.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "flying_swallow",
+      "name": "凌波飞燕",
+      "relativePath": "src/assets/icons/skill/skill_flying_swallow.png",
+      "filename": "skill_flying_swallow.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "assassinate",
+      "name": "暗杀",
+      "relativePath": "src/assets/icons/skill/skill_assassinate.png",
+      "filename": "skill_assassinate.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "wind_walk",
+      "name": "风行",
+      "relativePath": "src/assets/icons/skill/skill_wind_walk.png",
+      "filename": "skill_wind_walk.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "teleport",
+      "name": "瞬移",
+      "relativePath": "src/assets/icons/skill/skill_teleport.png",
+      "filename": "skill_teleport.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_fire",
+      "name": "凤翼天翔",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_fire.png",
+      "filename": "skill_phoenix_fire.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "stealth",
+      "name": "隐身术",
+      "relativePath": "src/assets/icons/skill/skill_stealth.png",
+      "filename": "skill_stealth.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phantom_blade",
+      "name": "幻影刃",
+      "relativePath": "src/assets/icons/skill/skill_phantom_blade.png",
+      "filename": "skill_phantom_blade.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "venom_rain",
+      "name": "毒雨",
+      "relativePath": "src/assets/icons/skill/skill_venom_rain.png",
+      "filename": "skill_venom_rain.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "golden_body",
+      "name": "无敌金身",
+      "relativePath": "src/assets/icons/skill/skill_golden_body.png",
+      "filename": "skill_golden_body.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_sky_attack",
+      "name": "凤凰啸天击",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_sky_attack.png",
+      "filename": "skill_phoenix_sky_attack.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "invisible_mask",
+      "name": "掩面无形",
+      "relativePath": "src/assets/icons/skill/skill_invisible_mask.png",
+      "filename": "skill_invisible_mask.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "thousand_cuts",
+      "name": "千刃斩",
+      "relativePath": "src/assets/icons/skill/skill_thousand_cuts.png",
+      "filename": "skill_thousand_cuts.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "mirror_image",
+      "name": "镜影分身",
+      "relativePath": "src/assets/icons/skill/skill_mirror_image.png",
+      "filename": "skill_mirror_image.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "soft_bone_lock",
+      "name": "柔骨锁",
+      "relativePath": "src/assets/icons/skill/skill_soft_bone_lock.png",
+      "filename": "skill_soft_bone_lock.png",
+      "series": "agility",
+      "type": "control",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_meteor",
+      "name": "凤凰流星雨",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_meteor.png",
+      "filename": "skill_phoenix_meteor.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "storm_slash",
+      "name": "风暴鬼斩",
+      "relativePath": "src/assets/icons/skill/skill_storm_slash.png",
+      "filename": "skill_storm_slash.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "shadow_kill",
+      "name": "暗影杀",
+      "relativePath": "src/assets/icons/skill/skill_shadow_kill.png",
+      "filename": "skill_shadow_kill.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "flash_dance",
+      "name": "闪舞",
+      "relativePath": "src/assets/icons/skill/skill_flash_dance.png",
+      "filename": "skill_flash_dance.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "eight_stage_slam",
+      "name": "爆杀八段摔",
+      "relativePath": "src/assets/icons/skill/skill_eight_stage_slam.png",
+      "filename": "skill_eight_stage_slam.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_roar",
+      "name": "天使咆哮",
+      "relativePath": "src/assets/icons/skill/skill_angel_roar.png",
+      "filename": "skill_angel_roar.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "cat_true_body",
+      "name": "灵猫真身",
+      "relativePath": "src/assets/icons/skill/skill_cat_true_body.png",
+      "filename": "skill_cat_true_body.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_7head",
+      "name": "七首火凤凰",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_7head.png",
+      "filename": "skill_phoenix_7head.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "rabbit_true_body",
+      "name": "柔骨兔真身",
+      "relativePath": "src/assets/icons/skill/skill_rabbit_true_body.png",
+      "filename": "skill_rabbit_true_body.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_true_body",
+      "name": "天使真身",
+      "relativePath": "src/assets/icons/skill/skill_angel_true_body.png",
+      "filename": "skill_angel_true_body.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost100_claw",
+      "name": "幽冥百爪",
+      "relativePath": "src/assets/icons/skill/skill_ghost100_claw.png",
+      "filename": "skill_ghost100_claw.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_fusion",
+      "name": "幽冥影相连",
+      "relativePath": "src/assets/icons/skill/skill_ghost_fusion.png",
+      "filename": "skill_ghost_fusion.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_chain",
+      "name": "凤凰弑心链",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_chain.png",
+      "filename": "skill_phoenix_chain.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_virtual",
+      "name": "天使虚像",
+      "relativePath": "src/assets/icons/skill/skill_angel_virtual.png",
+      "filename": "skill_angel_virtual.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "moonlight_dance",
+      "name": "月光",
+      "relativePath": "src/assets/icons/skill/skill_moonlight_dance.png",
+      "filename": "skill_moonlight_dance.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phantom_possess",
+      "name": "幽冥附体",
+      "relativePath": "src/assets/icons/skill/skill_phantom_possess.png",
+      "filename": "skill_phantom_possess.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_hellfire",
+      "name": "凤凰地狱火",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_hellfire.png",
+      "filename": "skill_phoenix_hellfire.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "angel_sun",
+      "name": "太阳之力",
+      "relativePath": "src/assets/icons/skill/skill_angel_sun.png",
+      "filename": "skill_angel_sun.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "rabbit_domain",
+      "name": "柔媚领域",
+      "relativePath": "src/assets/icons/skill/skill_rabbit_domain.png",
+      "filename": "skill_rabbit_domain.png",
+      "series": "agility",
+      "type": "debuff",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "ghost_claw",
+      "name": "幽冥神爪",
+      "relativePath": "src/assets/icons/skill/skill_ghost_claw.png",
+      "filename": "skill_ghost_claw.png",
+      "series": "agility",
+      "type": "damage",
+      "slot": null,
+      "quality": null
+    },
+    {
+      "id": "phoenix_nirvana",
+      "name": "凤凰涅槃",
+      "relativePath": "src/assets/icons/skill/skill_phoenix_nirvana.png",
+      "filename": "skill_phoenix_nirvana.png",
+      "series": "agility",
+      "type": "buff",
+      "slot": null,
+      "quality": null
+    }
+  ]
+}

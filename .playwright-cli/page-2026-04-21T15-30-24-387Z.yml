@@ -1,0 +1,57 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic "角色" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: 👤
+      - generic [ref=e7]: 角色
+    - generic "背包" [ref=e8] [cursor=pointer]:
+      - generic [ref=e9]: 🎒
+      - generic [ref=e10]: 背包
+    - generic "武魂" [ref=e11] [cursor=pointer]:
+      - generic [ref=e12]: 🔮
+      - generic [ref=e13]: 武魂
+    - generic "魂技" [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: ⚡
+      - generic [ref=e16]: 魂技
+    - generic "魂骨" [ref=e17] [cursor=pointer]:
+      - generic [ref=e18]: 🦴
+      - generic [ref=e19]: 魂骨
+    - generic "图鉴" [ref=e20] [cursor=pointer]:
+      - generic [ref=e21]: 📖
+      - generic [ref=e22]: 图鉴
+    - generic "竞技" [ref=e23] [cursor=pointer]:
+      - generic [ref=e24]: ⚔️
+      - generic [ref=e25]: 竞技
+    - generic "宗门" [ref=e26] [cursor=pointer]:
+      - generic [ref=e27]: 🏰
+      - generic [ref=e28]: 宗门
+    - generic "好友" [ref=e29] [cursor=pointer]:
+      - generic [ref=e30]: 👥
+      - generic [ref=e31]: 好友
+    - generic "任务" [ref=e32] [cursor=pointer]:
+      - generic [ref=e33]: 📋
+      - generic [ref=e34]: 任务
+    - generic "排行" [ref=e35] [cursor=pointer]:
+      - generic [ref=e36]: 🏆
+      - generic [ref=e37]: 排行
+    - generic "设置" [ref=e38] [cursor=pointer]:
+      - generic [ref=e39]: ⚙️
+      - generic [ref=e40]: 设置
+  - generic [ref=e43]:
+    - heading "超越大陆" [level=1] [ref=e44]
+    - button "⚡ 快速测试（昊天锤）" [ref=e46] [cursor=pointer]
+    - generic [ref=e47]:
+      - heading "选择你的阵营" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 🏛️
+          - generic [ref=e52]: 武魂殿
+          - generic [ref=e53]: 大陆中心，势力最强
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 🏰
+          - generic [ref=e56]: 天斗帝国
+          - generic [ref=e57]: 大陆北部，底蕴深厚
+        - generic [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: ⚔️
+          - generic [ref=e60]: 星罗帝国
+          - generic [ref=e61]: 大陆南部，尚武之风
+      - paragraph [ref=e62]: ⚠️ 选择后不可更改！
