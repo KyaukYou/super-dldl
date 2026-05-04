@@ -78,8 +78,8 @@ function ringUnlockLevel(slot: number) {
           >
             {{ n }}
           </div>
-          <span v-if="n <= char.rings.length" class="ring-label">{{ RING_COLOR_MAP[char.rings[n - 1]!.color].label }}</span>
-          <span v-if="n <= char.rings.length" class="ring-year">{{ char.rings[n - 1]!.yearRange }}年</span>
+          <span v-if="n <= char.rings.length" class="ring-label">{{ char.rings[n - 1]!.yearRange }}年</span>
+          <span v-if="n <= char.rings.length" class="ring-year">{{ RING_COLOR_MAP[char.rings[n - 1]!.color].label }}魂环</span>
           <span v-else-if="char.level >= ringUnlockLevel(n)" class="ring-label ready">可吸收</span>
           <span v-else class="ring-label locked-label">{{ ringUnlockLevel(n) }}级</span>
           <span v-if="n <= char.rings.length && char.rings[n - 1]!.skillId" class="ring-skill">
@@ -240,7 +240,7 @@ function ringUnlockLevel(slot: number) {
 }
 
 .ring-item {
-  width: 54px;
+  width: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,6 +271,7 @@ function ringUnlockLevel(slot: number) {
 .ring-year {
   font-size: 11px;
   color: #f4d98a;
+  white-space: nowrap;
 }
 
 .ring-skill {

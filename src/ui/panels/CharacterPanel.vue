@@ -90,6 +90,16 @@ const mpPercent = computed(() => {
       </div>
     </div>
 
+    <div v-if="char.rings.length > 0" class="section">
+      <h4 class="section-title">魂环年限</h4>
+      <div class="ring-years">
+        <div v-for="ring in char.rings" :key="ring.slot" class="ring-year-item">
+          <span class="ring-slot-label">第{{ ring.slot }}魂环</span>
+          <span class="ring-year-value">{{ ring.yearRange }}年</span>
+        </div>
+      </div>
+    </div>
+
     <div v-if="spirit" class="section">
       <h4 class="section-title">武魂天赋</h4>
       <div class="talent-box">
@@ -229,6 +239,31 @@ const mpPercent = computed(() => {
 
 .stat-value,
 .talent-name {
+  font-weight: 700;
+}
+
+.ring-years {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ring-year-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.ring-slot-label {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+.ring-year-value {
+  color: #f4d98a;
   font-weight: 700;
 }
 

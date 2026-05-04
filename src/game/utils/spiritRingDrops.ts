@@ -35,6 +35,14 @@ export function spiritRingYearForMonsterLevel(level: number): number {
   return Math.max(10, level * 10)
 }
 
+export function spiritRingColorForYear(year: number): RingColor {
+  if (year >= 100000) return 'red'
+  if (year >= 10000) return 'black'
+  if (year >= 1000) return 'purple'
+  if (year >= 100) return 'yellow'
+  return 'white'
+}
+
 export function nextAbsorbableRingSlot(level: number, rings: Pick<SpiritRing, 'slot'>[]): number | null {
   const unlockedSlotCount = RING_LEVELS.filter((requiredLevel) => level >= requiredLevel).length
   if (rings.length >= unlockedSlotCount) return null

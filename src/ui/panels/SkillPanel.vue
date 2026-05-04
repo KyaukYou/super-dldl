@@ -34,6 +34,11 @@ const typeColors: Record<string, string> = {
   heal: '#44aaff',
   control: '#b44aff',
 }
+
+function getRing(ringSlot: number) {
+  if (!char.value) return null
+  return char.value.rings.find((r) => r.slot === ringSlot) ?? null
+}
 </script>
 
 <template>
@@ -56,6 +61,7 @@ const typeColors: Record<string, string> = {
           >
             {{ n }}
           </div>
+          <div v-if="getRing(n)" class="ring-year">{{ getRing(n)!.yearRange }}年</div>
           <div v-if="getRingSkill(n)" class="ring-skill">
             <GameIcon
               :src="getRingSkill(n) ? skillIconPath(getRingSkill(n)!.id) : ''"
@@ -174,6 +180,14 @@ const typeColors: Record<string, string> = {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.45);
   flex-shrink: 0;
+  font-weight: 700;
+}
+
+.ring-year {
+  width: 58px;
+  flex: 0 0 auto;
+  color: #f4d98a;
+  font-size: 12px;
   font-weight: 700;
 }
 

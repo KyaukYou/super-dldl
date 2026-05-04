@@ -6,14 +6,9 @@ import {
 } from '@/assets/art-direction/generated-paths'
 
 import charPlayerCutout from '@/assets/battle/cutouts/char_player_cutout.png?url'
-import monsterBatCutout from '@/assets/battle/cutouts/monster_bat_cutout.png?url'
-import monsterBossCutout from '@/assets/battle/cutouts/monster_boss_cutout.png?url'
-import monsterCraneCutout from '@/assets/battle/cutouts/monster_crane_cutout.png?url'
 import monsterDeerCutout from '@/assets/battle/cutouts/monster_deer_cutout.png?url'
 import monsterRhinoCutout from '@/assets/battle/cutouts/monster_rhino_cutout.png?url'
-import monsterSerpentCutout from '@/assets/battle/cutouts/monster_serpent_cutout.png?url'
 import monsterSpiderCutout from '@/assets/battle/cutouts/monster_spider_cutout.png?url'
-import monsterTigerCutout from '@/assets/battle/cutouts/monster_tiger_cutout.png?url'
 import monsterTreeCutout from '@/assets/battle/cutouts/monster_tree_cutout.png?url'
 import monsterWolfCutout from '@/assets/battle/cutouts/monster_wolf_cutout.png?url'
 
@@ -48,17 +43,17 @@ export type BattleEffectKey =
 
 export const battleTextureSources: Record<BattleTextureKey, string> = {
   char_player: charPlayerCutout,
-  monster_bat: monsterBatCutout,
-  monster_blackwater_dragon: monsterBossCutout,
-  monster_boss: monsterBossCutout,
-  monster_crane: monsterCraneCutout,
+  monster_bat: generatedBeastPortraitPath('abyss_bat_leader'),
+  monster_blackwater_dragon: generatedBeastPortraitPath('blackwater_dragon'),
+  monster_boss: generatedBeastPortraitPath('cave_demon_bear'),
+  monster_crane: generatedBeastPortraitPath('thunder_eagle'),
   monster_deer: monsterDeerCutout,
-  monster_guard: charPlayerCutout,
-  monster_red_flame_ape: monsterBossCutout,
+  monster_guard: generatedNpcPortraits.arenaReferee,
+  monster_red_flame_ape: generatedBeastPortraitPath('red_flame_ape'),
   monster_rhino: monsterRhinoCutout,
-  monster_serpent: monsterSerpentCutout,
+  monster_serpent: generatedBeastPortraitPath('mandala_serpent'),
   monster_spider: monsterSpiderCutout,
-  monster_tiger: monsterTigerCutout,
+  monster_tiger: generatedBeastPortraitPath('flame_lion'),
   monster_tree: monsterTreeCutout,
   monster_wolf: monsterWolfCutout,
 }

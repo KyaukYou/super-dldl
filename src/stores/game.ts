@@ -3,7 +3,11 @@ import { computed, ref } from 'vue'
 import type { BoneSlot, Character, Faction, InventoryItem, QuickSlot, SkillDef, SpiritRing } from '@/types/game'
 import { getRankTitle, type RingColor } from '@/types/game'
 import { BONES, getExpToNext, ITEMS, SKILLS, SPIRITS } from '@/data/gameData'
-import { nextAbsorbableRingSlot as getNextAbsorbableRingSlot, SPIRIT_RING_ITEMS } from '@/game/utils/spiritRingDrops'
+import {
+  nextAbsorbableRingSlot as getNextAbsorbableRingSlot,
+  SPIRIT_RING_ITEMS,
+  spiritRingColorForYear,
+} from '@/game/utils/spiritRingDrops'
 const SAVE_KEY = 'chaoyue-dalu-save'
 const QUICK_SLOT_COUNT = 8
 
@@ -90,11 +94,24 @@ export const useGameStore = defineStore('game', () => {
 
   function addRing(ring: SpiritRing) {
     if (!character.value) return
-    const existing = character.value.rings.findIndex((item) => item.slot === ring.slot)
-    if (existing >= 0) character.value.rings[existing] = ring
-    else character.value.rings.push(ring)
+    const normalizedRing = normalizeRingColor(ring)
+    const existing = character.value.rings.findIndex((item) => item.slot === normalizedRing.slot)
+    if (existing >= 0) character.value.rings[existing] = normalizedRing
+    else character.value.rings.push(normalizedRing)
     normalizeRingSlots()
     saveGame()
+  }
+
+  function normalizeRingColor(ring: SpiritRing): SpiritRing {
+    return {
+      ...ring,
+      color: spiritRingColorForYear(ring.yearRange),
+    }
+  }
+
+  function normalizeRingColors() {
+    if (!character.value) return
+    character.value.rings = character.value.rings.map(normalizeRingColor)
   }
 
   function normalizeRingSlots() {
@@ -102,7 +119,7 @@ export const useGameStore = defineStore('game', () => {
     character.value.rings = [...character.value.rings]
       .sort((a, b) => a.slot - b.slot)
       .map((ring, index) => ({
-        ...ring,
+        ...normalizeRingColor(ring),
         slot: index + 1,
       }))
   }
@@ -279,6 +296,7 @@ export const useGameStore = defineStore('game', () => {
     const firstRing = character.value.rings.find((ring) => ring.slot === 1) ?? character.value.rings[0]
     if (!firstRing) return false
     firstRing.yearRange += bonusYear
+    firstRing.color = spiritRingColorForYear(firstRing.yearRange)
     removeItem(itemId, 1)
     recalculateStats()
     saveGame()
@@ -381,6 +399,7 @@ export const useGameStore = defineStore('game', () => {
       }))
       quickSlots.value = normalizeQuickSlots(data.quickSlots)
       currentMapId.value = data.currentMapId ?? 'miluo_lake'
+      normalizeRingColors()
       normalizeRingSlots()
       recalculateStats()
       return true

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import type { Quality } from '@/types/game'
-import { qualityFramePath } from '@/assets/art-direction/icon-paths'
 
 const props = withDefaults(defineProps<{
   src?: string
@@ -27,10 +26,8 @@ watch(() => props.src, () => {
 })
 
 const style = computed(() => {
-  const frame = !props.noFrame && props.quality !== 'none' ? qualityFramePath(props.quality) : ''
   return {
     '--icon-size': `${props.size}px`,
-    '--frame-url': frame ? `url("${frame}")` : 'none',
   }
 })
 </script>
@@ -52,31 +49,18 @@ const style = computed(() => {
   position: relative;
   flex: 0 0 auto;
   border-radius: 6px;
-  background:
-    radial-gradient(circle at 35% 22%, rgba(255,255,255,0.16), transparent 28%),
-    linear-gradient(145deg, rgba(17, 22, 36, 0.96), rgba(3, 8, 15, 0.98));
-  box-shadow: inset 0 0 0 1px rgba(215, 181, 88, 0.26), 0 2px 8px rgba(0, 0, 0, 0.5);
+  background: transparent;
+  box-shadow: none;
   overflow: hidden;
-}
-
-.game-icon::after {
-  content: '';
-  position: absolute;
-  z-index: 3;
-  inset: 0;
-  background-image: var(--frame-url);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  pointer-events: none;
 }
 
 .game-icon img {
   position: relative;
   z-index: 2;
-  width: 78%;
-  height: 78%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.85));
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55));
 }
 
 .game-icon .fallback-text {
@@ -86,6 +70,10 @@ const style = computed(() => {
 
 .game-icon.empty {
   opacity: 0.72;
+  background:
+    radial-gradient(circle at 35% 22%, rgba(255,255,255,0.16), transparent 28%),
+    linear-gradient(145deg, rgba(17, 22, 36, 0.96), rgba(3, 8, 15, 0.98));
+  box-shadow: inset 0 0 0 1px rgba(215, 181, 88, 0.22), 0 2px 8px rgba(0, 0, 0, 0.42);
 }
 
 .fallback-text {
@@ -96,9 +84,9 @@ const style = computed(() => {
   text-shadow: 0 1px 3px #000;
 }
 
-.game-icon.quality-green { box-shadow: inset 0 0 0 1px rgba(74,255,122,0.36), 0 2px 8px rgba(0,0,0,0.5); }
-.game-icon.quality-blue { box-shadow: inset 0 0 0 1px rgba(74,158,255,0.38), 0 2px 8px rgba(0,0,0,0.5); }
-.game-icon.quality-purple { box-shadow: inset 0 0 0 1px rgba(180,74,255,0.42), 0 2px 8px rgba(0,0,0,0.5); }
-.game-icon.quality-orange { box-shadow: inset 0 0 0 1px rgba(255,176,58,0.48), 0 2px 10px rgba(255,138,28,0.18); }
-.game-icon.quality-red { box-shadow: inset 0 0 0 1px rgba(255,74,74,0.56), 0 2px 12px rgba(255,44,44,0.22); }
+.game-icon.quality-green img { filter: drop-shadow(0 0 6px rgba(74,255,122,0.18)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); }
+.game-icon.quality-blue img { filter: drop-shadow(0 0 6px rgba(74,158,255,0.2)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); }
+.game-icon.quality-purple img { filter: drop-shadow(0 0 6px rgba(180,74,255,0.2)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); }
+.game-icon.quality-orange img { filter: drop-shadow(0 0 6px rgba(255,176,58,0.24)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); }
+.game-icon.quality-red img { filter: drop-shadow(0 0 7px rgba(255,74,74,0.26)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); }
 </style>
