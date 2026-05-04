@@ -8,6 +8,13 @@ import {
   SPIRIT_RING_ITEMS,
   spiritRingColorForYear,
 } from '@/game/utils/spiritRingDrops'
+import {
+  BONE_CRAFT_RECIPES,
+  canCraftBoneRecipe,
+  chooseCraftedBone,
+  firstOpenBoneSlot,
+  type BoneCraftRecipeId,
+} from '@/game/utils/soulBoneCrafting'
 const SAVE_KEY = 'chaoyue-dalu-save'
 const QUICK_SLOT_COUNT = 8
 
@@ -303,6 +310,26 @@ export const useGameStore = defineStore('game', () => {
     return true
   }
 
+  function craftSoulBone(recipeId: BoneCraftRecipeId): { ok: boolean; boneName?: string; reason?: 'materials' | 'slot' | 'bone' } {
+    if (!character.value) return { ok: false, reason: 'slot' }
+    const recipe = BONE_CRAFT_RECIPES[recipeId]
+    const slot = firstOpenBoneSlot(character.value.equippedBones)
+    if (!slot) return { ok: false, reason: 'slot' }
+    if (!canCraftBoneRecipe(recipe, inventory.value, character.value.equippedBones)) {
+      return { ok: false, reason: 'materials' }
+    }
+
+    const seed = Date.now() + inventory.value.length + character.value.level
+    const bone = chooseCraftedBone(recipe, BONES, slot, seed)
+    if (!bone) return { ok: false, reason: 'bone' }
+
+    removeItem(recipe.sourceItemId, recipe.requiredQuantity)
+    character.value.equippedBones[slot] = bone.id
+    recalculateStats()
+    saveGame()
+    return { ok: true, boneName: bone.name }
+  }
+
   function addExp(amount: number) {
     if (!character.value) return
     character.value.exp += amount
@@ -439,6 +466,7 @@ export const useGameStore = defineStore('game', () => {
     useQuickSlot,
     usePotionItem,
     useSpiritStone,
+    craftSoulBone,
     addExp,
     openRingChoiceFromItem,
     hasOpenRingSlot,

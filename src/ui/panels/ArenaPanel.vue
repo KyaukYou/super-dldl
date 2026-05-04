@@ -34,13 +34,13 @@ function generateOpponents() {
   if (!char.value) return []
   const base = char.value.level
   const combatPower = Math.max(420, char.value.stats.combatPower || 420)
-  return buildArenaOpponentSeeds(base, combatPower, 10).map((opponent, index) => {
+  return buildArenaOpponentSeeds(base, combatPower, 14).map((opponent, index) => {
     const spirit = SPIRITS[(index * 17 + base) % SPIRITS.length]!
     return {
       ...opponent,
       spirit,
       spiritName: displayName(spirit.id, spirit.name),
-      textureKey: ['monster_wolf', 'monster_rhino', 'monster_spider', 'monster_tree'][index % 4],
+      textureKey: ['monster_wolf', 'monster_rhino', 'monster_spider', 'monster_tree', 'monster_tiger', 'monster_crane'][index % 6],
     }
   })
 }
@@ -66,6 +66,8 @@ const opponentPortraits = [
   generatedPortraitPath('xuanwu_defender_male_01'),
   generatedPortraitPath('ghost_cat_agility_female_01'),
   generatedPortraitPath('healer_support_female_01'),
+  generatedPortraitPath('sword_master_male_01'),
+  generatedPortraitPath('bluesilver_control_male_01'),
 ]
 
 watch(char, () => {
@@ -141,7 +143,7 @@ function redeem(itemId: string, price: number) {
     <h4 class="section-title">AI 匹配对手</h4>
     <div class="arena-guide">
       <GameIcon :src="generatedNpcPortraits.arenaReferee" :size="54" quality="orange" title="斗魂场裁判" />
-      <span>今日已刷新一批魂师，对手强度会围绕你的等级和战力上下浮动。</span>
+      <span>对手会围绕你的等级和战力浮动，越靠后的魂师技能释放更频繁。</span>
     </div>
     <div class="opponent-list">
       <div v-for="opponent in opponents" :key="opponent.id" class="opponent-card">
@@ -150,7 +152,7 @@ function redeem(itemId: string, price: number) {
           <div class="opp-name">Lv.{{ opponent.level }} {{ opponent.name }}</div>
           <div class="opp-meta">{{ opponent.title }} / {{ opponent.spiritName }} / 战力 {{ opponent.power.toLocaleString() }}</div>
         </div>
-        <button class="asset-action fight-btn" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.challenge})` }" :disabled="battlesToday >= maxBattles" @click.stop="fight(opponent)">挑战</button>
+        <button class="fight-btn" type="button" :disabled="battlesToday >= maxBattles" @click.stop="fight(opponent)">挑战</button>
       </div>
     </div>
 
@@ -273,21 +275,28 @@ function redeem(itemId: string, price: number) {
 }
 
 .fight-btn {
-  width: 92px;
-  min-width: 92px;
-  height: 38px;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  color: #fff2c5;
-  background: var(--asset-button-url, none) center / contain no-repeat;
-  box-shadow: none;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.72);
+  width: 76px;
+  height: 34px;
+  flex: 0 0 76px;
+  color: #2a1b06;
+  font-weight: 900;
+  letter-spacing: 0;
+  border: 1px solid #e3c46c;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #f0d06d 0%, #c89b29 58%, #8d6415 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 245, 190, 0.55), 0 2px 8px rgba(0, 0, 0, 0.32);
+  cursor: pointer;
+}
+
+.fight-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
 }
 
 .fight-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+  transform: none;
 }
 
 .result-box {

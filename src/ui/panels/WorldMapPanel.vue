@@ -5,6 +5,7 @@ import { useUIStore } from '@/stores/ui'
 import { MAPS } from '@/data/gameData'
 import { factionLabels, mapLabels } from '@/data/displayData'
 import { REGION_MONSTERS, type BattleMonsterDef } from '@/game/scenes/BattleScene'
+import { monsterYearText } from '@/game/utils/panelProgressionRules'
 import type { Faction } from '@/types/game'
 import { backgroundPaths } from '@/assets/art-direction/background-paths'
 import { systemIconPath } from '@/assets/art-direction/icon-paths'
@@ -93,7 +94,7 @@ function startBattle() {
         <h3 class="panel-title">世界地图</h3>
         <p class="panel-sub">选择区域和魂兽，进入真实战斗。</p>
       </div>
-      <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
+      <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
     <div class="worldmap-layout">
@@ -137,15 +138,17 @@ function startBattle() {
               <span class="monster-level">Lv.{{ monster.level }}</span>
               <span class="monster-name">{{ monster.name }}</span>
             </div>
+            <div class="monster-year">{{ monsterYearText(monster.level) }}</div>
             <div class="monster-stats">生命 {{ monster.hp }} / 攻击 {{ monster.atk }} / 防御 {{ monster.def }}</div>
             <div class="monster-reward">经验 {{ monster.exp }} / 金币 {{ monster.gold }}</div>
           </button>
-          <div v-if="regionMonsters.length === 0" class="empty-state">该区域暂无可挑战目标</div>
+          <div v-if="regionMonsters.length === 0" class="empty-state">该区域暂时无可挑战目标</div>
         </section>
 
         <section v-if="selectedMonster" class="battle-box">
           <div class="battle-title">目标确认</div>
           <div class="battle-name">{{ selectedMonster.name }}</div>
+          <div class="battle-year">{{ monsterYearText(selectedMonster.level) }}</div>
           <div class="battle-reward">胜利后获得 {{ selectedMonster.exp }} 经验和 {{ selectedMonster.gold }} 金币</div>
           <button class="fight-btn" type="button" :disabled="!canEnterRegion(regionMap)" @click.stop="startBattle">进入战斗</button>
         </section>
@@ -175,15 +178,6 @@ function startBattle() {
   margin-top: 4px;
   font-size: 12px;
   color: var(--color-text-secondary);
-}
-
-.close-btn {
-  padding: 6px 12px;
-  color: var(--color-text-secondary);
-  background: rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(200, 168, 78, 0.24);
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .worldmap-layout {
@@ -322,9 +316,16 @@ function startBattle() {
   font-weight: 700;
 }
 
+.monster-year {
+  margin-top: 4px;
+  color: #f0d38a;
+  font-size: 11px;
+}
+
 .monster-stats,
 .monster-reward,
 .battle-reward,
+.battle-year,
 .empty-state {
   margin-top: 4px;
   color: var(--color-text-secondary);

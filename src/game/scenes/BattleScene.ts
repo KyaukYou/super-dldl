@@ -27,6 +27,11 @@ import {
   type TimedEffect,
 } from '@/game/utils/realtimeBattleRules'
 import {
+  arenaMonsterActionIntervalMs,
+  arenaMonsterSkillChance,
+  monsterYearText,
+} from '@/game/utils/panelProgressionRules'
+import {
   canDropSpiritRing,
   spiritRingItemForLevel,
   spiritRingLabelWithYear,
@@ -109,29 +114,39 @@ export const REGION_MONSTERS: Record<string, BattleMonsterDef[]> = {
     { id: 'face_spider', name: '人面魔蛛', level: 12, hp: 300, atk: 25, def: 10, exp: 150, gold: 30, textureKey: 'monster_spider', dropTable: commonDrops },
     { id: 'ghost_spider', name: '幽影毒蛛', level: 13, hp: 360, atk: 30, def: 12, exp: 180, gold: 34, textureKey: 'monster_spider', dropTable: commonDrops },
     { id: 'mist_deer', name: '迷雾灵鹿', level: 14, hp: 420, atk: 32, def: 14, exp: 210, gold: 38, textureKey: 'monster_deer', dropTable: commonDrops },
+    { id: 'blue_lake_deer', name: '碧湖灵鹿', level: 15, hp: 460, atk: 34, def: 15, exp: 240, gold: 42, textureKey: 'monster_deer', dropTable: commonDrops },
     { id: 'fire_rhino', name: '火云犀甲牛', level: 15, hp: 600, atk: 35, def: 18, exp: 300, gold: 50, textureKey: 'monster_rhino', dropTable: rareDrops },
+    { id: 'venom_spider', name: '赤纹毒蛛', level: 17, hp: 680, atk: 39, def: 19, exp: 380, gold: 56, textureKey: 'monster_spider', dropTable: rareDrops },
     { id: 'rot_tree', name: '朽木树妖', level: 18, hp: 800, atk: 40, def: 22, exp: 450, gold: 60, textureKey: 'monster_tree', dropTable: rareDrops },
   ],
   xingdou_outer: [
     { id: 'spirit_deer', name: '通灵灵鹿', level: 16, hp: 500, atk: 28, def: 14, exp: 250, gold: 40, textureKey: 'monster_deer', dropTable: commonDrops },
     { id: 'wind_wolf', name: '疾风狼', level: 17, hp: 560, atk: 38, def: 16, exp: 280, gold: 45, textureKey: 'monster_wolf', dropTable: commonDrops },
     { id: 'bamboo_serpent', name: '曼陀罗蛇', level: 18, hp: 620, atk: 42, def: 17, exp: 320, gold: 48, textureKey: 'monster_serpent', dropTable: commonDrops },
+    { id: 'iron_bark_tree', name: '铁皮古树', level: 19, hp: 760, atk: 39, def: 24, exp: 390, gold: 58, textureKey: 'monster_tree', dropTable: commonDrops },
     { id: 'pope_guard', name: '斗魂守卫', level: 20, hp: 900, atk: 45, def: 25, exp: 500, gold: 70, textureKey: 'monster_guard', dropTable: rareDrops },
+    { id: 'silver_wolf', name: '银月狼', level: 21, hp: 980, atk: 52, def: 24, exp: 560, gold: 76, textureKey: 'monster_wolf', dropTable: rareDrops },
   ],
   shengtianya: [
     { id: 'nine_jade', name: '九节翡翠', level: 22, hp: 1000, atk: 50, def: 28, exp: 600, gold: 80, textureKey: 'monster_serpent', dropTable: rareDrops },
+    { id: 'cloud_rhino', name: '云背玄犀', level: 24, hp: 1220, atk: 53, def: 34, exp: 680, gold: 88, textureKey: 'monster_rhino', dropTable: rareDrops },
     { id: 'long_beak_crane', name: '雷魂鹤', level: 25, hp: 1300, atk: 55, def: 30, exp: 700, gold: 90, textureKey: 'monster_crane', dropTable: rareDrops },
     { id: 'stone_lizard', name: '冰甲龙蜥', level: 26, hp: 1450, atk: 58, def: 38, exp: 760, gold: 96, textureKey: 'monster_rhino', dropTable: commonDrops },
+    { id: 'cliff_wolf', name: '崖风狼王', level: 28, hp: 1660, atk: 68, def: 35, exp: 880, gold: 110, textureKey: 'monster_wolf', dropTable: rareDrops },
   ],
   tongtian_cave: [
     { id: 'golden_tiger', name: '烈焰虎', level: 32, hp: 2000, atk: 70, def: 40, exp: 1000, gold: 130, textureKey: 'monster_tiger', dropTable: rareDrops },
     { id: 'shadow_bat', name: '深渊蝠王', level: 33, hp: 1800, atk: 86, def: 32, exp: 1080, gold: 145, textureKey: 'monster_bat', dropTable: commonDrops },
+    { id: 'cave_serpent', name: '幽窟毒蟒', level: 34, hp: 2200, atk: 88, def: 38, exp: 1180, gold: 152, textureKey: 'monster_serpent', dropTable: commonDrops },
     { id: 'flying_marshal', name: '魂师统领', level: 35, hp: 2500, atk: 80, def: 45, exp: 1300, gold: 160, textureKey: 'monster_guard', dropTable: rareDrops },
+    { id: 'black_rock_bear', name: '黑岩魔熊', level: 36, hp: 2860, atk: 96, def: 52, exp: 1450, gold: 175, textureKey: 'monster_boss', dropTable: rareDrops },
   ],
   xingdou_edge: [
     { id: 'pope_guard2', name: '精英守卫', level: 38, hp: 3500, atk: 90, def: 50, exp: 1800, gold: 200, textureKey: 'monster_guard', dropTable: rareDrops },
     { id: 'fire_rhino2', name: '冰甲玄龟', level: 40, hp: 4000, atk: 100, def: 55, exp: 2200, gold: 250, textureKey: 'monster_rhino', dropTable: rareDrops },
     { id: 'dark_panther', name: '暗焰豹', level: 41, hp: 3600, atk: 118, def: 44, exp: 2300, gold: 265, textureKey: 'monster_tiger', dropTable: commonDrops },
+    { id: 'ember_wolf', name: '烬火狼王', level: 42, hp: 4300, atk: 126, def: 50, exp: 2480, gold: 285, textureKey: 'monster_wolf', dropTable: rareDrops },
+    { id: 'thorn_tree_king', name: '荆棘树王', level: 44, hp: 5200, atk: 120, def: 68, exp: 2800, gold: 320, textureKey: 'monster_tree', dropTable: rareDrops },
   ],
   tasi_grassland: [
     { id: 'flying_marshal2', name: '精英魂师统领', level: 45, hp: 5500, atk: 130, def: 65, exp: 3000, gold: 350, textureKey: 'monster_guard', dropTable: rareDrops },
@@ -182,7 +197,7 @@ function toBattleMonster(monster: BattleMonsterDef): BattleMonster {
 
 function createArenaMonster(opponent: { name: string; level: number; power: number; textureKey?: string }): BattleMonster {
   const level = Math.max(1, opponent.level)
-  const maxHp = Math.max(420, Math.floor(opponent.power * 0.9))
+  const maxHp = Math.max(720, Math.floor(opponent.power * 1.18))
   const textureKey = opponent.textureKey ?? 'monster_guard'
   return {
     id: 'arena_ai',
@@ -190,8 +205,8 @@ function createArenaMonster(opponent: { name: string; level: number; power: numb
     level,
     maxHp,
     hp: maxHp,
-    atk: Math.max(24, Math.floor(opponent.power / 45)),
-    def: Math.max(10, Math.floor(opponent.power / 90)),
+    atk: Math.max(36, Math.floor(opponent.power / 32)),
+    def: Math.max(16, Math.floor(opponent.power / 72)),
     expReward: 360 + level * 12,
     goldReward: 120 + level * 5,
     textureKey,
@@ -348,7 +363,10 @@ export class BattleScene extends Phaser.Scene {
   }
 
   private addMonsterHeader(w: number) {
-    this.add.text(w / 2, 56, this.monster.name + '  Lv.' + this.monster.level, {
+    const monsterTitle = this.battleMode === 'hunt'
+      ? `${this.monster.name}  Lv.${this.monster.level}  ${monsterYearText(this.monster.level)}`
+      : `${this.monster.name}  Lv.${this.monster.level}`
+    this.add.text(w / 2, 56, monsterTitle, {
       fontFamily: 'Microsoft YaHei',
       fontSize: '27px',
       color: '#ff7474',
@@ -583,8 +601,10 @@ export class BattleScene extends Phaser.Scene {
     if (this.battleClock < this.monsterNextActionAt || this.battleClock < this.monsterLockedUntil) return
     if (this.battleClock < this.monsterControlledUntil) return
 
-    this.monsterLockedUntil = this.battleClock + 1650
-    this.monsterNextActionAt = this.battleClock + Math.max(1800, 2800 - this.monster.level * 4)
+    this.monsterLockedUntil = this.battleClock + (this.battleMode === 'arena' ? 1260 : 1650)
+    this.monsterNextActionAt = this.battleClock + (this.battleMode === 'arena'
+      ? arenaMonsterActionIntervalMs(this.monster.level)
+      : Math.max(1800, 2800 - this.monster.level * 4))
     const skill = this.chooseMonsterSkill()
     this.time.delayedCall(560, () => {
       if (skill) this.executeMonsterSkill(skill)
@@ -751,7 +771,10 @@ export class BattleScene extends Phaser.Scene {
 
   private chooseMonsterSkill(): MonsterSkill | null {
     const ready = this.monsterSkills.filter((skill) => (this.monsterSkillCooldownEnds.get(skill.id) ?? 0) <= this.battleClock)
-    if (ready.length === 0 || Math.random() > (this.monster.level >= 40 ? 0.32 : 0.22)) return null
+    const skillChance = this.battleMode === 'arena'
+      ? arenaMonsterSkillChance(this.monster.level)
+      : this.monster.level >= 40 ? 0.32 : 0.22
+    if (ready.length === 0 || Math.random() > skillChance) return null
     const skill = Phaser.Utils.Array.GetRandom(ready)
     this.monsterSkillCooldownEnds.set(skill.id, this.battleClock + skill.cooldown * 1000)
     return skill
@@ -759,6 +782,14 @@ export class BattleScene extends Phaser.Scene {
 
   private buildMonsterSkills(): MonsterSkill[] {
     const base = this.monster.level >= 40 ? 1.55 : this.monster.level >= 20 ? 1.35 : 1.2
+    if (this.battleMode === 'arena') {
+      const arenaBase = this.monster.level >= 40 ? 2.05 : this.monster.level >= 30 ? 1.85 : 1.65
+      return [
+        { id: this.monster.id + '_spirit_combo', cooldown: 4.8, name: '连环魂技', damageMultiplier: arenaBase },
+        { id: this.monster.id + '_break_guard', cooldown: 6.5, name: '破防一击', damageMultiplier: arenaBase + 0.28 },
+        { id: this.monster.id + '_finisher', cooldown: 9, name: '压制爆发', damageMultiplier: arenaBase + 0.55 },
+      ]
+    }
     return [
       { id: this.monster.id + '_feral_strike', cooldown: 7, name: '魂兽猛击', damageMultiplier: base },
       { id: this.monster.id + '_beast_roar', cooldown: 10, name: '魂兽怒吼', damageMultiplier: base + 0.25 },

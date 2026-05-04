@@ -8,6 +8,8 @@ import type { Quality, ItemDef } from '@/types/game'
 import { itemIconPath, systemIconPath } from '@/assets/art-direction/icon-paths'
 import { generatedButtons } from '@/assets/art-direction/generated-paths'
 import { spiritRingLabelWithYear } from '@/game/utils/spiritRingDrops'
+import { inventoryUsageHints } from '@/game/utils/inventoryHints'
+import { BONE_CRAFT_RECIPES, inventoryItemCount } from '@/game/utils/soulBoneCrafting'
 import GameIcon from '@/ui/components/GameIcon.vue'
 
 const gameStore = useGameStore()
@@ -38,13 +40,13 @@ function normalizeItem(def: ItemDef | undefined) {
   }
 }
 
+function getItemDef(itemId: string) {
+  return normalizeItem(ITEMS.find((item) => item.id === itemId))
+}
+
 function itemDisplayName(itemId: string, year?: number) {
   if (itemId.startsWith('spirit_ring_')) return spiritRingLabelWithYear(itemId, year)
   return getItemDef(itemId)?.name ?? itemId
-}
-
-function getItemDef(itemId: string) {
-  return normalizeItem(ITEMS.find((item) => item.id === itemId))
 }
 
 function qualityClass(quality: Quality) {
@@ -66,6 +68,14 @@ function selectItem(idx: number) {
   selectedItemIdx.value = selectedItemIdx.value === idx ? null : idx
 }
 
+function isSpiritStone(itemId: string) {
+  return itemId === 'scroll_s1' || itemId === 'scroll_m1'
+}
+
+function closeSelectedIfNeeded(idx: number) {
+  if (selectedItemIdx.value === idx) selectedItemIdx.value = null
+}
+
 function useItem(idx: number) {
   const item = inventory.value[idx]
   if (!item || !char.value) return
@@ -77,17 +87,28 @@ function useItem(idx: number) {
   } else if (isSpiritStone(item.itemId)) {
     if (gameStore.useSpiritStone(item.itemId)) {
       uiStore.pushLog('system', `${itemDisplayName(item.itemId)}已使用，第一魂环年限提升。`)
-      if (selectedItemIdx.value === idx) selectedItemIdx.value = null
     } else {
       uiStore.pushLog('hint', '当前没有可强化的第一魂环。')
     }
-    if (selectedItemIdx.value === idx) {
-      selectedItemIdx.value = null
-    }
+    closeSelectedIfNeeded(idx)
     return
   } else if (def.type === 'spirit_ring') {
-    if (gameStore.openRingChoiceFromItem(item.itemId, item.year) && selectedItemIdx.value === idx) {
-      selectedItemIdx.value = null
+    if (gameStore.openRingChoiceFromItem(item.itemId, item.year)) {
+      closeSelectedIfNeeded(idx)
+    }
+    return
+  } else if (item.itemId === 'bone_fragment' || item.itemId === 'ancient_scroll') {
+    const recipeId = item.itemId === 'bone_fragment' ? 'bone_fragment_random' : 'ancient_scroll_random'
+    const result = gameStore.craftSoulBone(recipeId)
+    if (result.ok) {
+      uiStore.pushLog('system', `合成成功，获得并装备：${result.boneName}`)
+      closeSelectedIfNeeded(idx)
+    } else if (result.reason === 'slot') {
+      uiStore.pushLog('hint', '当前魂骨位已满，无法继续合成。')
+    } else if (result.reason === 'materials') {
+      uiStore.pushLog('hint', '材料数量不足，无法合成魂骨。')
+    } else {
+      uiStore.pushLog('hint', '没有找到可合成的魂骨。')
     }
     return
   } else {
@@ -95,7 +116,7 @@ function useItem(idx: number) {
   }
 
   gameStore.saveGame()
-  if (selectedItemIdx.value === idx) selectedItemIdx.value = null
+  closeSelectedIfNeeded(idx)
 }
 
 function sellOne(idx: number) {
@@ -105,7 +126,7 @@ function sellOne(idx: number) {
   if (!def) return
   gameStore.addGold(def.sellPrice)
   gameStore.removeItem(item.itemId, 1, item.year)
-  if (selectedItemIdx.value === idx) selectedItemIdx.value = null
+  closeSelectedIfNeeded(idx)
 }
 
 function sellAllSelected(idx: number) {
@@ -115,7 +136,7 @@ function sellAllSelected(idx: number) {
   if (!def) return
   gameStore.addGold(def.sellPrice * item.quantity)
   gameStore.removeItem(item.itemId, item.quantity, item.year)
-  if (selectedItemIdx.value === idx) selectedItemIdx.value = null
+  closeSelectedIfNeeded(idx)
 }
 
 function sortItems() {
@@ -137,32 +158,44 @@ function onDragStart(event: DragEvent, itemId: string) {
   if (event.dataTransfer) event.dataTransfer.effectAllowed = 'copy'
 }
 
-const selectedDef = computed(() => {
-  if (selectedItemIdx.value === null) return null
-  const item = inventory.value[selectedItemIdx.value]
-  if (!item) return null
-  const def = getItemDef(item.itemId)
-  if (!def) return null
-  return { ...def, name: itemDisplayName(item.itemId, item.year) }
-})
-
 const selectedInvItem = computed(() => {
   if (selectedItemIdx.value === null) return null
-  return inventory.value[selectedItemIdx.value]
+  return inventory.value[selectedItemIdx.value] ?? null
 })
+
+const selectedDef = computed(() => {
+  if (!selectedInvItem.value) return null
+  const def = getItemDef(selectedInvItem.value.itemId)
+  if (!def) return null
+  return { ...def, name: itemDisplayName(selectedInvItem.value.itemId, selectedInvItem.value.year) }
+})
+
+const selectedUsageHints = computed(() => inventoryUsageHints(selectedInvItem.value))
 
 const ringChoiceDisabled = computed(() => {
   if (!selectedDef.value || selectedDef.value.type !== 'spirit_ring') return false
   return !gameStore.hasOpenRingSlot()
 })
 
-function isSpiritStone(itemId: string) {
-  return itemId === 'scroll_s1' || itemId === 'scroll_m1'
-}
-
 const spiritStoneDisabled = computed(() => {
   if (!selectedInvItem.value || !isSpiritStone(selectedInvItem.value.itemId)) return false
   return (char.value?.rings.length ?? 0) === 0
+})
+
+const selectedCraftRecipe = computed(() => {
+  if (!selectedInvItem.value) return null
+  if (selectedInvItem.value.itemId === 'bone_fragment') return BONE_CRAFT_RECIPES.bone_fragment_random
+  if (selectedInvItem.value.itemId === 'ancient_scroll') return BONE_CRAFT_RECIPES.ancient_scroll_random
+  return null
+})
+
+const craftDisabledReason = computed(() => {
+  if (!selectedCraftRecipe.value || !char.value) return ''
+  if (inventoryItemCount(inventory.value, selectedCraftRecipe.value.sourceItemId) < selectedCraftRecipe.value.requiredQuantity) {
+    return '材料不足'
+  }
+  if (Object.values(char.value.equippedBones).every(Boolean)) return '魂骨位已满'
+  return ''
 })
 
 function spiritStoneEffectText(itemId: string) {
@@ -229,31 +262,47 @@ function spiritStoneEffectText(itemId: string) {
       </div>
 
       <div v-if="selectedDef && selectedInvItem" class="item-detail">
-        <div class="detail-head">
-          <GameIcon
-            :src="itemIconPath(selectedDef.id)"
-            :quality="selectedDef.quality"
-            :size="60"
-            :title="selectedDef.name"
-            :fallback-text="selectedDef.name.slice(0, 1)"
-          />
-          <div>
-            <div class="detail-name" :class="qualityClass(selectedDef.quality)">{{ selectedDef.name }}</div>
-            <div class="detail-quality" :class="qualityClass(selectedDef.quality)">{{ qualityLabels[selectedDef.quality] }}</div>
+        <div class="item-detail-content">
+          <div class="detail-head">
+            <GameIcon
+              :src="itemIconPath(selectedDef.id)"
+              :quality="selectedDef.quality"
+              :size="60"
+              :title="selectedDef.name"
+              :fallback-text="selectedDef.name.slice(0, 1)"
+            />
+            <div>
+              <div class="detail-name" :class="qualityClass(selectedDef.quality)">{{ selectedDef.name }}</div>
+              <div class="detail-quality" :class="qualityClass(selectedDef.quality)">{{ qualityLabels[selectedDef.quality] }}</div>
+            </div>
+          </div>
+
+          <div class="detail-desc">{{ selectedDef.description }}</div>
+
+          <div v-if="selectedUsageHints.length" class="usage-hints">
+            <div v-for="hint in selectedUsageHints" :key="hint.title" class="usage-hint">
+              <span class="usage-hint-title">{{ hint.title }}</span>
+              <span class="usage-hint-text">{{ hint.text }}</span>
+            </div>
+          </div>
+
+          <div class="detail-info">
+            <span>数量：{{ selectedInvItem.quantity }}</span>
+            <span>售价：{{ selectedDef.sellPrice }} 金币</span>
+          </div>
+
+          <div v-if="selectedDef.type === 'spirit_ring' && ringChoiceDisabled" class="detail-tip">
+            当前没有可吸收的空魂环位
+          </div>
+          <div v-if="selectedInvItem && isSpiritStone(selectedInvItem.itemId)" class="detail-tip">
+            {{ spiritStoneEffectText(selectedInvItem.itemId) }}
+            <span v-if="spiritStoneDisabled">，需要先吸收第一魂环</span>
+          </div>
+          <div v-if="selectedCraftRecipe && craftDisabledReason" class="detail-tip">
+            {{ craftDisabledReason }}
           </div>
         </div>
-        <div class="detail-desc">{{ selectedDef.description }}</div>
-        <div class="detail-info">
-          <span>数量：{{ selectedInvItem.quantity }}</span>
-          <span>售价：{{ selectedDef.sellPrice }} 金币</span>
-        </div>
-        <div v-if="selectedDef.type === 'spirit_ring' && ringChoiceDisabled" class="detail-tip">
-          当前没有可吸收的空魂环位
-        </div>
-        <div v-if="selectedInvItem && isSpiritStone(selectedInvItem.itemId)" class="detail-tip">
-          {{ spiritStoneEffectText(selectedInvItem.itemId) }}
-          <span v-if="spiritStoneDisabled">需要先吸收第一魂环</span>
-        </div>
+
         <div class="detail-actions">
           <button v-if="selectedDef.type === 'potion'" class="btn-dark text-xs" type="button" @click.stop="useItem(selectedItemIdx!)">使用</button>
           <button
@@ -274,10 +323,20 @@ function spiritStoneEffectText(itemId: string) {
           >
             吸收魂环
           </button>
+          <button
+            v-if="selectedCraftRecipe"
+            class="btn-dark text-xs"
+            type="button"
+            :disabled="!!craftDisabledReason"
+            @click.stop="useItem(selectedItemIdx!)"
+          >
+            {{ selectedInvItem.itemId === 'bone_fragment' ? '合成魂骨' : '合成高阶魂骨' }}
+          </button>
           <button class="btn-dark text-xs" type="button" @click.stop="sellOne(selectedItemIdx!)">出售 1 个</button>
           <button class="btn-dark text-xs" type="button" @click.stop="sellAllSelected(selectedItemIdx!)">全部出售该物品</button>
         </div>
       </div>
+
       <div v-else class="item-detail empty-detail">
         <span class="empty-text">点击物品查看详情</span>
       </div>
@@ -426,6 +485,13 @@ function spiritStoneEffectText(itemId: string) {
   border-radius: 8px;
   background: rgba(5, 8, 14, 0.6);
   border: 1px solid rgba(200, 168, 78, 0.14);
+  display: flex;
+  flex-direction: column;
+}
+
+.item-detail-content {
+  flex: 1;
+  min-height: 0;
 }
 
 .empty-detail {
@@ -464,6 +530,37 @@ function spiritStoneEffectText(itemId: string) {
   margin-bottom: 12px;
 }
 
+.usage-hints {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.usage-hint {
+  padding: 8px 10px;
+  border: 1px solid rgba(200, 168, 78, 0.18);
+  border-radius: 6px;
+  background: rgba(200, 168, 78, 0.07);
+}
+
+.usage-hint-title,
+.usage-hint-text {
+  display: block;
+}
+
+.usage-hint-title {
+  margin-bottom: 3px;
+  color: #f6d88c;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.usage-hint-text {
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .detail-tip {
   margin-bottom: 12px;
   font-size: 12px;
@@ -474,6 +571,12 @@ function spiritStoneEffectText(itemId: string) {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.detail-actions {
+  padding-top: 12px;
+  margin-top: auto;
+  border-top: 1px solid rgba(200, 168, 78, 0.12);
 }
 
 .bag-footer {
