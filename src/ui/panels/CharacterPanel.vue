@@ -32,6 +32,7 @@ const mpPercent = computed(() => {
       <button class="close-btn" type="button" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="profile-section">
       <GameIcon
         :src="spirit ? spiritIconPath(spirit.id) : ''"
@@ -120,15 +121,30 @@ const mpPercent = computed(() => {
         <div class="talent-power">先天魂力 <span class="power-val">{{ spirit.innatePower }}</span></div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .character-panel {
   width: 740px;
-  height: calc(100vh - 304px);
-  padding: 24px 20px;
+  position: absolute;
+  top: 36px;
+  bottom: 0;
+  /* height: calc(100vh - 304px); */
+  padding: 24px 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
+  padding: 0 20px;
 }
 
 .panel-header,
@@ -142,6 +158,9 @@ const mpPercent = computed(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-right: 0;
 }
 
 .close-btn {
@@ -207,6 +226,8 @@ const mpPercent = computed(() => {
   font-size: 11px;
   font-weight: 700;
 }
+
+.bar-base { flex: 1; }
 
 .bar-label.hp { color: var(--color-hp); }
 .bar-label.mp { color: var(--color-mp); }

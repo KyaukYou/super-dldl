@@ -357,7 +357,16 @@ function spiritStoneEffectText(itemId: string) {
   width: 760px;
   height: calc(100vh - 360px);
   padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
 }
 
 .asset-close {

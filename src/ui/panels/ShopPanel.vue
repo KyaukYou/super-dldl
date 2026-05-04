@@ -71,7 +71,16 @@ function canBuy(price: number) {
   width: 740px;
   padding: 24px 20px;
   height: calc(100vh - 304px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
 }
 
 .panel-header {

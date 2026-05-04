@@ -134,6 +134,7 @@ function redeem(itemId: string, price: number) {
       <button class="close-btn" type="button" aria-label="关闭" @click.stop="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="arena-stats">
       <div class="stat"><span>竞技积分</span><b>{{ arenaPoints }}</b></div>
       <div class="stat"><span>今日挑战</span><b>{{ battlesToday }}/{{ maxBattles }}</b></div>
@@ -174,6 +175,7 @@ function redeem(itemId: string, price: number) {
         <button class="asset-action text-xs" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.exchange})` }" :disabled="!canRedeem(selectedShopItem.price)" @click.stop="redeem(selectedShopItem.id, selectedShopItem.price)">兑换</button>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
@@ -182,7 +184,16 @@ function redeem(itemId: string, price: number) {
   width: 740px;
   height: calc(100vh - 304px);
   padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
 }
 
 .panel-header,

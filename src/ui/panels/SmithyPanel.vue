@@ -87,12 +87,19 @@ function forge(item: typeof forgeItems[0]) {
 
 <template>
   <div v-if="char" class="smithy-panel panel-base">
+    <button
+      class="asset-close"
+      type="button"
+      :style="{ '--asset-button-url': `url(${generatedButtons.close})` }"
+      aria-label="关闭"
+      title="关闭"
+      @click.stop="uiStore.closePanel()"
+    />
     <div class="panel-header">
       <div class="title-wrap">
         <GameIcon :src="systemIconPath('smithy')" :size="34" quality="orange" title="铁匠铺" />
         <h3 class="panel-title">铁匠铺</h3>
       </div>
-      <button class="asset-action icon-only" type="button" :style="{ '--asset-button-url': `url(${generatedButtons.close})` }" @click="uiStore.closePanel()">关闭</button>
     </div>
 
     <div class="smithy-summary">
@@ -118,6 +125,7 @@ function forge(item: typeof forgeItems[0]) {
       </button>
     </div>
 
+    <div class="panel-body">
     <template v-if="activeTab === 'forge'">
       <div class="forge-list">
         <div v-for="item in forgeItems" :key="item.name" class="forge-card">
@@ -157,6 +165,7 @@ function forge(item: typeof forgeItems[0]) {
         </div>
       </div>
     </template>
+    </div>
   </div>
 </template>
 
@@ -165,7 +174,9 @@ function forge(item: typeof forgeItems[0]) {
   width: 740px;
   padding: 24px 20px;
   height: calc(100vh - 304px);
-  overflow-y: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .panel-header {
@@ -179,17 +190,6 @@ function forge(item: typeof forgeItems[0]) {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: var(--color-text-secondary);
-  cursor: pointer;
-}
-
-.close-btn:hover {
-  color: var(--color-accent-red);
 }
 
 .smithy-summary {

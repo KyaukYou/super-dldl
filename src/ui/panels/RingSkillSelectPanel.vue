@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useGameStore } from '@/stores/game'
 import { RING_COLOR_MAP } from '@/types/game'
 import { skillIconPath } from '@/assets/art-direction/icon-paths'
+import { generatedButtons } from '@/assets/art-direction/generated-paths'
 import GameIcon from '@/ui/components/GameIcon.vue'
 
 const gameStore = useGameStore()

@@ -68,6 +68,7 @@ function monsterIcon(type: string) {
       <button class="filter-btn series-intelligence" :class="{ active: seriesFilter === 'intelligence' }" @click="seriesFilter = 'intelligence'">智力系</button>
     </div>
 
+    <div class="panel-scroll-body">
     <!-- 武魂图鉴 -->
     <div class="codex-content" v-if="activeTab === 'spirit'">
       <div class="spirit-list">
@@ -128,6 +129,7 @@ function monsterIcon(type: string) {
         </div>
       </div>
     </div>
+    </div>
   </div>
 </template>
 
@@ -136,7 +138,16 @@ function monsterIcon(type: string) {
   width: 740px;
   height: calc(100vh - 304px);
   padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
 }
 
 .panel-header {

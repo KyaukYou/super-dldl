@@ -90,6 +90,7 @@ function rankMeta(entry: RankEntry) {
       </button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="rank-list">
       <div v-for="entry in entries" :key="entry.name" class="rank-card" :class="{ me: entry.isPlayer }">
         <div class="rank-number" :style="{ color: rankColor(entry.rank) }">{{ entry.rank }}</div>

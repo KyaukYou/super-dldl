@@ -50,6 +50,7 @@ function publishQuestion() {
       <button class="close-btn" @click="uiStore.closePanel()">关闭</button>
     </div>
 
+    <div class="panel-scroll-body">
     <div class="academy-summary">
       <div class="summary-item">
         <span class="summary-label">身份</span>
@@ -84,6 +85,7 @@ function publishQuestion() {
       <button class="btn-dark text-sm" @click="publishQuestion">出题 (需≥30级)</button>
     </div>
     <div v-if="academyNotice" class="academy-notice">{{ academyNotice }}</div>
+    </div>
   </div>
 </template>
 
@@ -92,7 +94,16 @@ function publishQuestion() {
   width: 740px;
   padding: 24px 20px;
   height: calc(100vh - 304px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.panel-scroll-body {
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  padding-right: 4px;
 }
 
 .panel-header {
